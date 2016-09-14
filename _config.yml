@@ -1,0 +1,37 @@
+# Site settings
+title: Paul Nebel
+motto: Architect. Build. Consult.
+email: paul@nebel.io
+description: > # this means to ignore newlines until "baseurl:"
+  Freelance IT expert specialising in lean and agile development. I help companies to innovate at pace and can help you achieve your goals of productivity, efficiency and delivery.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:4000" # the base hostname & protocol for your site
+twitter_username: expert_in_it
+github_username:  paulnebel
+linkedin_username: paulnebel
+
+bitly:
+  username: discdoggy
+  api_key: R_281b0897bf224d5691b9d19353d07606
+
+# Build settings
+markdown: kramdown
+
+paginate: 5
+permalink: pretty
+
+gems:
+ - jekyll-paginate
+ - bitly
+ - jekyll-sitemap
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Paul"
+      comments: true
