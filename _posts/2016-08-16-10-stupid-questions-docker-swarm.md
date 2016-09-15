@@ -7,11 +7,13 @@ slug: "10-stupid-questions-docker-swarm"
 ---
 # Introduction
 One of the main reasons I created [my Raspberry Pi cluster][1]{:target="_blank"} was to investigate [Docker Swarm][2]{:target="_blank"} in more detail. There are quite a few good articles out there that tell you how to set up Swarm, including some very good articles by [Hypriot][3]{:target="_blank"} which were my original inspiration. However, as I've been experimenting with Swarm I've started asking myself some questions that these articles generally don't answer. I'd like to share what I've found here. So, in no particular order, let the questions begin. 
+
 # 1: What on earth *is* Docker Swarm?
 The [Docker glossary][4]{:target="_blank"} defines Swarm as follows (emphasis is my own): 
 > Swarm is a native clustering tool for Docker. Swarm pools together several Docker hosts and **exposes them as a single virtual Docker host**. It serves the standard Docker API, so any tool that already works with Docker can now transparently scale up to multiple hosts.
 
 OK, so Swarm is a way of creating something called a *cluster* in such a way that whatever is in that cluster looks to the outside world like a single entity. So far, so good. 
+
 # 2: What on earth is a *Cluster*?
 Let's take a step back. According to [Docker][5]{:target="_blank"} (once again, emphasis my own): 
 > Clusters are groups of nodes of the same type and from the same cloud provider. **Node clusters allow you to scale the infrastructure** by provisioning more nodes with a drag of a slider.
@@ -20,6 +22,7 @@ Hmmm, not quite so helpful but this definition was taken from the introduction t
 > A cluster consists of one or more node instances, together with a **service discovery endpoint** which provides a unified view into the cluster.
 
 Great. 
+
 # 3: What on earth is a *Node*?
 Once again, from [Docker][5]{:target="_blank"}: 
 > A node is an individual host used to deploy and run your applications. ... . Your hosts can come from several different sources, including physical servers, virtual machines or cloud providers.
@@ -34,19 +37,21 @@ Just to make things complete, Docker Engine is what most people mean when they s
  - multiple physical servers running multiple nodes
 
 # 4: What on earth is a *Service Discovery Endpoint*
-
 [Docker defines][8]{:target="_blank"} this as follows: 
 > The Swarm managers and nodes use [the Service Discovery Endpoint] to authenticate themselves as members of the cluster. The Swarm managers also use this information to identify which nodes are available to run containers.
 
 In order to work, Swarm requires a service discovery endpoint. Swarm supports [multiple discovery backends][9]{:target="_blank"}. Typically, a hosted discovery service is used with Docker Swarm. This service maintains a list of IPs in the cluster. It is possible to use Docker Hub's [hosted discovery service][10]{:target="_blank"} with Swarm in development mode provided your nodes are connected to the public internet but this is not intended for production use. For live use, however, you want to use something like [Consul][11]{:target="_blank"} which you can host on your own infrastructure.
 
 So, whilst it would appear that Docker Swarm is a self-contained entity this is not, in fact, the case prior to Docker version 1.12. However, in version 1.12 Docker introduced Swarm Mode which runs its own internal DNS service to route services by name. Docker 1.12 still has a service discovery backend, it's just internal. Swarm manager nodes assign each service in the swarm a unique DNS name and load balances the running containers. It is now possible to query every container running in the swarm through a DNS server embedded in that swarm. 
+
 # 5: Remind me again, what is Docker Swarm?
 Essentially, Swarm allows multiple nodes to unite into a cluster with single management tier. It is basically master – slave system which orchestrates multiple containers in order to maintain a particular desired state. In order to do this, a `docker service` feature has been created as an extension of `docker run`. Whereas `docker run` creates an individual container the `docker service create` command creates a **service** which can run in one or more containers while the state of this service is maintained in the cluster using a **raft consensus protocol**. 
+
 # 6: A Raft Consensus Protocol, you say?
 Swarm is used to run a service on multiple nodes. Each copy of this service must reflect the same desired state, for reasons that will become clear later (honestly!). In order to do this, Swarm implements the concept of desired state reconciliation using a raft consensus protocol. [This][12]{:target="_blank"} explains what a raft consensus protocol is far better than I could, so I suggest you look at it (it's a nifty animation) before reading further.
 
 In essence what this means is that whenever there is a problem with the service running in any node in the cluster the swarm will recognise that there has been deviation from the desired state and will create a new container instance compensate. In order to do this it requires one or more of the nodes in the cluster to be defined as a **manager node**. 
+
 # 7: What's a *Manager Node*?
 I'll let Docker [speak for itself][13]{:target="_blank"}: 
 > To deploy your application to a swarm, you submit a service definition to a manager node. The manager node dispatches units of work called **tasks** to **worker** nodes.
@@ -54,6 +59,7 @@ I'll let Docker [speak for itself][13]{:target="_blank"}:
 > Manager nodes also perform the orchestration and cluster management functions required to maintain the desired state of the swarm. Manager nodes **elect a single leader** to conduct orchestration tasks.
 
 If you've looked at the [animation][12]{:target="_blank"} I recommended you'll know exactly how manager nodes elect a single leader. 
+
 # 8: Oh heck, what's a *Worker Node*?
 
 > Worker nodes receive and execute tasks dispatched from manager nodes. By default manager nodes are also worker nodes, but you can configure managers to be manager-only nodes. The [worker node] notifies the manager node of the current state of its assigned tasks so the manager can maintain the desired state.
@@ -69,6 +75,7 @@ The diagram below illustrates the structure within a swarm mode cluster:
 ![Swarm mode cluster architecture][15]{: .center-image }
 
 So, Swarm is a way of creating a lot of copies of a service which maintain the same state and produce the same outcomes and spreading these copies over one or more physical and/or virtual machines in such a way that they appear to the outside world to be a single entity. Phew! 
+
 # 9: Why on earth would we want do this?
 The principal reason can be summed up in one word: **availability**. This has several related meanings in this context: 
  - It is possible to create a cluster that is distributed over multiple physical regions. By placing the workers carrying out the tasks in closer physical proximity to their clients it is possible to reduce network delays whilst maintaining consistent state between the regions

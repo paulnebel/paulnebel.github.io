@@ -7,6 +7,7 @@ slug: "building-a-4-node-raspberry-pi-cluster"
 ---
 # Introduction
 I want to learn as much about Docker as I can. This inevitably means running multiple containers on multiple servers. I could do this on AWS but I want to contentrate on Docker and not have to deal with (or pay for) AWS features which might obscure what I'm trying to learn. When I found [this](http://makezine.com/projects/build-a-compact-4-node-raspberry-pi-cluster/){:target="_blank"} *Make* article I knew this was the way forward for me. So I built a 4-node Raspberry Pi cluster using model 3's. Although I followed the instructions in the *Make* post I'm going to write about my experience here because it didn't go smoothly. Some of the steps just didn't work for me first time and I had to work out how to solve the issues they raised. 
+
 # Building the cluster 
 I based my build on the components in the *Make* post. There were a few differences:
 ![components](http://www.nebel.org.uk/wordpress/wp-content/uploads/2016/08/RPi-Parts.jpg){: .center-image  .med-image }
@@ -28,8 +29,10 @@ It's not perfect and is, perhaps, slightly larger than it need be but it reminds
 ![Raspberry Pi Cluster]({{ site.url }}/images/Pi-Cluster.jpg){: .center-image  .med-image }
 
 All-in it cost me just under £225. This is probably more than AWS would cost, in truth, but I think it's worth it. 
+
 # Install the Operating System
 The first thing to do is download a [disk image](https://www.raspberrypi.org/downloads/raspbian/){:target="_blank"} of the latest version of Raspbian (I chose the 'Lite' version of the OS since I don't want all the extras that the standard version comes with) and [install it](https://www.raspberrypi.org/documentation/installation/installing-images/README.md){:target="_blank"} on four SD cards, one for each Raspberry Pi board. 
+
 # Initialise each board
 To start with, I'm using my home router to allocate IP addresses to each of the nodes. To do this, boot each Pi in turn and take a note of the allocated IP address using the router’s web interface. To make it easier to identify the Pis in future, the first thing I did was to SSH into each one and change its hostname by editing the `/etc/hostname` file, appending the router port number (printed on the outside of the router, from 1 - 4) with the respective board.
 
@@ -53,6 +56,7 @@ ff02::2        ip6-allrouters
 {% endhighlight %}
 
 I [generated SSH keys](https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md){:target="_blank"} for each of the nodes without any pass phrases. By copying the public key of each node to each of the other nodes I can ssh between them without having to type a password all the time. However, I will still have to type a password to ssh into the cluster. A quick reboot and each Pi is initialised. 
+
 # Mount a shared USB Flash Drive
 Just like [this](http://makezine.com/projects/build-a-compact-4-node-raspberry-pi-cluster/){:target="_blank"} post I wanted to mount a 64GB flash drive as a shared drive for all 4 nodes. The first thing to do is to mount the drive on what will be the head node (in my case, node 4) as shown [here](http://www.raspberrypi-spy.co.uk/2014/05/how-to-mount-a-usb-flash-disk-on-the-raspberry-pi/){:target="_blank"}. I found that the editing the `/etc/fstab` as shown in this article didn't work; adding 
 {% highlight bash %}
@@ -92,6 +96,7 @@ Do the same thing to the client nodes but leave out the `nfs-kernel-server` and 
 /mnt/usb /etc/auto.nfs --timeout=60 --ghost
 {% endhighlight %}
 The keys here is the `--ghost` option; it creates empty folders for each mount-point in the file in order to prevent timeouts, if a network share cannot be contacted. I can only assume that I was getting timeouts which were preventing the mount from being completed. 
+
 # Install Docker on nodes
 I could have just downloaded and installed the [Hypriot OS](http://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/){:target="_blank"} on the SD cards and have done with it but the point of this cluster is to learn how to do things. I'm using 4 Raspberry Pi model 3's in my cluster. Let's see what hardware they use: 
 {% highlight sh %}

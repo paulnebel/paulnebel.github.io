@@ -7,6 +7,7 @@ slug: "hypriotos-swarm-raspberry-pi-cluster"
 ---
 # Introduction
 In a [previous post]({% post_url 2016-08-09-building-a-4-node-raspberry-pi-cluster %}){:target="_blank"} I described how I set up docker on a 4-node Raspberry Pi cluster. The reason for doing this was to be able to investigate [Docker Swarm][2]{:target="_blank"} in more detail. I chose to set up the cluster from scratch so as to learn as much as I could. Well, I learned that sometimes discretion is the better part of valour. This post explains why I decided to install [HypriotOS][3]{:target="_blank"} instead and how I finally got it to work. 
+
 # Updating the Cluster
 So, having installed Docker on my Pi cluster I wanted to create a Swarm. I also wanted to use Docker 1.12 release, and so far I had only managed to install release 1.10.3. Since I have Docker for Mac installed on my laptop I followed [this][4]{:target="_blank"} article to try to run release 1.12 on my Pi nodes even though the local version is 1.10. This is where I started to run into problems: 
 {% highlight bash %}
@@ -34,6 +35,7 @@ output : cat: /etc/hypriot_release: No such file or directory
 {% endhighlight %}
 
 Ugh. I'm sure I could have worked my way around these issues. I'm also sure it would take a long time, and I don't want to waste time on the details of how Docker works (or fails to work!) on a bare-bones Raspberry Pi. Time to back-track and make my life easier by installing the HypriotOS. I followed [this][5]{:target="_blank"} fantastic article to get HypriotOS installed. 
+
 # Install HypriotOS
 The first task was to overwrite my SD cards with the new image using the [Hypriot flash tool][6]{:target="_blank"}: 
 
@@ -44,6 +46,7 @@ $ flash --hostname rpi1 https://github.com/hypriot/image-builder-rpi/releases/do
 Be aware that `raspi-config` is not part of HyproitOS, but it automatically resizes the filesystem to the size of the SD card so this isn't much of an issue. It does mean, however, that to change your password you will have to use the `passwd` command-line tool (the default username/password credentials are `pirate/hypriot`).
 
 There is no need to update the `/etc/hosts` file as HypriotOS starts the `avahi-daemon` to announce the hostname through mDNS, so each Pi is immediately reachable through `{hostname}.local`. That's the theory anyway. I had enormous problems with the 'configuration free' `avahi-daemon`. 
+
 # Network, what network?
 The first disaster on starting up the newly configured Pis was that as soon as I stopped any of them I lost my internet connection within a minute or two of re-starting them. From that point onwards, no matter what I did, restarting any of the Pis completely hosed my internet connection. I couldn't even access the GUI for my router (a bog-standard Virgin box) but I could access my local network. Sort of.
 
@@ -52,6 +55,7 @@ There was no problem `ssh`-ing onto any individual Pi fom my Mac using `{hostnam
 $ sudo apt-get install libnss-mdns
 {% endhighlight %}
 Nope, that didn't work. I could now see one Pi from another but I still couldn't access my router or internet connection. I spent the next day stopping and starting Pis and stopping and starting my router to no avail. No matter what I did I kept losing my internet connection when I started the Pis. As a last resort I disconnected all but one of the boards and disabled the `avahi-daemon`. Finally, I could stop and start this Pi without losing my internet connection. 
+
 # Reinstall `avahi-daemon`
 I was about to give up and do this on each board when I thought I'd try one last thing: uninstall and reinstall `avahi-daemon` to see if it made a difference.
 
@@ -110,6 +114,7 @@ Aug 17 14:35:11 rpi1 avahi-daemon[612]: Server startup complete. Host name is rp
 Aug 17 14:35:12 rpi1 avahi-daemon[612]: Service "Cluster-Leader=rpi1" (/services/cluster-leader.service) successfully established.
 {% endhighlight %}
 Not only does that look better, it is better as now I can stop and re-start Pis at will and still connect to the internet (and from one Pi to another). Problem solved. 
+
 # Configure `docker.service`
 From here I continued exactly as I had [before][1]{:target="_blank"} and generated SSH keys for each node which I copied to the other nodes so that I could ssh between them (using the `{hostname}.local` address). There's no need to update `/etc/hosts` as `avahi-daemon` is now taking care of that correctly. I re-mounted the USB drive on the head node, installed and started `nfs-kernel-server` on the head node and `nfs-common` and `autofs` on the client nodes to share the drive between nodes. Finally, I updated docker engine on each node to release 1.12: 
 {% highlight bash %}
