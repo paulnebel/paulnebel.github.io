@@ -81,16 +81,20 @@ Aug 17 12:49:52 rpi1 avahi-daemon[1252]: Registering new address record for 192.
 Aug 17 12:49:52 rpi1 avahi-daemon[1252]: Files changed, reloading.
 Aug 17 12:49:52 rpi1 avahi-daemon[1252]: Loading service file /services/cluster-leader.service.
 Aug 17 12:49:53 rpi1 avahi-daemon[1252]: Service "Cluster-Leader=rpi1" (/services/cluster-leader.service) successfully established.
-```
+{% endhighlight %}
+
 OK, the fact that a new address of `192.168.200.1` is being registered goes some way toward explaining why I can reach my local network but not my router (or, therefore, the internet). The router is on `192.168.0.1` and the new address doesn't match the subnet mask (`255.255.255.0`). Why the heck it's inserted the `200` and how it's persuaded my Mac to change its local record is something of a mystery to me but not one I care to investigate in any great detail. Perhaps I should mention at this point that I'm still on OS X Yosemite which may be part of the problem (I've seen a lot of posts indicating that the bonjour service on Yosemite is at least partly broken).
 
 Whatever, let's uninstall and re-install `avahi-daemon` and see what happens: 
-```sh
+
+{% highlight bash %}
 $ sudo apt-get purge avahi-daemon
 $ sudo apt-get install avahi-daemon
-```
+{% endhighlight %}
+
 I can immediately see that things are getting better as `libnss-mdns` is installed as a dependency of `avahi-daemon` (which makes it all the more strange that it wasn't there in the first place). Now let's look at the service status: 
-```sh
+
+{% highlight bash %}
 $ sudo service avahi-daemon status
 ● avahi-daemon.service - Avahi mDNS/DNS-SD Stack
    Loaded: loaded (/lib/systemd/system/avahi-daemon.service; enabled)
