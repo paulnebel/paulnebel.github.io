@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Investigating Docker Swarm Part 1: Creating a Multi-host Docker Application"
+meta: "Take a Node.js application designed to exercise Docker Swarm and run it in a multi-host Docker environment."
+categories: Node JavaScript Docker
+slug: "create-multi-host-docker-app"
+---
 # Creating a Multi-host Docker Application
 # Introduction
 I have recently become very interested in [Docker Swarm][docker-swarm], in particular with [Swarm mode][swarm-mode], and I wanted to investigate its capabilities further in order to understand how I might justify its use in a production environment (if you're unsure exactly what Swarm is I wrote [a post][blog-what-is-swarm] about it that might help). I even went so far as to [create my own Raspberry Pi Cluster][blog-rpi-cluster] in order to experiment with Swarm.  A search for Docker Swarm will turn up many useful articles explaining how to create a simple swarm cluster but there seem to be relatively few articles that investigate it in greater detail. I decided to create an application that allowed me to exercise all the available features of Swarm in order to become familiar enough with it to use it with confidence in a production context.

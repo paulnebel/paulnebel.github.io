@@ -1,3 +1,10 @@
+---
+layout: post
+title: "A Brief Introduction to Functional Programming"
+meta: "A brief introduction to Functional Programming. Start your journey towards easy to read, reliable code."
+categories: Node JavaScript
+slug: "brief-introduction-functional-programming"
+---
 # A Brief Introduction to Functional Programming
 This article was first published on 20th January 2017 on the [BCS website][article]{:target="_blank"}.
 
