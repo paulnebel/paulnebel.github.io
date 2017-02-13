@@ -24,6 +24,9 @@ gems:
  - jekyll-paginate
  - bitly
  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
 # Defaults
 defaults:
