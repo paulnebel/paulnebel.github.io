@@ -20,7 +20,7 @@ So far, so good. The issue arises due to the protocol used by the Dealer.  The D
 <script src="https://gist.github.com/paulnebel/40f440bb52616e4d41d00388709b6005.js"></script>
 
 
-This has the effect of creating the file `filer-dealer.ipc` in the directory the current working directory of the current Node process.
+This has the effect of creating the file `filer-dealer.ipc` in the working directory of the current Node process.
 
 As mentioned above, the **SMQ** exists purely for the purposes of investigating Docker Swarm mode. Note that [Docker Swarm][swarm] and [Swarm mode][swarm-mode] are two different things - Docker Swarm has been available since release 1.6 but Swarm mode was only introduced in release 1.12. Whereas Docker Swarm came in 'kit form' (with the Swarm runtime running as a container on each of the nodes in the Swarm) Swarm mode comes with a core feature-set build in. Docker Swarm required an external discovery service whereas Swarm mode does not.
 
@@ -43,10 +43,26 @@ The Router socket in `router-dealer.js`, being the more 'transient' part of the 
 
 <script src="https://gist.github.com/paulnebel/282e1b02de1bed0be7232fa1571664c0.js"></script>
 
-There's no strict rule as to which end of a communicating socket pair should `bind` and which should `connect` - both sockets are capable of either type of connection. Nor does it matter which end of the connection is started first. It was relatively trivial to get the Request socket communicating with a Responder socket in a different process using this configuration.
+There's no strict rule as to which end of a communicating socket pair should `bind` and which should `connect` - both sockets are capable of either type of connection. Nor does it matter which end of the connection is started first.
+
+It was relatively trivial to get the Request socket communicating with a Responder socket in a different process using this configuration.
 
 ### Multiple Containers Running Node.js Processes on a Single Docker Host
+In order to containerise these processes I created the following Dockerfile, based on the excellent [Node.js image created by Rising Stack][rising-stack-docker]:
 
+<script src="https://gist.github.com/paulnebel/cb788acfcb038490377e3240ab1f6f82.js"></script>
+
+I prefer to start my containers using `docker-compose` so I also created a compose file:
+
+<script src="https://gist.github.com/paulnebel/bb5379af5fe07a7bc2c082def0d9ae13.js"></script>
+
+Since I am starting both services (`client` and `server`) on the same host I created a simple bridge network called `zerobridge`. Using this network I was able to connect the `router-dealer` running in the `client` service to the `requester` running in the `server` service directly by name:
+
+<script src="https://gist.github.com/paulnebel/f03725825f3ed4b0932a4a31bdac6c37.js"></script>
+
+Each service is started using a shell script so that I can correctly set the npm path (issue with ash & sudo ****)
+I was able to get this configuration running easily using a script in the project `package.json`:
+******
 
 
 
@@ -59,3 +75,4 @@ There's no strict rule as to which end of a communicating socket pair should `bi
    [swarm]: <https://www.docker.com/products/docker-swarm>
    [bridge-network]: <https://docs.docker.com/engine/userguide/networking/#/a-bridge-network>
    [overlay-network]: <https://docs.docker.com/engine/userguide/networking/#/an-overlay-network-with-an-external-key-value-store>
+   [rising-stack-docker]: <https://hub.docker.com/r/risingstack/alpine/>

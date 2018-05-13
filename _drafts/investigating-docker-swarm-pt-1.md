@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Investigating Docker Swarm Part 1: Creating a Multi-host Docker Application"
+title: "Investigating Docker Swarm: Creating a Multi-host Docker Application"
 meta: "Take a Node.js application designed to exercise Docker Swarm and run it in a multi-host Docker environment."
 categories: Node JavaScript Docker
 slug: "create-multi-host-docker-app"
 ---
 # Creating a Multi-host Docker Application
+
 # Introduction
+
 I have recently become very interested in [Docker Swarm][docker-swarm], in particular with [Swarm mode][swarm-mode], and I wanted to investigate its capabilities further in order to understand how I might justify its use in a production environment (if you're unsure exactly what Swarm is I wrote [a post][blog-what-is-swarm] about it that might help). I even went so far as to [create my own Raspberry Pi Cluster][blog-rpi-cluster] in order to experiment with Swarm.  A search for Docker Swarm will turn up many useful articles explaining how to create a simple swarm cluster but there seem to be relatively few articles that investigate it in greater detail. I decided to create an application that allowed me to exercise all the available features of Swarm in order to become familiar enough with it to use it with confidence in a production context.
 
 This article isn't about Swarm itself but is about the preparatory process of turning a Node.js application into a set of containerised processes that can be distributed across a number of Docker hosts. Once I have achieved this goal I can begin my investigations.
@@ -14,19 +16,20 @@ This article isn't about Swarm itself but is about the preparatory process of tu
 ## The Application
 I have created an [application][my-app] that I will use to investigate Swarm features.  It is written in [Node.js][node.js] and consists of separate processes that communicate over sockets and tcp using message queues. It isn't intended to solve a particular problem but simply to allow me to learn. There are 3 main elements to this application which I will briefly explain.
 
-### The Web API
+### 1. The Web API
 The first part of the application is the **web API**, shown below:
 ![web api][api-pic]{: .center-image .med-image }
 
 This consists of a server written in [Express][express] that listens on port 3000.  The server creates a [Socket][node-net-socket] client that sends and receives messages over the network.
 
-### The Request Cluster
+### 2. The Request Cluster
 The Socket connected to the web API communicates with the **Request Cluster** which uses [Node.js cluster][node-cluster] to create multiple child processes. The master process runs a [Socket Server][node-net-socket-server] which listens for messages from the web API. The master process is connected to a number of worker processes, each of which runs a [ZeroMQ][zero-mq] requester. ZeroMQ is a highly-scalable, low-latency messaging service.  I used it simply because I wanted to learn more about it and because it allows me to create tcp messages.  The ZeroMQ Requester uses the REQ/REP (request/reply) pattern commonly used in networked programming.  In this pattern a request comes in then a reply goes out.  Additional incoming requests are queued and later dispatched by ZeroMQ.  The application is, however, only aware of one request at a time.
+
 ![request cluster][request-cluster-pic]{: .center-image .med-image }
 
 When the Socket Server receives a message it triggers the requester in each worker process to send a message over tcp.  One of the features of Node.js clusters is that child processes share the server ports, meaning that each of the workers can send a request on the same port.  These requesters communicate with the last element of the application, the **Response Cluster**.
 
-### The Response Cluster
+### 3. The Response Cluster
 Like the **Request Cluster**, the **Response Cluster** consitsts of a Node.js cluster.  In this case, the master process runs a ZeroMQ ROUTER/DEALER pair while the worker processes run ZeroMQ Responsers. The standard REQ/REP socket pair operates sequentially, meaning that a given reqeuster or responder will only ever be aware of one process at a time.  What I want is parallel message processing for which I require a ROUTER/DEALER pair.
 
 The ROUTER can be thought of as a parallel REP socket. Where REPs can only reply to one message at a time the ROUTER can handle many requests simultaneously. It remembers which connection each request came in on and will route reply messages accordingly.
@@ -301,7 +304,7 @@ I have successfully run my application 3 different ways on a single machine:
  - As 3 Docker containers running in a single Docker host with a bridge network
  - As 3 Docker containers each running in a different Docker host with an overlay network
 
-The next step is to run 3 different Docker hosts on 3 different physical machines on my Raspberry Pi cluster, when I can really start playing with Swarm mode. The best way to get there, however, is one step at a time. This is agile, after all!
+The next step is to run 3 different Docker hosts on 3 different physical machines on my Raspberry Pi cluster, when I can really start playing with Swarm mode.
 
    [docker-swarm]: <https://docs.docker.com/swarm/>
    [swarm-mode]: <https://docs.docker.com/engine/swarm/>
