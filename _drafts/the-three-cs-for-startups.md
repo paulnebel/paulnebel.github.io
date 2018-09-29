@@ -20,11 +20,11 @@ What he was doing (very effecitvely) was to get us to think about **how much and
 
 His answer was simple and you've probably heard it before, but it bears repeating:
 
-> As little as possible delivered as clearly as possible.
+> As little as possible, delivered as clearly as possible.
 
 In fact, the key requirement is **clarity** - the clearer you are the fewer words you need to explain yourself.
 
-This is something that I think about a great deal when talking to our startups on the [Geovation Programme][geovationprogramme]. One of my responsibilities as a Senior Engineer at Geovation to interview the candidates for the Geovation Programme together with my colleagues as part of the selection process. In order to do this effectively we needed to agree on the criteria we would score the applicants against, and this set me thinking about Russell's presentation. He is approached on an almost daily basis by people looking for him to give them money to persue an idea as an investor. As a respected and successful entrepreneur his approach is of great interest to the Geovation Programme panel as we are investing both money and time in our startups.
+This is something that I think about a great deal when talking to our startups on the [Geovation Programme][geovationprogramme]. One of my responsibilities as a Senior Engineer at Geovation is to interview the candidates for the Geovation Programme together with my colleagues as part of the selection process. In order to do this effectively we needed to agree on the criteria we would score the applicants against, and this set me thinking about Russell's presentation. He is approached on an almost daily basis by people looking for him to give them money to persue an idea as an investor. As a respected and successful entrepreneur his approach is of great interest to the Geovation Programme panel as we are investing both money and time in our startups.
 
 ## Clarity
 
