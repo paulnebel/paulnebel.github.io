@@ -9,24 +9,88 @@ url: "http://paulnebel.io" # the base hostname & protocol for your site
 twitter_username: expert_in_it
 github_username:  paulnebel
 linkedin_username: paulnebel
+words_per_minute         : 200
+comments:
+  provider               : "disqus"
+  disqus:
+    shortname            : "geovation"
 
 bitly:
   username: discdoggy
   api_key: R_281b0897bf224d5691b9d19353d07606
 
-# Build settings
+# Conversion
 markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 paginate: 5
 permalink: pretty
 
-gems:
- - jekyll-paginate
- - bitly
- - jekyll-sitemap
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
 exclude:
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
   - Gemfile
-  - Gemfile.lock
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+  - /old # ignore the old site
+keep_files:
+  - .git
+  - .svn
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
 
 # Defaults
 defaults:
@@ -38,3 +102,5 @@ defaults:
       layout: "post"
       author: "Paul"
       comments: true
+      read_time: true
+      share: true
