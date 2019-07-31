@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "Docker Swarm: 10 Stupid Questions"
 categories: API Containers Lean Swarm
 meta: "Most articles about Docker Swarm assume you already know what it is and what it's for. This is for those of you who are interested but unsure."
 slug: "10-stupid-questions-docker-swarm"
+excerpt: "As I've been experimenting with Swarm I've started asking myself some questions that other articles generally don't answer. I'd like to share what I've found here."
 ---
 # Introduction
 One of the main reasons I created [my Raspberry Pi cluster][1]{:target="_blank"} was to investigate [Docker Swarm][2]{:target="_blank"} in more detail. There are quite a few good articles out there that tell you how to set up Swarm, including some very good articles by [Hypriot][3]{:target="_blank"} which were my original inspiration. However, as I've been experimenting with Swarm I've started asking myself some questions that these articles generally don't answer. I'd like to share what I've found here. So, in no particular order, let the questions begin. 
@@ -107,5 +107,5 @@ Erm... no. This is just the beginning. There are [many more][16]{:target="_blank
  [12]: http://thesecretlivesofdata.com/raft/
  [13]: https://docs.docker.com/engine/swarm/key-concepts/
  [14]: https://docs.docker.com/swarm/scheduler/strategy/
- [15]: {{ site.url }}/images/swarm_mode_cluster_architecture.png
+ [15]: {{ site.url }}/assets/images/swarm_mode_cluster_architecture.png
  [16]: https://docs.docker.com/engine/swarm/

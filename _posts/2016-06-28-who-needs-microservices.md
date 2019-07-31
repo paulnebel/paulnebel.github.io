@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "Microservices: Who needs them?"
 categories: Lean Microservices
 meta: "Discover the pros and cons of using Microservices in order to make an informed decision about their use. Be able to argue your case and persuade others."
 slug: "who-needs-microservices"
+excerpt: "The architectural style that is now known as microservices is nothing new.  Their current popularity is partly due to trends such as Containerisation, DevOps and Continuous Delivery enabling this kind of approach."
 ---
 # Why aren't more companies using Microservices?
 

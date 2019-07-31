@@ -7,3 +7,10 @@
 *.mp4 binary
 *.gif binary
 *.ico binary
+
+assets/fonts/* linguist-vendored
+assets/js/main.min.js linguist-vendored
+assets/js/lunr/* linguist-vendored
+assets/js/plugins/* linguist-vendored
+assets/js/vendor/* linguist-vendored
+_sass/minimal-mistakes/vendor/* linguist-vendored

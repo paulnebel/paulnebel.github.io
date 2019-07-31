@@ -1,40 +1,267 @@
-# Site settings
-title: Paul Nebel
-motto: Architect. Build. Consult.
-email: paul@nebel.io
-description: > # this means to ignore newlines until "baseurl:"
-  Freelance IT expert specialising in lean and agile development. I help companies to innovate at pace and can help you achieve your goals of productivity, efficiency and delivery.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://paulnebel.io" # the base hostname & protocol for your site
-twitter_username: expert_in_it
-github_username:  paulnebel
-linkedin_username: paulnebel
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
 
-bitly:
-  username: discdoggy
-  api_key: R_281b0897bf224d5691b9d19353d07606
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# Build settings
-markdown: kramdown
+# theme                  : "minimal-mistakes-jekyll"
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-paginate: 5
-permalink: pretty
+# Site Settings
+locale                   : "en-GB"
+title                    : "Paul Nebel - Virtual CTO"
+title_separator          : "-"
+name                     : "Paul Nebel"
+description              : "Freelance Virtual CTO specialising in technology leadership, product development and strategic analysis."
+url                      : "https://paulnebel.io"
+baseurl                  : ""
+repository               : "paulnebel/paulnebel.github.io"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/pn_logo.png"
+masthead_title           : "Making technology work for business"
+breadcrumbs              : true
+words_per_minute         : 200
+comments:
+  provider               : "disqus"
+  disqus:
+    shortname            : "http-paulnebel-io"
+reCaptcha:
+  siteKey                : "6LdI2aYUAAAAACpbcBTKq-pGivAeaofdZNNVyg88"
+  secret                 : "BKxFeYmTLiE7ydHZHsU7MdUDAB6M+QO99LobOTF5661rFNrXhG39T/pw0Jy/gE8xhTqtLK246kOw1begr+Jyyk9fNCK04pvzyFtnr8mBxqFE/5q8i7ptkg06NyiiJTihLbZweooO9qdqxy3YGLrcQJIOUyJx6AaDe66f2Z00e84="
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+search                   : true
+search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia, google
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
+google:
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
+# SEO Related
+google_site_verification : "d7VF9sdO1ORAeuaM5mJFmbcGZa_UZq6XwSgYlEdF7Ns"
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
 
-gems:
- - jekyll-paginate
- - bitly
- - jekyll-sitemap
+# Social Sharing
+twitter:
+  username               : "expert_in_it"
+og_image                 : # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links:
+    - "https://www.linkedin.com/in/paulnebel/"
+    - "https://twitter.com/expert_in_it"
+
+# Analytics
+analytics:
+  provider               : "google"
+  google:
+    tracking_id          : "UA-62944686-1"
+    anonymize_ip         : # true, false (default)
+
+
+# Site Author
+author:
+  name             : "Paul Nebel"
+  avatar           : "/assets/images/paul_nebel.png"
+  bio              : "Freelance Virtual CTO specialising in technology leadership, product development and strategic analysis."
+  location         : "London"
+  email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:paul@nebel.io
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/paulnebel/"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://paulnebel.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/expert_in_it"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/paulnebel"
+
+# Site Footer
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:paul@nebel.io
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/paulnebel/"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://paulnebel.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/expert_in_it"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/paulnebel"
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
 exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
   - Gemfile
-  - Gemfile.lock
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
 
 # Defaults
 defaults:
-  -
-    scope:
+  # _posts
+  - scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
-      layout: "post"
-      author: "Paul"
+      layout: single
+      author_profile: true
+      read_time: true
       comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
