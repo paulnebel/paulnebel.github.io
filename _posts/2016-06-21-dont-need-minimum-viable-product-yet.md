@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "You don’t need a Minimum Viable Product. Yet."
 categories: Lean MVP
 meta: "It is tempting to think that all a startup needs is a minimum viable product to get going. You need to think about some other important questions first."
 slug: "dont-need-minimum-viable-product-yet"
+excerpt: "There are many sites that will tell you what a MVP is and what options you have for creating one. If this is all you want to know I’ve listed some of the good ones at the bottom of this post rather than simply repeat here what they say."
 ---
 # Introduction
 If you’re reading this the chances are that you’ve already read something by [Eric Ries](https://www.linkedin.com/in/eries){:target="_blank"} or heard about the [Lean startup](http://theleanstartup.com/){:target="_blank"}. If you haven’t read Eric’s book [The Lean Startup](http://theleanstartup.com/book) I would recommend doing so.

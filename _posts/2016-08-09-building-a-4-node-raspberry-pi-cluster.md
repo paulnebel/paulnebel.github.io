@@ -1,16 +1,16 @@
 ---
-layout: post
 title: "Building a 4-node Raspberry Pi Cluster"
 categories: API Containers Lean Node Raspberry_Pi Swarm
 meta: "How to create a 4-node Raspberry Pi cluster, initialise it and load docker onto it."
 slug: "building-a-4-node-raspberry-pi-cluster"
+excerpt: "I want to learn as much about Docker as I can. This inevitably means running multiple containers on multiple servers. I could do this on AWS but I want to contentrate on Docker and not have to deal with (or pay for) AWS features which might obscure what I'm trying to learn."
 ---
 # Introduction
 I want to learn as much about Docker as I can. This inevitably means running multiple containers on multiple servers. I could do this on AWS but I want to contentrate on Docker and not have to deal with (or pay for) AWS features which might obscure what I'm trying to learn. When I found [this](http://makezine.com/projects/build-a-compact-4-node-raspberry-pi-cluster/){:target="_blank"} *Make* article I knew this was the way forward for me. So I built a 4-node Raspberry Pi cluster using model 3's. Although I followed the instructions in the *Make* post I'm going to write about my experience here because it didn't go smoothly. Some of the steps just didn't work for me first time and I had to work out how to solve the issues they raised. 
 
 # Building the cluster 
 I based my build on the components in the *Make* post. There were a few differences:
-![components](http://www.nebel.org.uk/wordpress/wp-content/uploads/2016/08/RPi-Parts.jpg){: .center-image  .med-image }
+![components]({{ site.url }}/assets/images/RPi-Parts.jpg){: .center-image  .med-image }
 
  - I used a [6-port Anker USB hub](https://www.amazon.co.uk/gp/r.html?C=2JPMR34M5NJRP&K=A24HKLAAQ7N859&R=24FLK3DZ320T7&T=C&U=https%3A%2F%2Fwww.amazon.co.uk%2Fdp%2FB00PK1MADE%2Fref%3Dpe_385721_138001721_TE_dp_1&A=AFLRGGTTNLQQEUOZF3LZ6MJYOTWA&H=3HOY3LC02SQSQNQPSWBZYBJ05JEA&ref_=pe_385721_138001721_TE_dp_1)
  - I found a [USB-powered 5-port ethernet switch](https://www.blackbox.co.uk/gb-gb/p/45256/USB-Powerable-Ultra-Compact-Ethernet-Switch) at Blackbox. It's not lightening fast but it's good enough for my needs.
@@ -18,15 +18,15 @@ I based my build on the components in the *Make* post. There were a few differen
  
  I made my own enclusure from perspex. I designed it in SketchUp and then went to my local Hackspace to cut and drill it into shape. I'm quite pleased with how it came out. 
 
-![Sketchup]({{ site.url }}/images/Sketchup.jpg){: .center-image .med-image }
+![Sketchup]({{ site.url }}/assets/images/Sketchup.jpg){: .center-image .med-image }
 
-![Perspex]({{ site.url }}/images/Perspex.jpg){: .center-image  .med-image }
+![Perspex]({{ site.url }}/assets/images/Perspex.jpg){: .center-image  .med-image }
 
-![Drilling mask]({{ site.url }}/images/Drilling-mask.jpg){: .center-image .med-image }
+![Drilling mask]({{ site.url }}/assets/images/Drilling-mask.jpg){: .center-image .med-image }
 
 It's not perfect and is, perhaps, slightly larger than it need be but it reminds me of [Orac from Blake's 7](https://en.wikipedia.org/wiki/Orac_(Blake%27s_7)){:target="_blank"} so I'm happy! 
 
-![Raspberry Pi Cluster]({{ site.url }}/images/Pi-Cluster.jpg){: .center-image  .med-image }
+![Raspberry Pi Cluster]({{ site.url }}/assets/images/Pi-Cluster.jpg){: .center-image  .med-image }
 
 All-in it cost me just under £225. This is probably more than AWS would cost, in truth, but I think it's worth it. 
 

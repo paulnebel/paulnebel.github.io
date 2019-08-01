@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "Using Neo4j with Seneca: Part II"
 categories: Lean Microservices Node Seneca
 meta: "How to use the Neo4j Store plugin I built for the Seneca microservices framework.  An example of use with the User plugin."
 slug: "using-seneca-neo4j-pt-2"
+excerpt: "This post describes an example I've created to demonstrate how to my plugin within the Seneca ecosystem."
 ---
 # Description
 In a [previous blog post]({% post_url 2016-07-12-using-seneca-neo4j %}){:target="_blank"} I introduced the [Seneca](http://senecajs.org/){:target="_blank"} microservices framework and my [seneca-neo4j-store](https://github.com/DogFishProductions/seneca-neo4j-store){:target="_blank"} plugin for persisting data using a graph database. This post describes [a project](https://github.com/DogFishProductions/seneca-user-service-example){:target="_blank"} I've created to demonstrate how to use this plugin within the Seneca ecosystem.

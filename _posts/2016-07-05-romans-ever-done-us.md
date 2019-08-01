@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "What have the Romans ever done for us?"
 categories: Lean Microservices Seneca
 meta: "Why I chose Seneca.js as the framework of choice for developing Minimum Viable Products in Node.js using microservices."
 slug: "romans-ever-done-us"
+excerpt: "The ideal way to build an MVP is to quickly plug together building blocks of functionality (e.g. user accounts, database connectors, shopping carts, etc.) so as to end up with an application that works without any further input.  You can then enhance this basic framework to create your special product."
 ---
 # Context
 I recently built a [Minimum Viable Product](http://steveblank.com/2013/07/22/an-mvp-is-not-a-cheaper-product-its-about-smart-learning/){:target="_blank"} for a client using microservices.  Before launching into building a microservices framework of my own I thought it would be worth taking a few minutes to check out whether someone else had done it for me, made all the mistakes I was likely to make and corrected them.  Given that I was developing in [Node.js](https://nodejs.org/){:target="_blank"} it didn’t take long to find [Seneca](http://senecajs.org/){:target="_blank"}. 

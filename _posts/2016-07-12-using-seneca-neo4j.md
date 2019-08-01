@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "Using Neo4j with Seneca: Part I"
 categories: Lean Microservices Seneca
 meta: "Details of the store plugin I built to enable the Seneca microservices framework to use Neo4j, the graph database, as a persistence engine."
 slug: "using-seneca-neo4j-pt-1"
+excerpt: "Graph databases offer a number of advantages over relational databases due to the nature of the data they describe. Whereas relational databases represent entities as rows in a table, graph databases represent entities as nodes (sometimes called vertices). In addition to this they define relationships (or edges) between nodes. Both nodes and relationships can have properties (key-value pairs). Nodes can be labelled with one or more labels."
 ---
 # Introduction
 In my [previous post]({% post_url 2016-07-05-romans-ever-done-us %}){:target="_blank"} I introduced the [Seneca](http://senecajs.org/) microservices framework and explained why I'm using it. I mentioned that I have contributed a [Neo4j graph database store](https://github.com/DogFishProductions/seneca-neo4j-store){:target="_blank"} plugin to this framework and promised I'd give you an example of how to use it with the user plugin. I'm now going to break that promise (naughty blogger!!). Before I give an example of how to use it I want to explain how it came about. I'll explain how to use it in my next post (honest). 
@@ -31,7 +31,7 @@ Given that using a database that relies on relationships between entities is bre
 ## Dealing with Relationships (or Edges)
 The existing store messages `save|load|list|remove` can be used the same way as for any other store to operate on nodes. The methods for relationships work a little differently. Consider the following simple graph:
 
-![simple Neo4j graph]({{ site.url }}/images/simple_graph.png){: .center-image }
+![simple Neo4j graph]({{ site.url }}/assets/images/simple_graph.png){: .center-image }
 
 This can be expressed in [Cypher](https://neo4j.com/docs/developer-manual/current/#cypher-query-lang){:target="_blank"} (Neo4j's query language) as:
 {% highlight bash %}

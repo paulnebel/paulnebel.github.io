@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "Javascript Garbage Collection"
 meta: "A brief introduction to JavaScript garbage collection. All you need to know to have a better understanding of what's happening under the covers."
 categories: Node JavaScript
 slug: "javascript-garbage-collection"
+excerpt: "Having to manage memory yourself in languages like C isn't necessarily better or worse than languages like JavaScript with managed memory. It may require more planning and computation cost to allocate memory yourself but managed memory has its downsides, not least that it can easily run out. This is why managed memory requires garbage collection."
 ---
 # Introduction
 I was recently interviewed by telephone for a contract position. It went very badly, not least because I was placed on speakerphone and could hear myself being broadcast to the room at the other end of the line with a slight delay - a terrible situation which, for me at least, makes it impossible to concentrate and string a sentence together.

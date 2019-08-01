@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "HypriotOS: Get Swarm working on a Raspberry Pi Cluster"
 categories: API Containers Lean Node Raspberry_Pi Swarm
 meta: "Use HypriotOS to run Docker Swarm on your Raspberry Pi cluster. See how to resolve networking issues and update to the latest version of Docker."
 slug: "hypriotos-swarm-raspberry-pi-cluster"
+excerpt: "I chose to set up a Docker cluster from scratch so as to learn as much as I could. Well, I learned that sometimes discretion is the better part of valour. This post explains why I decided to install HypriotOS instead and how I finally got it to work."
 ---
 # Introduction
 In a [previous post]({% post_url 2016-08-09-building-a-4-node-raspberry-pi-cluster %}){:target="_blank"} I described how I set up docker on a 4-node Raspberry Pi cluster. The reason for doing this was to be able to investigate [Docker Swarm][2]{:target="_blank"} in more detail. I chose to set up the cluster from scratch so as to learn as much as I could. Well, I learned that sometimes discretion is the better part of valour. This post explains why I decided to install [HypriotOS][3]{:target="_blank"} instead and how I finally got it to work. 
