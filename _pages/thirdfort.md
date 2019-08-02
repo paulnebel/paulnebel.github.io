@@ -1,5 +1,5 @@
 ---
-permalink: /thirdfort/
+permalink: /testimonials/thirdfort/
 ---
 
 [![Thirdfort logo]({{ site.url }}/assets/images/thirdfort_logo.png)](https://thirdfort.com){:target="_blank"}

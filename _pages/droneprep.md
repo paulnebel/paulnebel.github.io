@@ -1,5 +1,5 @@
 ---
-permalink: /droneprep/
+permalink: /testimonials/droneprep/
 ---
 
 [![Droneprep logo]({{ site.url }}/assets/images/droneprep_logo.png)](https://droneprep.com){:target="_blank"}
