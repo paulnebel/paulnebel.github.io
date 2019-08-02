@@ -1,5 +1,5 @@
 ---
-permalink: /brink/
+permalink: /testimonials/brink/
 ---
 
 [![Brink logo]({{ site.url }}/assets/images/brink_logo.png)](https://brinkprojects.com){:target="_blank"}
