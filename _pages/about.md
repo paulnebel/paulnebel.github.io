@@ -3,7 +3,7 @@ permalink: /about/
 title: About me
 ---
 
-## Paul Nebel - MEng PhD MBCS ![BCS Professional Member logo]({{ site.url }}/assets/images/mbcs-logo-colour-small.jpg)
+## Paul Nebel - MEng PhD MBCS ![BCS Professional Member logo]({{ site.url }}/assets/images/mbcs-logo-colour-small.jpg)![European Flag]({{ site.url }}/assets/images/EU-European-Union-Flag-icon-sm.png)
 
 I am a freelance Virtual CTO and Innovation Facilitator specialising in technology leadership, product development and strategic analysis:
 
