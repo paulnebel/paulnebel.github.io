@@ -5,9 +5,9 @@ categories: Insights Startup
 slug: "why-comes-after-what"
 ---
 
-The first step in creating your business should be the [Value Proposition][valueprop]. This is a very effective means of exploring and defining the problem to be solved and establishing whether your proposed solution is sufficiently effective at mitigating that problem for users to want to pay for it.  Once you've created your [Value Proposition Canvas][valuepropcanv] your next task is to verify it by formulating hypotheses.
+The first step in creating your business should be the [Value Proposition][valueprop]{:target="_blank"}. This is a very effective means of exploring and defining the problem to be solved and establishing whether your proposed solution is sufficiently effective at mitigating that problem for users to want to pay for it.  Once you've created your [Value Proposition Canvas][valuepropcanv]{:target="_blank"} your next task is to verify it by formulating hypotheses.
 
-One of the defining characteristics of a startup is extreme uncertainty.  This uncertainty makes it difficult to produce accurate forecasts.  The best that a startup can do in these circumstances is to form a set of hypotheses (in the scientific sense - i.e. a proposed explanation for a set of circumstances *that can be tested*) about what we'd like to see happen. In his book [The Startup Way][startupway], [Eric Ries][ericries] refers to these as *leap-of-faith assumptions* or **LOFA**.
+One of the defining characteristics of a startup is extreme uncertainty.  This uncertainty makes it difficult to produce accurate forecasts.  The best that a startup can do in these circumstances is to form a set of hypotheses (in the scientific sense - i.e. a proposed explanation for a set of circumstances *that can be tested*) about what we'd like to see happen. In his book [The Startup Way][startupway]{:target="_blank"}, [Eric Ries][ericries]{:target="_blank"} refers to these as *leap-of-faith assumptions* or **LOFA**.
 
 The theory is that the sooner you can make your LOFA explicit the sooner you can test them and start to remove some of the uncertainty which makes life so difficult for a startup.  As with many things, however, the theory can be much easier than the practice. In my experience working with startups many of the most important hypotheses that founders identify are described in such abstract terms that they are untestable. For a startup, an untestable hypothesis is no hypothesis at all.
 
@@ -15,13 +15,13 @@ The post suggests using the Toyota 5-whys technique to dig into your LOFA and tu
 
 # Why, oh why, oh why, oh why, oh WHY?
 
-Much of what we now call *Lean* business has come from the [Toyota Production System][toyotaproductionsystem], or **TPS**. The TPS came about due to the extreme constraints that Japan was under following the end of the Second World War.  At this time, the Japanese economy was in a very bad way, with money for investment being almost non-existant.  In addition to this, Japan is a relatively small country in terms of land mass, with little land available for large factories.
+Much of what we now call *Lean* business has come from the [Toyota Production System][toyotaproductionsystem]{:target="_blank"}, or **TPS**. The TPS came about due to the extreme constraints that Japan was under following the end of the Second World War.  At this time, the Japanese economy was in a very bad way, with money for investment being almost non-existant.  In addition to this, Japan is a relatively small country in terms of land mass, with little land available for large factories.
 
 It is around this time that Toyota decided to start making cars.  Lack of money and land put them in diametric opposition to the Americans who had a great deal of both.  Despite this, Toyota not only managed to find a foothold in the American market but have since become one of the world's premier automotive brands.
 
 "How did they do this?", I hear you ask.  The answer is the Toyota Production System. The TPS is far too big a topic to cover in a simple blog post (it literally takes decades for employees to become qualified in the TPS).  What is of consequence here is one of the techniques used by Toyota to turn constraints into advantage - **The 5-Whys**.
 
-Lack of money and space led Toyota to perfect [Just-in-time manufacturing][jitm] (**JITM**).  If you can't afford to buy materials in bulk ahead of time and have nowhere to put them anyway while you wait to use them then it makes sense to order just enough to make the next batch, which is the essence of JITM.
+Lack of money and space led Toyota to perfect [Just-in-time manufacturing][jitm]{:target="_blank"} (**JITM**).  If you can't afford to buy materials in bulk ahead of time and have nowhere to put them anyway while you wait to use them then it makes sense to order just enough to make the next batch, which is the essence of JITM.
 
 One of the keys to JITM is constant monitoring of the production system and the ability to stop and fix problems as they occur.  To this end, all employees on the shop floor were attached to a 'kill switch'.  If anyone noticed that a process they were monitoring was not working properly they threw the kill switch, which had the effect not only of shutting down their process but also of shutting down everyone else's.  In other words, the whole production line stopped.
 
@@ -37,7 +37,7 @@ The best way is with a (contrived) example.  I often see assumptions like this:
 
 > Customers will want to buy our product
 
-Well, this certainly qualifies as a LOFA but it's pretty much meaningless when it comes to creating testable hypotheses.  As [The Mom Test][momtest] explains so well, if you ask customers directly whether they will buy your product they are more likely to lie to you than not, making the answer meaningless and misleading.  
+Well, this certainly qualifies as a LOFA but it's pretty much meaningless when it comes to creating testable hypotheses.  As [The Mom Test][momtest]{:target="_blank"} explains so well, if you ask customers directly whether they will buy your product they are more likely to lie to you than not, making the answer meaningless and misleading.  
 
 So let's try to break it down into meaningful, testable hypotheses:
 
