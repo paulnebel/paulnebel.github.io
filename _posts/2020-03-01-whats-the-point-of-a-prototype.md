@@ -13,7 +13,7 @@ Notice that I said 'first version', **not** 'first *working* version'.  It doesn
 
 One of the few aspects of the [Lean Startup][leanstartup]{:target="_blank"} methodology that most people have heard of is the so-called **MVP** or Minimum Viable Product. This is usually not a good thing!  The issue is that whenever the ideas for the MVP are discussed it quickly becomes clear that they are almost never minimal and rarely viable.
 
-The first reason they are almost never minimal is that most people spend their lives *building to build*, not *building to learn* and MVPs should be optimised for learning. This means that so-called MVPs often contain a multitude if things that 'just need to be there before we can get started' most of which are, in fact, completely unnecessary at this stage.  The second reason is that most entrepreneurs are reaching for perfection, and perfection is the enemy of the MVP. The drive for perfection often raises the bar on what minimum means to a level approaching absurdity.
+The first reason they are almost never minimal is that most people spend their lives *building to build*, not *building to learn* and MVPs should be optimised for learning. This means that so-called MVPs often contain a multitude of things that 'just need to be there before we can get started' most of which are, in fact, completely unnecessary at this stage.  The second reason is that most entrepreneurs are reaching for perfection, and perfection is the enemy of the MVP. The drive for perfection often raises the bar on what minimum means to a level approaching absurdity.
 
 As for viability, what pretty much every startup owner fails to realise is that it is the customer who decides what is viable, not the entrepreneur.
 
