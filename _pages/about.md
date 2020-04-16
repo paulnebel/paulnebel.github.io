@@ -5,7 +5,7 @@ title: About me
 
 ## Paul Nebel - MEng PhD MBCS ![BCS Professional Member logo]({{ site.url }}/assets/images/mbcs-logo-colour-small.jpg)![European Flag]({{ site.url }}/assets/images/EU-European-Union-Flag-icon-sm.png)
 
-I am a freelance Virtual CTO and Innovation Facilitator specialising in technology leadership, product development and strategic analysis:
+I am a freelance Virtual CTO and Innovation Facilitator specialising in business design, technology leadership and strategic analysis:
 
  - I bring businesses and ideas to life by removing uncertainty, achieving focus and progressing through learning. 
  - I make technology work to serve the business by aligning technical requirements with strategy.
