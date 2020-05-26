@@ -19,7 +19,7 @@ locale                   : "en-GB"
 title                    : "Paul Nebel - Virtual CTO"
 title_separator          : "-"
 name                     : "Paul Nebel"
-description              : "Freelance Virtual CTO and Innovation Facilitator specialising in business design, technology leadership and strategic analysis."
+description              : "Innovation Facilitator and Virtual CTO specialising in business design and technology leadership."
 url                      : "https://paulnebel.io"
 baseurl                  : ""
 repository               : "paulnebel/paulnebel.github.io"
@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Paul Nebel"
   avatar           : "/assets/images/paul_nebel.png"
-  bio              : "Freelance Virtual CTO and Innovation Facilitator specialising in business design, technology leadership and strategic analysis."
+  bio              : "Innovation Facilitator and Virtual CTO specialising in business design and technology leadership."
   location         : "London"
   email            :
   links:
