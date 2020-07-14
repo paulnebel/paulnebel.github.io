@@ -55,7 +55,7 @@ If you still can't decide what she's seeing, hearing, thinking, feeling and doin
 
 
 
-  [vp-sessions]: https://geovation.github.io/what-value-proposition-for
+  [vp-sessions]: https://paulnebel.io/insights/startup/what-value-proposition-for/
   [nugget]: https://nugget.io
   [rose-tech]: http://www.rose.vc/
   [hbs]: https://www.inc.com/john-mcdermott/report-3-out-of-4-venture-backed-start-ups-fail.html
