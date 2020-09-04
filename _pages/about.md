@@ -12,7 +12,9 @@ I am an Innovation Facilitator and Virtual CTO specialising in business design a
  - I [optimise effective execution](#optimising-effective-execution) by reducing cost through experimentation and better use of technology.
  - I can help you achieve your goals of productivity, efficiency and delivery.
 
-I have been a professional developer for over 20 years.  I have occupied a variety of roles in that time, from developer to team lead to technical architect and consultant. The projects I have been involved in cover a wide range of technologies including (but not limited to) the following:
+My primary focus has been innovative technology startups but the processes, tools and skills I have acquired by working with more than 100 of these startups can be applied just as well to companies of any size wishing to innovate.
+
+I have been a professional Full-Stack developer for over 20 years.  I have occupied a variety of roles in that time, from developer to team lead to technical architect and consultant. The projects I have been involved in cover a wide range of technologies including (but not limited to) the following:
 
 * Node.js, JavaScript, TypeScript
 * Python, Django, Wagtail
