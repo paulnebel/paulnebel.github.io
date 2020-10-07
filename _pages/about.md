@@ -5,14 +5,14 @@ title: About me
 
 ## Paul Nebel - MEng PhD MBCS ![BCS Professional Member logo]({{ site.url }}/assets/images/mbcs-logo-colour-small.jpg)![European Flag]({{ site.url }}/assets/images/EU-European-Union-Flag-icon-sm.png)
 
-I am an Innovation Facilitator and Virtual CTO specialising in business design and technology leadership:
+I am a specialist in the creation, design and build of innovative, technology-led Businesses, Products & Services:
 
  - I [make innovation possible](#making-innovation-possible) by reducing uncertainty, achieving focus and progressing through learning. 
  - I [make technology work to serve the business](#making-technology-serve-the-business) by aligning technical requirements with business strategy.
  - I [optimise effective execution](#optimising-effective-execution) by reducing cost through experimentation and better use of technology.
  - I can help you achieve your goals of productivity, efficiency and delivery.
 
-My primary focus has been innovative technology startups but the processes, tools and skills I have acquired by working with more than 100 of these startups can be applied just as well to companies of any size wishing to innovate.
+My primary focus has been innovative technology startups but the processes, tools and skills I have acquired by working with more than 50 of these startups from a variety of industries including safety, transport, proptech, cleantech, energy, agriculture, fitness and smart cities can be applied just as well to companies of any size wishing to innovate.
 
 I have been a professional Full-Stack developer for over 20 years.  I have occupied a variety of roles in that time, from developer to team lead to technical architect and consultant. The projects I have been involved in cover a wide range of technologies including (but not limited to) the following:
 
@@ -33,7 +33,7 @@ I have been a professional Full-Stack developer for over 20 years.  I have occu
 
 By definition, an innovative technology startup is testing assumptions that haven't been tested before relating to products, services, technologies and/or markets.  Most of the founders of these startups have never created a new, innovative business from scratch before. This can, at times, feel like an overwhelming task.
 
-I have worked with over 100 technology startups, helping them to design innovative new businesses. I use this experience to help define an approach and choose the appropriate tools to guide startup founders to a position where innovation is possible. I spend much of my time facilitating workshops to develop such things as:
+I have worked with over 50 early-stage technology startups, helping them to design innovative new businesses. I use this experience to help define an approach and choose the appropriate tools to guide startup founders to a position where innovation is possible. I spend much of my time facilitating workshops to develop such things as:
  - Customer Personas
  - Value Propositions
  - Assumptions & Hypotheses
