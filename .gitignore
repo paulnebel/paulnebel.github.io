@@ -3,6 +3,7 @@ _site
 .jekyll-metadata
 Gemfile
 Gemfile.lock
+/assets/video
 
 /node_modules
 /dist
