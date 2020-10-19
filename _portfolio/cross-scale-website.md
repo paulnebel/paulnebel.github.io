@@ -18,4 +18,10 @@ gallery:
 
 [X-Scale](https://x-scale.dogfishmusic.co.uk){:target='_blank'} is a game for musicians to test their knowledge of musical scales.  It is similar to a crossword but uses the notes of the scale instead of letters.  Test yourself on all the different musical modes, choosing the maximum number of sharps and flats in each mode.
 
+X-Scale is currently in being tested in beta. It uses the following technologies:
+
+ - Node.js (backend & API)
+ - Mustache (frontend templates)
+ - Webpack (build)
+
 {% include gallery caption="Some examples of X-Scale functionality" %}
