@@ -30,7 +30,7 @@ Given that the API for this project is written in [Node][nodejs]{:target="_blank
 
 When viewing the MVP app on the web or via a mobile device the user is usually only looking at a small part of the available map.  The first step in compressing the result set is, fairly obviously, to only return those images whose location falls within the area viewed on the device screen.  However, even this is not as straightforward as it seems.  In fact, if we are to avoid an unsettling user experience we need to return all images located within a boundary at least 9 times larger than the visible screen (see Figure 1 below).
 
-| ![Screen-based retrieval bounds](../assets/images/server-side-clustering/map-size.png) |
+| ![Screen-based retrieval bounds]({{ site.url }}/assets/images/server-side-clustering/map-size.png) |
 |:--:|
 | **Figure 1: Screen-based retrieval bounds** |
 
@@ -44,7 +44,7 @@ The API query string is constructed by converting the latitude/longitude values 
 
 Most web-based mapping services use [slippy maps][slippymap]{:target="_blank"} that render [map tiles][maptiles]{:target="_blank"}. If [we use the map tiles][maptilecalcs]{:target="_blank"} which contain the screen-based retrieval bounds as the co-ordinates for the API query string we introduce an element of repeatability and, therefore, cachability to our queries (see **Figure 2** below). Many screen-based retrieval queries will be represented by a single combination of tile-based retrieval bounds, facilitating caching at the expense of returning more locations that we need for any given screen view. It is a price worth paying.
 
-| ![Map Tile-based retrieval bounds](../assets/images/server-side-clustering/map-tiles.png) |
+| ![Map Tile-based retrieval bounds]({{ site.url }}/assets/images/server-side-clustering/map-tiles.png) |
 |:--:|
 | **Figure 2: Map Tile-based retrieval bounds** |
 
@@ -54,7 +54,7 @@ So far I haven't done very well at compressing the results returned from the API
 
 It's time to introduce the [Convex Hull][convexhull]{:target="_blank"}. ElasticSearch returns all the images located within the tile-based retrieval bounds.  This collection of locations is passed to supercluster which groups them into clusters based on the dimensions (in pixels), zoom level (maximum, minimum and current), device pixel ratio and maximum cluster radius of the client. Now that we know which images are grouped together we can introduce a significant level of compression by returning only the points comprising the convex hull of each cluster (see **Figure 3** below).
 
-| ![Server-side compression](../assets/images/server-side-clustering/geohull-compression.png) |
+| ![Server-side compression]({{ site.url }}/assets/images/server-side-clustering/geohull-compression.png) |
 |:--:|
 | **Figure 3: Convex Hull compression** |
 
@@ -70,7 +70,7 @@ There are a couple of practical difficulties with this, however.  Firstly, the c
 
 In order to account for this I needed to make the convex hull very slightly bigger. I did this by using Leaflet to [convert each point in the convex hull into it's equivalent bounding box][leaflettobounds]{:target="_blank"} (with a width and height of 1m). I calculated a new convex hull in the client based on these bounding boxes and returned this convex hull to the API as the limits of the search (see **Figure 4** below). This proved to be very effective, even for convex hulls comprised of two points (as using the bounding boxes of each point automatically converted them into a polygon).
 
-| ![Expanded convex hull to account for conversion errors](../assets/images/server-side-clustering/expanded-geohull.png) |
+| ![Expanded convex hull to account for conversion errors]({{ site.url }}/assets/images/server-side-clustering/expanded-geohull.png) |
 |:--:|
 | **Figure 4: Expanded Convex Hull to account for conversion errors** |
 
