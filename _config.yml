@@ -25,7 +25,7 @@ baseurl                  : ""
 repository               : "paulnebel/paulnebel.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/pn_logo.png"
-masthead_title           : "Making technology work for business"
+masthead_title           : "Building Better Business"
 breadcrumbs              : true
 words_per_minute         : 200
 comments:
