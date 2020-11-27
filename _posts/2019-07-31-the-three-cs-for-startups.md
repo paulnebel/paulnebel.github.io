@@ -1,9 +1,22 @@
 ---
-title: "Getting investment: The 3 C's"
+title: "How to unlock investment: Clarity, Credibility and Co-operation"
 meta: "How to get investors to listen to your startup idea."
+description: "How to get investors to listen to your startup idea."
 categories: Insights Startup
 slug: "the-three-cs-for-startups"
+header:
+  og_image: "/assets/images/3cs/investment.jpg"
 ---
+
+{% include image.html url="/assets/images/3cs/investment.jpg" description="Ivestment spelt with Scrabble tiles" caption='<span>Photo by <a href="https://unsplash.com/@headwayio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Headway</a> on <a href="https://unsplash.com/s/photos/presentation?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
+
+## TL;DR;
+
+If you want to increase your chances of getting investment for your startup concentrate on refining your message.  A killer presentation consists of:
+
+ - Clarity - can you explain the problem and your proposed solution in 10 seconds?
+ - Credibility - why are you the best person to solve this particular problem?
+ - Co-operation - do you have a team of committed rockstars?
 
 ## Am I Investable?
 
@@ -33,7 +46,7 @@ The criteria we agreed upon, in order of importance, are:
 
 - Clarity
 - Credibility
-- Cooperation
+- Co-operation
 
 ## Clarity
 
@@ -52,7 +65,7 @@ Note that your direct team do not necessarily need to be domain experts themselv
 
 > You must be able to satisfy an investor that your team are experts in your chosen problem domain, otherwise why would they trust you to provide a solution?
 
-## Cooperation
+## Co-operation
 Another speaker at the BCS Entrepreneurs Specialist Group event mentioned above was [Simon Glass][simonglass]{:target="_blank"} of [Qodeo][qodeo]{:target="_blank"}.  Simon presented a report authored by MBA Researcher [Akshat Mathur][akshatmathur]{:target="_blank"} who interviewed Senior Partners one on one in 40 VC and PE firms in UK and India to determine the current trends prevailing in the industry as perceived by its closest stakeholders.
 
 For me, the most interesting trend identified in that report related to the composition of teams. According to Akshat, the most significant considerations for VCs when making investment decisions on startups are: Team; Technology; Potential Market and defensible IP.  Of these 4 significant areas, by far the greatest emphasis is given to Team. On average, team composition represents a whopping 68% of VC investment creteria when considering startups. For established companies this falls to an average of 24%.
@@ -64,7 +77,7 @@ We also find that startups that cooperate well with each other are far more like
 > When you're starting up, cooperation within your team is critical to prevent the loss of any of it's members
 
 ## The Bottom Line
-If you are thinking of applying to the Geovation Programme (or, indeed, looking for any other kind of startup investment) it is our experience that you will have a far better chance of succeeding if you can demonstrate **clarity, credibility and cooperation**.
+If you are thinking of applying to the Geovation Programme (or, indeed, looking for any other kind of startup investment) it is our experience that you will have a far better chance of succeeding if you can demonstrate **clarity, credibility and co-operation**.
 
 
 [russelldalgliesh]: <https://www.linkedin.com/in/russelldalgleish/>

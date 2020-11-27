@@ -65,7 +65,7 @@ collections:
 
 # Social Sharing
 twitter:
-  username               : "expert_in_it"
+  username               : "StartupCTO_Paul"
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -74,7 +74,7 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links:
     - "https://www.linkedin.com/in/paulnebel/"
-    - "https://twitter.com/expert_in_it"
+    - "https://twitter.com/StartupCTO_Paul"
 
 # Analytics
 analytics:
