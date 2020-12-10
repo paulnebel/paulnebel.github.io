@@ -1,8 +1,10 @@
 ---
 title: "The Blueprint for Success"
 meta: "Create a service blueprint, understand your process and discover your unique value"
+description: "Create a service blueprint, understand your process and discover your unique value"
 categories: Insights Startup
 slug: "blueprint-for-success"
+tag: ["service design", usp, clarity]
 ---
 
 It has become a business mantra that the first thing a technology startup has to do is to create a [Minimim Viable Product (MVP)][minviaprod]{:target="_blank"}.  As discussed in my [previous post][prevpost]{:target="_blank"} I consider the term MVP to be of little practical use since it is generally poorly understood and even more poorly implemented.  In short, MVPs are almost never minimal and rarely viable.  I prefer to talk of experiments or prototypes to keep the mind focussed on what they are intended to achieve.

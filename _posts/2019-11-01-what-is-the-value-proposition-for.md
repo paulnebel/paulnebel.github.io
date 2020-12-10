@@ -1,8 +1,10 @@
 ---
 title: "What is the Value Proposition for?"
 meta: "Before we can build a solution we need to understand the problem. Then we can test how well our solution fits the problem."
+description: "Before we can build a solution we need to understand the problem. Then we can test how well our solution fits the problem."
 categories: Insights Startup
 slug: "what-value-proposition-for"
+tag: ["value proposition"]
 ---
 
 The [Strategyzer Value Proposition Canvas](https://assets.strategyzer.com/assets/resources/the-value-proposition-canvas-instruction-manual.pdf){:target="_blank"} is the first tool that we use with our startups.  The intended function of this tool is to determine Product/Solution fit.  Although we use it for it's intended outcome our primary reasons for using this tool are described below.

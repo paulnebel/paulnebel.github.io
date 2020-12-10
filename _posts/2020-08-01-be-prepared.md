@@ -1,8 +1,10 @@
 ---
 title: "Be Prepared"
 meta: "A non-technical founders guide to the accounts and artifacts you'll have to create to bring your technical startup to life."
+description: "A non-technical founders guide to the accounts and artifacts you'll have to create to bring your technical startup to life."
 categories: Insights Startup
 slug: "be-prepared"
+tag: ["technical setup"]
 ---
 
 As a non-technical founder of a technical startup it can be a confusing, worrying and downright difficult process to create all the accounts, documents, descriptions, images, logos and general stuff you need to create before you can bring your product to life.  This post is designed to let you know what you'll be most likely to need and why so that you can avoid delays and difficulties further down the line.
