@@ -1,8 +1,10 @@
 ---
 title: "De-Rumsfelding, or Managing unknown unknowns"
 meta: "If you're not sure then test to find out.  If you're sure then test to show how right you are. You know what? Just test!"
+description: "If you're not sure then test to find out.  If you're sure then test to show how right you are. You know what? Just test!"
 categories: Insights Startup
 slug: "managing-unknow-unknowns"
+tag: [assumptions, hypotheses, experiments, "cognitive bias"]
 ---
 
 I recently spoke with a startup that is looking to shake up the world of short-term renting by filling existing but currently empty properties at the last minute by lowering prices. Their premise is that a low price is better than no price. Their business model assumes that X% of short-term rental properties remained empty at any one time, a figure easily determined by looking at the statistics coming from their short-term property rental portal of choice.  Their intention was to increase utilisation of these empty properties by Y%, representing an opportunity valued at £Zm.

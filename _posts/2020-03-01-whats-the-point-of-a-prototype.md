@@ -1,8 +1,10 @@
 ---
 title: "What's the point of a Prototype?"
 meta: "What you can and can't expect from a Prototype product"
+description: "What you can and can't expect from a Prototype product"
 categories: Insights Startup
 slug: "what-point-prototype"
+tag: [mvp, hypotheses, assumptions]
 ---
 
 The [Geovation Accelerator Programme][geoaccel]{:target="_blank"} has many aims. My job as a Senior Innovation Engineer at Geovation is, among other things, to help the programme cohort members to unlock the investment they need to become independent. This often means helping them build the first versions of their product to help potential investors visualise the solution.

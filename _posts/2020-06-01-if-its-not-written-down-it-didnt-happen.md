@@ -1,8 +1,10 @@
 ---
 title: "If it's not written down, it didn't happen"
 meta: "It can be difficult and tedious to write down your value propositions but it will pay dividends in the end"
+description: "It can be difficult and tedious to write down your value propositions but it will pay dividends in the end"
 categories: Insights Startup
 slug: "not-written-didnt-happen"
+tag: ["value proposition"]
 ---
 
 Running [Value Proposition (VP) sessions][valueprops]{:target="_blank"} is hard.  

@@ -6,9 +6,10 @@ categories: Insights Startup
 slug: "the-three-cs-for-startups"
 header:
   og_image: "/assets/images/3cs/investment.jpg"
+tags: [investment, clarity, credibility, co-operation]
 ---
 
-{% include image.html url="/assets/images/3cs/investment.jpg" description="Ivestment spelt with Scrabble tiles" caption='<span>Photo by <a href="https://unsplash.com/@headwayio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Headway</a> on <a href="https://unsplash.com/s/photos/presentation?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
+{% include image.html url="/assets/images/3cs/investment.jpg" description="Ivestment spelt with Scrabble tiles" caption='<span>Photo by <a href="https://unsplash.com/@headwayio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Headway</a> on <a href="https://unsplash.com/s/photos/presentation?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Unsplash</a></span>' %}
 
 ## TL;DR;
 

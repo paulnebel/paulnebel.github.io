@@ -1,5 +1,7 @@
 <!-- start custom head snippets -->
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
-
+{% if site.tags != "" %}
+  {% include collect-tags.html %}
+{% endif %}
 <!-- end custom head snippets -->

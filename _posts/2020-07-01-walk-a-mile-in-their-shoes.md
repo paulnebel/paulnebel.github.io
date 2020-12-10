@@ -1,8 +1,10 @@
 ---
 title: "Walk a mile in your customers' shoes"
 meta: "When you're trying to establish problem-solution fit it's really important to think like a customer, not a product owner"
+description: "When you're trying to establish problem-solution fit it's really important to think like a customer, not a product owner"
 categories: Insights Startup
 slug: "walk-a-mile-in-their-shoes"
+tag: ["empathy map", "value proposition"]
 ---
 
 Some of the [Value Proposition (VP) Sessions][vp-sessions]{:target="_blank"} I have facilitated recently have made me realise that too many founders are starting from the wrong place.  It's completely understandable that a startup founder would be deeply immersed in thinking about their business and how it can be brought to life.  The problem is that this leads founders to condiser the jobs, pains and gains they are trying to address from their point of view and not from the customers' point of view.

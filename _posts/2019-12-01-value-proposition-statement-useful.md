@@ -1,8 +1,10 @@
 ---
 title: "The Value Proposition Statement is much more useful than it appears"
 meta: "It can seem limiting, almost simplistic, but the Value Proposition Statement can be very useful in concentrating the mind and achieving clarity."
+description: "It can seem limiting, almost simplistic, but the Value Proposition Statement can be very useful in concentrating the mind and achieving clarity."
 categories: Insights Startup
 slug: "value-propsition-statement-useful"
+tag: ["value proposition"]
 ---
 The Value Proposition Statement (or **VPS**, referred to as an **Ad-lib** by [Strategyzer](https://www.strategyzer.com/){:target="_blank"}) is one of the outputs of the [Value Proposition process](https://www.strategyzer.com/canvas/value-proposition-canvas){:target="_blank"}.
 A VPS takes the following form:

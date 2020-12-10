@@ -1,8 +1,10 @@
 ---
 title: "If you want to get there, I wouldn't start from here"
 meta: "The innovation startup road less travelled: What to do before you know what you're doing"
+description: "The innovation startup road less travelled: What to do before you know what you're doing"
 categories: Insights Startup
 slug: "get-there-dont-start-here"
+tag: ["market niche", desirability, product]
 ---
 
 It is my experience that many founders of innovation startups follow a path more or less similar to the following:

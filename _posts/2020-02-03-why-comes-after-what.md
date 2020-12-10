@@ -1,8 +1,10 @@
 ---
 title: "Why? comes after What!"
 meta: "If your assumptions are too abstract you can't test them.  Use the Toyota '5-Whys' strategy to make them digestable."
+description: "If your assumptions are too abstract you can't test them.  Use the Toyota '5-Whys' strategy to make them digestable."
 categories: Insights Startup
 slug: "why-comes-after-what"
+tags: ["5 whys", assumptions, hypotheses]
 ---
 
 The first step in creating your business should be the [Value Proposition][valueprop]{:target="_blank"}. This is a very effective means of exploring and defining the problem to be solved and establishing whether your proposed solution is sufficiently effective at mitigating that problem for users to want to pay for it.  Once you've created your [Value Proposition Canvas][valuepropcanv]{:target="_blank"} your next task is to verify it by formulating hypotheses.

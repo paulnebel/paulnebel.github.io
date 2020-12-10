@@ -1,8 +1,10 @@
 ---
 title: "You are a question. What is the answer?"
 meta: "An innovative startup is the embodiment of a question.  Do you know what question your startup is asking?"
+description: "An innovative startup is the embodiment of a question.  Do you know what question your startup is asking?"
 categories: Insights Startup
 slug: "you-are-a-question"
+tag: [innovation, product, solution, execution]
 ---
 
 I'd like to propose a definition:
