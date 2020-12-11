@@ -14,6 +14,8 @@ main:
    url: /tags/
  - title: "Archive"
    url: /archive/
+ - title: "Contact"
+   url: /contact/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
