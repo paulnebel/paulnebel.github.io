@@ -1,24 +1,35 @@
 ---
-title: "The Value Proposition Statement is much more useful than it appears"
+title: "Why is the Value Proposition Statement useful?"
 meta: "It can seem limiting, almost simplistic, but the Value Proposition Statement can be very useful in concentrating the mind and achieving clarity."
 description: "It can seem limiting, almost simplistic, but the Value Proposition Statement can be very useful in concentrating the mind and achieving clarity."
 categories: Insights Startup
 slug: "value-propsition-statement-useful"
 tag: ["value proposition"]
+header:
+    og_image: "/assets/images/value-proposition-statement-useful/statement.jpg"
 ---
+
+{% include image.html url="/assets/images/value-proposition-statement-useful/statement.jpg" description="Picture warning of guard dogs" caption='<span>Photo by <a href="https://unsplash.com/@leourselli?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Leonardo Urselli</a> on <a href="https://unsplash.com/s/photos/text?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
+
+## TL,DR;
+
+blah blah blah
+
+## Tell me a little about yourself
+
 The Value Proposition Statement (or **VPS**, referred to as an **Ad-lib** by [Strategyzer](https://www.strategyzer.com/){:target="_blank"}) is one of the outputs of the [Value Proposition process](https://www.strategyzer.com/canvas/value-proposition-canvas){:target="_blank"}.
 A VPS takes the following form:
 
 > Our `<products and services>`
-
+>
 > help(s) `<customer segment>`
-
+>
 > who want to `<jobs to be done>`
-
+>
 > by `<verb, e.g. reducing, avoiding><customer pain>`
-
+>
 > and `<verb, e.g. increasing, enhancing><customer gain>`
-
+>
 > unlike `<competitor>`
 
 It is intended as a way of quickly shaping alternative directions for the value proposition.  In this respect it can seem somewhat ‘throwaway’.  However, it is also intended to force startups to pinpoint exactly how they are going to create value.  This makes it invaluable, particularly the `<products and services>` and `<jobs to be done>` part.
@@ -31,7 +42,7 @@ Take the case of [AskWinston](https://askwinston.io/){:target="_blank"}, the vir
 
 It was the word “seamless” that stood out for me.  I asked them whether they had mapped out the workflow involved in delivering all of the services they intended to provide, including accounting for issues and problems when things don’t go according to plan. The answer was “no”.  In that case, I asked, how can the delivery of those services be seamless?  As a result, a top priority for them has been to map out these workflows.  This not only to supports their vision but also helps them to expand their business by creating a process manual to give to their employees/franchisees that explains how to do things the ‘AskWinston way’.
 
-In the process of selecting the `<jos to be done>` an alternative that was considered was:
+In the process of selecting the `<jobs to be done>` an alternative that was considered was:
 
 > Trusted delegation of responsibility
 
@@ -62,3 +73,7 @@ The answer was that they were not a mapping platform so much as a platform that 
 The nature of their target customers is such that systems integration will only be possible once they have established their credibility.  To this end, they first concentrated on providing data to support situational awareness by building their [Stormwatch](https://www.watchkeeperintl.com/stormwatch){:target="_blank"} system.  This provides a more easily attainable route that will ultimately allow them to integrate with their customers' systems.
 
 I've heard the criticism that the VPS is too constraining, but I believe this is unfair.  You can make multiple VPSs, each of which expresses a different aspect of your product or service. The VPS is simply a tool for exploring and for challenging your thinking.
+
+## The take-away
+
+blah blah blah
