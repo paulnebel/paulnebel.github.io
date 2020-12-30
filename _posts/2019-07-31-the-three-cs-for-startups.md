@@ -11,7 +11,7 @@ tags: [investment, clarity, credibility, co-operation]
 
 {% include image.html url="/assets/images/3cs/investment.jpg" description="Ivestment spelt with Scrabble tiles" caption='<span>Photo by <a href="https://unsplash.com/@headwayio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Headway</a> on <a href="https://unsplash.com/s/photos/presentation?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Unsplash</a></span>' %}
 
-## TL;DR;
+## TL,DR;
 
 If you want to increase your chances of getting investment for your startup concentrate on refining your message.  A killer presentation consists of:
 
@@ -77,7 +77,7 @@ We also find that startups that cooperate well with each other are far more like
 
 > When you're starting up, cooperation within your team is critical to prevent the loss of any of it's members
 
-## The Bottom Line
+## The take-away
 If you are thinking of applying to the Geovation Programme (or, indeed, looking for any other kind of startup investment) it is our experience that you will have a far better chance of succeeding if you can demonstrate **clarity, credibility and co-operation**.
 
 
