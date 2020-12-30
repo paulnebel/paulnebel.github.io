@@ -67,7 +67,7 @@ There are plenty of examples of firms whose products which have become unviable 
 
 Broadly speaking, you should aim to construct your business by establishing the degree to which your solution exhibits these properties in the order they are presented above. Feasibility and viability don't matter if no-one wants to buy your solution. Let us start, then, with desirability.
 
-When it comes to determining Desirability, there are a number of stages we would do well to pass through before we can say with any certainty that we have achieved it:
+When it comes to determining desirability, there are a number of stages we would do well to pass through before we can say with any certainty that we have achieved it:
 
  1. **Investigation** - What niche are you intending to target? How do you find them? How do you engage with them? Do they have the problem you think they have?
  2. **Observation** - What are their habits, behaviours, relationships and environments in the context of the problem are you are investigating? In order to understand what they may do in the future how do you find out what they did in the past? What do you think their problem really is?
