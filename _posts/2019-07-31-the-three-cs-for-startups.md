@@ -1,15 +1,15 @@
 ---
-title: "How to unlock investment: Clarity, Credibility and Co-operation"
-meta: "How to get investors to listen to your startup idea."
-description: "How to get investors to listen to your startup idea."
+title: "How to make a potential investor see you are worth listening to"
+meta: "How clarity, credibility and co-operation will get investors to listen to your startup idea and take you seriously."
+description: "How clarity, credibility and co-operation will get investors to listen to your startup idea and take you seriously."
 categories: Insights Startup
 slug: "the-three-cs-for-startups"
 header:
-  og_image: "/assets/images/3cs/investment.jpg"
+  og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/the-three-cs-for-startups/investment.jpg"
 tags: [investment, clarity, credibility, co-operation]
 ---
 
-{% include image.html url="/assets/images/3cs/investment.jpg" description="Ivestment spelt with Scrabble tiles" caption='<span>Photo by <a href="https://unsplash.com/@headwayio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Headway</a> on <a href="https://unsplash.com/s/photos/presentation?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Unsplash</a></span>' %}
+{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/the-three-cs-for-startups/investment.jpg" description="Ivestment spelt with Scrabble tiles" caption='<span>Photo by <a href="https://unsplash.com/@headwayio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Headway</a> on <a href="https://unsplash.com/s/photos/presentation?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Unsplash</a></span>' %}
 
 ## TL,DR;
 

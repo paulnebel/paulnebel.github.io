@@ -6,10 +6,10 @@ categories: Insights Startup
 slug: "will-world-love-your-new-idea"
 tag: [research, validation, desirability, product]
 header:
-  og_image: "/assets/images/will-world-love-your-new-idea/giving-gift.jpg"
+  og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/will-world-love-your-new-idea/giving-gift.jpg"
 ---
 
-{% include image.html url="/assets/images/will-world-love-your-new-idea/giving-gift.jpg" description="Ivestment spelt with Scrabble tiles" caption='<span>Photo by <a href="https://unsplash.com/@kadh?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kira auf der Heide</a> on <a href="https://unsplash.com/s/photos/present?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
+{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/will-world-love-your-new-idea/giving-gift.jpg" description="Ivestment spelt with Scrabble tiles" caption='<span>Photo by <a href="https://unsplash.com/@kadh?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kira auf der Heide</a> on <a href="https://unsplash.com/s/photos/present?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
 
 [Last month][november-blog-post]{:target="_blank"} I showed you how to validate a business idea using the internet.  I hope I also showed you how unreliable that method can be if you don't validate your assumptions.
 
@@ -45,7 +45,7 @@ A landing page is about the simplest form of product web page you can create.  I
  - A sub-heading, giving context to the headline.
  - An form field for capturing email addresses.
 
-| ![Example of a ground-level landing page]({{ site.url }}/assets/images/will-world-love-your-new-idea/ground-floor-example.png) |
+| ![Example of a ground-level landing page](https://pn-blog-images.s3.eu-west-2.amazonaws.com/will-world-love-your-new-idea/ground-floor-example.png) |
 |:--:|
 | **Figure 1: An example of a basic 'ground-level' landing page** |
 
@@ -53,7 +53,7 @@ I'll refer to this as a **ground-level** landing page.  The next level of landin
 
  - A feature list
 
-| ![Example of a first-floor landing page]({{ site.url }}/assets/images/will-world-love-your-new-idea/first-floor-example.png) |
+| ![Example of a first-floor landing page](https://pn-blog-images.s3.eu-west-2.amazonaws.com/will-world-love-your-new-idea/first-floor-example.png) |
 |:--:|
 | **Figure 2: An example of an intermediate 'first-floor' landing page** |
 
@@ -61,7 +61,7 @@ Finally, we have a **penthouse** landing page which starts to properly represent
 
  - High-fidelity mockups
 
-| ![Example of a penthouse landing page]({{ site.url }}/assets/images/will-world-love-your-new-idea/penthouse-example.png) |
+| ![Example of a penthouse landing page](https://pn-blog-images.s3.eu-west-2.amazonaws.com/will-world-love-your-new-idea/penthouse-example.png) |
 |:--:|
 | **Figure 3: An example of an advanced 'penthouse' landing page** |
 

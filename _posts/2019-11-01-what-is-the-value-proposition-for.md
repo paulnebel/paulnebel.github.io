@@ -4,11 +4,12 @@ meta: "Before we can build a solution we need to understand the problem. Then we
 description: "Before we can build a solution we need to understand the problem. Then we can test how well our solution fits the problem."
 categories: Insights Startup
 slug: "what-value-proposition-for"
-page_large_image: "/assets/images/what-value-proposition-for/figure-it-out.jpg"
+header:
+    og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/what-value-proposition-for/figure-it-out.jpg"
 tag: ["value proposition"]
 ---
 
-{% include image.html url="/assets/images/what-value-proposition-for/figure-it-out.jpg" description="'Figure it out' written on a Rubik's cube" caption='<span>Photo by <a href="https://unsplash.com/@karlahrnndz?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Karla Hernandez</a> on <a href="https://unsplash.com/s/photos/problem?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
+{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/what-value-proposition-for/figure-it-out.jpg" description="'Figure it out' written on a Rubik's cube" caption='<span>Photo by <a href="https://unsplash.com/@karlahrnndz?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Karla Hernandez</a> on <a href="https://unsplash.com/s/photos/problem?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
 
 
 ## TL,DR;
