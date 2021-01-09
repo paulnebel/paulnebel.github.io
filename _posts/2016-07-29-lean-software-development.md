@@ -5,6 +5,7 @@ meta: "My definition of what 'lean' and 'agile' software development actually is
 slug: "lean-software-development"
 excerpt: "There are, effectively, two types of efficiency available to an organisation: resource efficiency and flow efficiency.  Resource efficiency focuses on efficiently using the resources that add value within an organisation.  Flow efficiency focuses on the ‘unit’ that is processed by the organisation (be it a person as in the case of healthcare, or a new application feature as in the case of software development)."
 ---
+
 ## Introduction
 It is very easy to use the words ‘lean’ and ‘agile’ with respect to business in general, and software development in particular, without the reader (or, often, the author) fully understanding what these terms mean. I’m going to define what I mean by lean and agile software development and describe how I can help you ‘innovate at pace’.
 
