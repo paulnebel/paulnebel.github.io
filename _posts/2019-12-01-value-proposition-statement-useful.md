@@ -6,10 +6,10 @@ categories: Insights Startup
 slug: "value-propsition-statement-useful"
 tag: ["value proposition"]
 header:
-    og_image: "/assets/images/value-proposition-statement-useful/statement.jpg"
+    og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/value-proposition-statement-useful/statement.jpg"
 ---
 
-{% include image.html url="/assets/images/value-proposition-statement-useful/statement.jpg" description="Picture warning of guard dogs" caption='<span>Photo by <a href="https://unsplash.com/@leourselli?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Leonardo Urselli</a> on <a href="https://unsplash.com/s/photos/text?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
+{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/value-proposition-statement-useful/statement.jpg" description="Picture warning of guard dogs" caption='<span>Photo by <a href="https://unsplash.com/@leourselli?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Leonardo Urselli</a> on <a href="https://unsplash.com/s/photos/text?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
 
 ## TL,DR;
 
