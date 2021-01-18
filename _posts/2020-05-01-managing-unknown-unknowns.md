@@ -4,7 +4,7 @@ meta: "If you're not sure then test to find out.  If you're sure then test to sh
 description: "If you're not sure then test to find out.  If you're sure then test to show how right you are. You know what? Just test!"
 categories: Insights Startup
 slug: "managing-unknown-unknowns"
-tag: [assumptions, hypotheses, experiments, "cognitive bias"]
+tags: [assumptions, hypotheses, experiments, "cognitive bias"]
 header:
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/managing-unknown-unknowns/blindfold.jpg"
 ---
