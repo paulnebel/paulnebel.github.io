@@ -1,11 +1,17 @@
 ---
-title: "Be Prepared"
+title: "6-step guide to preparing a solid technical project - a founders checklist"
 meta: "A non-technical founders guide to the accounts and artifacts you'll have to create to bring your technical startup to life."
 description: "A non-technical founders guide to the accounts and artifacts you'll have to create to bring your technical startup to life."
 categories: Insights Startup
 slug: "be-prepared"
-tag: ["technical setup"]
+tags: ["technical setup"]
+header:
+    og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/be-prepared/stretch.jpg"
 ---
+
+{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/be-prepared/stretch.jpg" description="An athlete stretching before a competition" caption='<span>Photo by <a href="https://unsplash.com/@aloragriffiths?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alora Griffiths</a> on <a href="https://unsplash.com/s/photos/stretching?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
+
+## TL,DR;
 
 As a non-technical founder of a technical startup it can be a confusing, worrying and downright difficult process to create all the accounts, documents, descriptions, images, logos and general stuff you need to create before you can bring your product to life.  This post is designed to let you know what you'll be most likely to need and why so that you can avoid delays and difficulties further down the line.
 
@@ -15,7 +21,6 @@ All startups are different and it's impossible to provide generic advice that ap
 
 Buckle up, we have a long way to go and the road can get rocky!
 
-## TLDR;
 This is a long post by necessity; there's a lot to do to set up the technical environment for your startup.  If you just want a quick summary there is a [**Checklist**](#checklist-1) at the end of each section that lists the main actions to be undertaken.
 
 # Code Repository & Version Control
@@ -173,7 +178,7 @@ If you collect any personal information from the users of your app you will need
 # One Final, VERY IMPORTANT Point
 Do not ever, and I really mean *NOT EVER*, save usernames, passwords, Client IDs, Client Secrets or any other credentials you create during this process to cloud services which are not encrypted both in transit and at rest.
 
-### Checklist 6 - Places NOT to store secure credentials
+### Checklist 6
  > Do not save secure credentials to *ANY* service which is not encrypted both in transit and at rest or in any way publicly accessible. This includes all of the following, *none of which are truly secure*:
  > - Slack
  > - Google Docs
@@ -185,7 +190,7 @@ Be very careful about who, in the team, you share your credentials with.  Rememb
 
 Don't say I didn't warn you!
  
-# Summary
+# The take-away
 That's an awful lot of information and a bucket-load of things to do.  Exactly what needs to be done and which mechanisms/suppliers you will use will depend entirely on what you are trying to do but hopefully this guide has given you a template for starting your technical business in a way that lets your developers develop while you concentrate on building your business.
 
   [versioncontrol]: https://en.wikipedia.org/wiki/Version_control
