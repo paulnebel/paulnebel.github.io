@@ -11,7 +11,17 @@ header:
 
 {% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/will-world-love-your-new-idea/giving-gift.jpg" description="Ivestment spelt with Scrabble tiles" caption='<span>Photo by <a href="https://unsplash.com/@kadh?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kira auf der Heide</a> on <a href="https://unsplash.com/s/photos/present?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
 
-[Last month][november-blog-post]{:target="_blank"} I showed you how to validate a business idea using the internet.  I hope I also showed you how unreliable that method can be if you don't validate your assumptions.
+## TL,DR;
+
+When it comes to validating a business idea, *only your customers have the answers*. A highly effective way of establishing whether there is any point persuing a business idea without having to actually build it is to create a **Landing Page**. A Landing Page is essentially an *offer* to solve your customers' problems in return for them doing something (e.g. providing their email address or clicking on a 'buy now' button).
+
+The idea is to gauge whether the offer attracts their attention.  The operative word here is *offer* - you are not *actually* solving their problem yet. If the response is compelling enough you know it's worth persuing further. If not, pivot or do something else.
+
+This post tells you how to do it.
+
+## Tell me what you want, what you really, really want
+
+[Last month][november-blog-post]{:target="_blank"} I showed you how to validate a business idea using the internet.  I hopa I also showed you how unreliable that method can be if you don't validate your assumptions.
 
 Most of the workshops I conduct with start-ups form a path whose intended destination is a list of assumptions.  These are the things that have to be true in order for the start-up to succeed.  The reason for creating this list is that it gives us a structured way of validating the business idea.  Each assumption must be tested, if possible. We start with the assumptions which would have the greatest negative impact if they turned out not to be true.
 
@@ -135,6 +145,26 @@ The same is true of your headline and sub-headline.  Give these a lot of thought
 
 Good marketers know that increasing the conversion rate is a better return on investment than simply increasing the number of visitors.  This is where you need to experiment with different content, headlines, feature lists etc. to see what resonates more with your audience.  Just as with logo design, you can hire experts to create content/manage social media/administer email contact.
 
+A possible disadvantage of this approach from a non-technical founder's point of view is how to create the site itself. For this, I would recommend using a 3rd party tool. For example, [Wix][wix]{:target="_blank"} is a one-stop-shop that provides a huge range of templates that you can use as a starting point. You don't need to know anything about coding to create a site.  Wix can register your domain and host your website. For example, [this][wixlandingpage]{:target="_blank"} is a great example of a landing page template. 
+
+I have no connection with Wix and I get nothing in return for recommending them, it's simply that I have used them in the past and found them to be very good.  Other website vendors are available.
+
+## The take-away
+
+When it comes to validating a business idea there's little to beat a real interaction with real people.  A Landing Page is a relatively simple way to do this.
+
+The advantages of a Landing Page are:
+
+ - It's scalable - You can potentially reach the entire world through the internet.
+ - It's realistic - If people respond, you know you have a desirable business idea.
+ - It guarantees results - At worst, your call to action will result in a mailing list of potential customers. At best, you can obtain deposits, pre-sales or full-sales without building anything.
+
+The disadvantages of a Landing Page are:
+
+ - It takes time to build - This can be reduced by using a pre-configured template can reduce this time.
+ - It has a poor feedback loop - If people fail to respond you have little or no idea why that is.
+ - It costs money to move quickly - You're going to have to invest in some advertising (e.g. Google AdWords) if your site is to be effective. 
+
 You don't have to do it all yourself, but if you don't do it at all you're much more likely to be part of the 11 out of 12 start-ups that fail than the 1 out of 12 that succeed!
  
  [november-blog-post]: https://geovation.github.io/its-a-wrap
@@ -143,3 +173,5 @@ You don't have to do it all yourself, but if you don't do it at all you're much 
  [product-adoption-curve]: https://en.wikipedia.org/wiki/Technology_adoption_life_cycle
  [mailchimp]: https://mailchimp.com/
  [gdpr-email]: https://www.litmus.com/blog/5-things-you-must-know-about-email-consent-under-gdpr/
+ [wix]: https://wix.com
+ [wixlandingpage]: https://www.wix.com/website-template/view/html/1231?siteId=09de0a12-603c-453f-9f34-ac2ea94400d7&metaSiteId=24264e0b-313d-4c58-a9db-a82af125351d&originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Flanding-pages%2F3&tpClick=view_button
