@@ -9,7 +9,7 @@ header:
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/walk-a-mile-in-their-shoes/mask.jpg"
 ---
 
-{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/walk-a-mile-in-their-shoes/mask.jpg" description="A man in tribal costume" caption='<span>Photo by <a href="https://unsplash.com/@hrustall?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Дмитрий Хрусталев-Григорьев</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
+{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/walk-a-mile-in-their-shoes/mask.jpg" description="A man in tribal costume" caption='<svg class="icon camera-icon" viewBox="0 0 20 20" version="1.1" aria-labelledby="title"><title>camera</title><path d="M1,5H19V16.91H1ZM12,3h4V5H12ZM10,13.27a2.32,2.32,0,0,1,0-4.64h0a2.32,2.32,0,0,1,0,4.64Z"></path></svg><span>Photo by <a href="https://unsplash.com/@hrustall?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Дмитрий Хрусталев-Григорьев</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
 
 ## TL,DR;
 
@@ -21,7 +21,7 @@ One way of preventing this from happening is to personify your customer. Create 
 
 Some of the [Value Proposition (VP) Sessions][vp-sessions]{:target="_blank"} I have facilitated recently have made me realise that a significant number of founders are approaching the process from the wrong perspective.
 
-It's completely understandable that an entrepreneur would be deeply immersed in thinking about their business solution and how it can be brought to life.  The problem comes when they become more interested in the solution than the problem.  This point of view encourages them to condiser the jobs, pains and gains they are addressing from their *own* point of view and not from the *customers'* point of view. This, in turn, can result in misleading insights.
+It's completely understandable that an entrepreneur would be deeply immersed in thinking about their business solution and how it can be brought to life.  The problem comes when they become more interested in the solution than the problem.  This point of view encourages them to consider the jobs, pains and gains they are addressing from their *own* point of view and not from the *customers'* point of view. This, in turn, can result in misleading insights.
 
 As a facilitator it's really important to keep reminding founders that the problem they are solving is the most important issue and not the features of the solution that they want to implement. Thinking like the customer can help founders turn what might seem to be a pain for them into a gain for the customer.
 
@@ -63,33 +63,30 @@ The motivation for this kind of research is to identify the problem that the use
 
 A persona is a composite archetype, constructed from conversations with real people, that represents the wants and needs of the customer. When creating these personas we need to consider the context in which the user/customer operates.  This context consists of the following primary areas:
 
- - **Physical environment** - Are they at home, in the office, on a train or on a building site? Who is around them? Are they subject to distraction or interruption? Their needs will differ greatly depending upon these factors.
- - **Mental model** - What is their internal understanding of their context? How closely does their interior reality match what is around them? How much do they rely on their mental model of the world and the metaphors that allow them to interpret it with ease? How much novelty is too much?
- - **Habits** - An effective way to predict future behaviour is to look at past behaviour. People develop physical and mental habits to manage their working life.  It's going to be much easier to get them to use a product if it hooks into the way they already understand and do things than by getting them to change.
- - **Relationships** - "No man is an island, Entire of itself". (Apoligies to women everywhere, but this was written 400 years ago). The vast majority of us interact with others to a greater or lesser extent in our daily lives. Understanding these interactions and relationships gives us a much fuller picture of our user/customer.
+- **Physical environment** - Are they at home, in the office, on a train or on a building site? Who is around them? Are they subject to distraction or interruption? Their needs will differ greatly depending upon these factors.
+- **Mental model** - What is their internal understanding of their context? How closely does their interior reality match what is around them? How much do they rely on their mental model of the world and the metaphors that allow them to interpret it with ease? How much novelty is too much?
+- **Habits** - An effective way to predict future behaviour is to look at past behaviour. People develop physical and mental habits to manage their working life.  It's going to be much easier to get them to use a product if it hooks into the way they already understand and do things than by getting them to change.
+- **Relationships** - "No man is an island, Entire of itself". (Apologies to women everywhere, but this was written 400 years ago). The vast majority of us interact with others to a greater or lesser extent in our daily lives. Understanding these interactions and relationships gives us a much fuller picture of our user/customer.
 
 In creating this persona we're trying to go beyond a customer's demographic characteristics and develop a better understanding of their environment, behaviour, concerns and aspirations. Ultimately, we want to better understand what the customer is actually willing to pay for.
-
-
-
 
 A good place to start is with an [Empathy Map][empathy-map]{:target="_blank"}. Think of an Empathy Map as a 'really simple customer profiler'.
 
 | ![Empathy Map](https://pn-blog-images.s3.eu-west-2.amazonaws.com/walk-a-mile-in-their-shoes/empathy-map.jpg){: .center-image } |
 |:--:|
-| **Figure 1: Empathy Map (downloadable from [Gamestorming][gamestorming]{:target="_blank"}) ** |
+| **Figure 1: Empathy Map (downloadable from [Gamestorming][gamestorming]{:target="_blank"})** |
 
 It consists of several sections:
 
-  - **Who are we empathising with?** - Who is this person? What is her job description? What role does she fulfill?
-  - **What do they need to do?** - What responsibilities does she have? What decisions does she take? What needs to be done better?
-  - **What do they see?** - Describe what the customer sees in her environment.  What does it look like? What's around her? Who are her friends/colleagues? What problems does she face?
-  - **What do they say?** - How might she behave in public? What is her attitude? What could she be saying to others?
-  - **What do they do?** - How might she behave in public? What is her attitude? What could she be saying to others?
-  - **What do they hear?** - Describe how the environment influences the customer.  Who and what are influential in forming her opinions?
-  - **What do they think and feel?** - Have a go at describing what's going on in her mind. What is really important (that might not be said publicly for a variety of reasons). What moves her? What might cause stress or keep her up at night?
-  - **What is the customer's pain?** - What are her biggest frustrations? What obstacles prevent her from achieving her goals?
-  - **What does the customer gain?** - How might she measure success? How might she achieve her goals?
+- **Who are we empathising with?** - Who is this person? What is her job description? What role does she fulfill?
+- **What do they need to do?** - What responsibilities does she have? What decisions does she take? What needs to be done better?
+- **What do they see?** - Describe what the customer sees in her environment.  What does it look like? What's around her? Who are her friends/colleagues? What problems does she face?
+- **What do they say?** - How might she behave in public? What is her attitude? What could she be saying to others?
+- **What do they do?** - How might she behave in public? What is her attitude? What could she be saying to others?
+- **What do they hear?** - Describe how the environment influences the customer.  Who and what are influential in forming her opinions?
+- **What do they think and feel?** - Have a go at describing what's going on in her mind. What is really important (that might not be said publicly for a variety of reasons). What moves her? What might cause stress or keep her up at night?
+- **What is the customer's pain?** - What are her biggest frustrations? What obstacles prevent her from achieving her goals?
+- **What does the customer gain?** - How might she measure success? How might she achieve her goals?
 
 So how do you get the answers to these questions?  You can start by brainstorming all the possible Customer Segments you might want to serve.  Choose 3 promising candidates and select one for your profiling exercise.
 
@@ -106,13 +103,12 @@ I'll be telling you more about why and how to do that in a future post.
 There are two key principles that founders must keep in mind:
 
  > Love the problem, not the solution
- 
+
 and
 
  > Only your customers have the answers
- 
-Create a persona/empathy map as a way of making your customers real and of creating common understanding among your team. Use these empathy maps as the foundation of your Value Proposition sessions.
 
+Create a persona/empathy map as a way of making your customers real and of creating common understanding among your team. Use these empathy maps as the foundation of your Value Proposition sessions.
 
   [vp-sessions]: https://paulnebel.io/insights/startup/what-value-proposition-for/
   [nugget]: https://nugget.io

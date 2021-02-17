@@ -9,7 +9,7 @@ header:
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/managing-unknown-unknowns/blindfold.jpg"
 ---
 
-{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/managing-unknown-unknowns/blindfold.jpg" description="Wonam on a beach wearing a blindfold" caption='<span>Photo by <a href="https://unsplash.com/@oscartothekeys?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Oscar Keys</a> on <a href="https://unsplash.com/s/photos/unknown?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
+{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/managing-unknown-unknowns/blindfold.jpg" description="Wonam on a beach wearing a blindfold" caption='<svg class="icon camera-icon" viewBox="0 0 20 20" version="1.1" aria-labelledby="title"><title>camera</title><path d="M1,5H19V16.91H1ZM12,3h4V5H12ZM10,13.27a2.32,2.32,0,0,1,0-4.64h0a2.32,2.32,0,0,1,0,4.64Z"></path></svg><span>Photo by <a href="https://unsplash.com/@oscartothekeys?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Oscar Keys</a> on <a href="https://unsplash.com/s/photos/unknown?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
 
 ## TL,DR;
 
@@ -86,7 +86,7 @@ Converting assumptions into hypotheses begins with breaking them down as far as 
 
 Assumptions can be both explicit (you are aware of them and recognise them as being assumptions) and implicit (they are so much a part of your thought processes and understanding of a situation that you don't see them as assumptions at all).
 
-One of the defining characteristics of cognitive bias is that the assumptions that result from it are overwhelmingly implicit.  This is one of the benefits of running workshops with an independant third party: because this third party doesn't share your way of thinking or familiarity with a situation they are better able to recognise and identify your implicit assumptions than you are.
+One of the defining characteristics of cognitive bias is that the assumptions that result from it are overwhelmingly implicit.  This is one of the benefits of running workshops with an independent third party: because this third party doesn't share your way of thinking or familiarity with a situation they are better able to recognise and identify your implicit assumptions than you are.
 
 ## Ask the right questions
 
@@ -97,16 +97,15 @@ There are 4 main reasons why business models fail:
  - **External threats** are too great - e.g. there are cheaper competitors, the product/service is not environmentally friendly, there is a stockmarket crash.
  - **Poor execution** - e.g. the wrong team with the wrong skills, poor leadership. The [Apple Newton][applenewton] is a good example of this.
 
-When listing your assumptions, try to put them into one of these four categories.  Ask yourself which of these potential issues your assumptions address.  If you have few or no assumptions in any category ask youself why that is. Is it because you have already examined these assumptions by forming associated hypotheses, experimenting, gathering evidence, gaining insight and taking action? Or is it because you haven't acknowledged the assumptions you are making?
+When listing your assumptions, try to put them into one of these four categories.  Ask yourself which of these potential issues your assumptions address.  If you have few or no assumptions in any category ask yourself why that is. Is it because you have already examined these assumptions by forming associated hypotheses, experimenting, gathering evidence, gaining insight and taking action? Or is it because you haven't acknowledged the assumptions you are making?
 
 ## The take-away
 
 Don't get me wrong.  I'm **not** saying that the short-term rental start-up I described above is wrong when they predict a return of Y%.  I'm simply saying that I don't know whether this return is remotely realistic and neither do they.
 
-This is such a basic leap-of-faith assumption that it needs to be tested inside out because the consequences of it's being wrong are disasterous for them with their current model.
+This is such a basic leap-of-faith assumption that it needs to be tested inside out because the consequences of it's being wrong are disastrous for them with their current model.
 
-The great thing about experiments is that they test your thinking.  There is no such thing as a wrong outcome from an experiment.  If it proves to be true then you can continue with confidence.  If it turns out to be false then the sooner you know this the sooner you can adjust and succeed in different ways. 
-
+The great thing about experiments is that they test your thinking.  There is no such thing as a wrong outcome from an experiment.  If it proves to be true then you can continue with confidence.  If it turns out to be false then the sooner you know this the sooner you can adjust and succeed in different ways.
 
  [cheatsheet]: https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18
  [selectiveperceptionbias]: https://en.wikipedia.org/wiki/Selective_perception

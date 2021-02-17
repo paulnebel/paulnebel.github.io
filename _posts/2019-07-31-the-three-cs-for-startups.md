@@ -9,7 +9,7 @@ header:
 tags: [investment, clarity, credibility, co-operation]
 ---
 
-{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/the-three-cs-for-startups/investment.jpg" description="Ivestment spelt with Scrabble tiles" caption='<span>Photo by <a href="https://unsplash.com/@headwayio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Headway</a> on <a href="https://unsplash.com/s/photos/presentation?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Unsplash</a></span>' %}
+{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/the-three-cs-for-startups/investment.jpg" description="Ivestment spelt with Scrabble tiles" caption='<svg class="icon camera-icon" viewBox="0 0 20 20" version="1.1" aria-labelledby="title"><title>camera</title><path d="M1,5H19V16.91H1ZM12,3h4V5H12ZM10,13.27a2.32,2.32,0,0,1,0-4.64h0a2.32,2.32,0,0,1,0,4.64Z"></path></svg><span>Photo by <a href="https://unsplash.com/@headwayio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Headway</a> on <a href="https://unsplash.com/s/photos/presentation?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Unsplash</a></span>' %}
 
 ## TL,DR;
 
@@ -33,7 +33,7 @@ He invited the audience to ask him a question.
 
 After each question from the audience he simply repeated his initial query.
 
-What he was doing (very effecitvely) was to get us to think about *how much and what sort of information an investor needs before deciding to invest in your idea?*
+What he was doing (very effectively) was to get us to think about *how much and what sort of information an investor needs before deciding to invest in your idea?*
 
 His answer was simple and you've probably heard it before, but it bears repeating:
 
@@ -69,7 +69,7 @@ Note that your direct team do not necessarily need to be domain experts themselv
 ## Co-operation
 Another speaker at the BCS Entrepreneurs Specialist Group event mentioned above was [Simon Glass][simonglass]{:target="_blank"} of [Qodeo][qodeo]{:target="_blank"}.  Simon presented a report authored by MBA Researcher [Akshat Mathur][akshatmathur]{:target="_blank"} who interviewed Senior Partners one on one in 40 VC and PE firms in UK and India to determine the current trends prevailing in the industry as perceived by its closest stakeholders.
 
-For me, the most interesting trend identified in that report related to the composition of teams. According to Akshat, the most significant considerations for VCs when making investment decisions on startups are: Team; Technology; Potential Market and defensible IP.  Of these 4 significant areas, by far the greatest emphasis is given to Team. On average, team composition represents a whopping 68% of VC investment creteria when considering startups. For established companies this falls to an average of 24%.
+For me, the most interesting trend identified in that report related to the composition of teams. According to Akshat, the most significant considerations for VCs when making investment decisions on startups are: Team; Technology; Potential Market and defensible IP.  Of these 4 significant areas, by far the greatest emphasis is given to Team. On average, team composition represents a whopping 68% of VC investment criteria when considering startups. For established companies this falls to an average of 24%.
 
 The reason for this is that individual team members are not so important at scale as, by then, businesses have become self-sufficient entities with processes in place to manage loss and replacement of team members. Even CEOs are expendable in established companies! However, if you are a startup with only have a handful of team members the loss of any one of them can bring the whole enterprise to a grinding halt. It is therefore critical that your startup team communicates and cooperates effectively.
 

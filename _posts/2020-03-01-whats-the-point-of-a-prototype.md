@@ -9,7 +9,7 @@ header:
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/what-point-prototype/prototype.jpg"
 ---
 
-{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/what-point-prototype/prototype.jpg" description="Picture of a mock-up of a mobile app" caption='<span>Photo by <a href="https://unsplash.com/@uxstore?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">UX Store</a> on <a href="https://unsplash.com/s/photos/prototyping?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
+{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/what-point-prototype/prototype.jpg" description="Picture of a mock-up of a mobile app" caption='<svg class="icon camera-icon" viewBox="0 0 20 20" version="1.1" aria-labelledby="title"><title>camera</title><path d="M1,5H19V16.91H1ZM12,3h4V5H12ZM10,13.27a2.32,2.32,0,0,1,0-4.64h0a2.32,2.32,0,0,1,0,4.64Z"></path></svg><span>Photo by <a href="https://unsplash.com/@uxstore?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">UX Store</a> on <a href="https://unsplash.com/s/photos/prototyping?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
 
 ## TL,DR;
 
@@ -40,10 +40,10 @@ It is for these reasons that I never use the term **MVP**. I don't find it helpf
 
 It doesn't really matter what you call your first efforts as long as you use a term which emphasises intent to learn, not to build.  When discussing the evolution of a product I find it useful to break it down into the following four stages:
 
- 1. **Fakeable** - It looks like the real thing but it doesn't actually work, although it may appear to work.  An example of this might be a high-fidelity mockup of a website or an app
+ 1. **Fake-able** - It looks like the real thing but it doesn't actually work, although it may appear to work.  An example of this might be a high-fidelity mockup of a website or an app
  2. **Testable** - It does something, preferably only one thing, and it allows that thing to be tested with real users. Performance may not be optimal and appearance will probably leave something to be desired, but it's a thing! 
  3. **Usable** - OK, now we're starting to get somewhere. We could probably call this the true MVP stage because it doesn't do much and we've tested that users want it, so it's both minimal and viable.
- 4. **Loveable** - This is close to the product you always wanted to make.
+ 4. **Lovable** - This is close to the product you always wanted to make.
 
 You may insert the word **Minimum** in front of each of those stages if it makes you feel better, as long as you understand the intent.
 
@@ -51,7 +51,7 @@ I like to focus on stages 1 and 2. I'm going to use the word **prototype** as a 
 
 The entire point of these experimental stages is to learn as fast as possible (and fail as quickly as possible, if you're going to fail at all), from real customers and behaviours, before investing time and resources in any particular course of action.  In other words, to *prototype*.
 
-It is particularly important for startups to avoid actually building anything if they possivly can since to do so costs both time and money, both of which are in short supply for the startup.
+It is particularly important for startups to avoid actually building anything if they possibly can since to do so costs both time and money, both of which are in short supply for the startup.
 
 ## What's the point?
 
@@ -59,29 +59,27 @@ In order to create a successful prototype you need to understand what a prototyp
 
 A prototype allows us to:
 
-  - Act before we have all the answers
-  - Test and explore an idea
-  - Sell an idea
-  - Progress incrementally towards a complex solution
-  - Avoid wasting time on the wrong things by failing early
-  - Communicate & collaborate
+- Act before we have all the answers
+- Test and explore an idea
+- Sell an idea
+- Progress incrementally towards a complex solution
+- Avoid wasting time on the wrong things by failing early
+- Communicate & collaborate
 
 In order to do any of these things it is absolutely critical that we understand the following before we build it:
 
-  - What hypothesis is the prototype is trying to test?
-  - What does success look like?
+- What hypothesis is the prototype is trying to test?
+- What does success look like?
 
 It is useful to be clear about what prototypes are *not* for. Prototypes are *not* intended to:
   
-   - Create your end product faster. That may be a side-effect (if you're lucky), but it is not the justification.
-   - Magically and mysteriously remove all the leg-work involved in making robust, secure products.  Prototypes point the way but you still have to travel to the destination.
-   - Be of any use whatsoever unless you are laser-focused on the hypothesis they are trying to validate. How can you learn if you don't have a clear idea of what you're testing for and whether the test has been successful or not?
+- Create your end product faster. That may be a side-effect (if you're lucky), but it is not the justification.
+- Magically and mysteriously remove all the leg-work involved in making robust, secure products.  Prototypes point the way but you still have to travel to the destination.
+- Be of any use whatsoever unless you are laser-focused on the hypothesis they are trying to validate. How can you learn if you don't have a clear idea of what you're testing for and whether the test has been successful or not?
 
 Remember, prototypes are ultimately intended to help us gather the maximum amount of *validated learning* (based on real customer reactions, not guesses) before we commit ourselves to a particular course of action.  In order for this to work effectively we must first identify our **assumptions** and then create **hypotheses** to be tested from these assumptions.  If we miss this first step we're pretty much wasting our time and relying on blind luck.
 
 If we don't define beforehand what success looks like the how do we know if the prototype has helped us? Suppose our prototype appears to have caused a 2% increase in traffic to our website.  Is that good?  Is it bad? We have no way of knowing unless we decided beforehand that we were aiming for a 1% increase or a 10% increase.
-
-
 
 ## The take-away
 

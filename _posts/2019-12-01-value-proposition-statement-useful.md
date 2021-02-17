@@ -9,7 +9,7 @@ header:
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/value-proposition-statement-useful/statement.jpg"
 ---
 
-{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/value-proposition-statement-useful/statement.jpg" description="Picture warning of guard dogs" caption='<span>Photo by <a href="https://unsplash.com/@leourselli?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Leonardo Urselli</a> on <a href="https://unsplash.com/s/photos/text?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
+{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/value-proposition-statement-useful/statement.jpg" description="Picture warning of guard dogs" caption='<svg class="icon camera-icon" viewBox="0 0 20 20" version="1.1" aria-labelledby="title"><title>camera</title><path d="M1,5H19V16.91H1ZM12,3h4V5H12ZM10,13.27a2.32,2.32,0,0,1,0-4.64h0a2.32,2.32,0,0,1,0,4.64Z"></path></svg><span>Photo by <a href="https://unsplash.com/@leourselli?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Leonardo Urselli</a> on <a href="https://unsplash.com/s/photos/text?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
 
 ## TL,DR;
 
@@ -48,7 +48,7 @@ It can be considered both as a check and balance to the Value Proposition sessio
 
 ## Some real-life examples
 
-Take the case of [AskWinston][askwinston]{:target="_blank"}, one of the [Geovation Accelerator Programme][geovation]{:target="_blank"} alumni.  Although AskWinston has now pivoted to provide a virtual Personal Assistant service they originally intended to privide a virtual concierge service to people living in blocks of flats.
+Take the case of [AskWinston][askwinston]{:target="_blank"}, one of the [Geovation Accelerator Programme][geovation]{:target="_blank"} alumni.  Although AskWinston has now pivoted to provide a virtual Personal Assistant service they originally intended to provide a virtual concierge service to people living in blocks of flats.
 
 Their initial version of the `<job to be done>` description was:
 
@@ -75,7 +75,7 @@ There was, apparently, no mention of the time/money saved but rather the peace o
 they were able to say:
 
 > Use AskWinston because we get stuff done.  Oh, and we also save you time and money
- 
+
 This is likely to be much more resonant for potential customers.
 
 Another example is [Watchkeeper International][watchkeeper]{:target="_blank"}.  Their initial version of `<product and/or service>` was:
@@ -92,7 +92,7 @@ The answer was that they were not a mapping platform so much as a platform that 
 
 At first glance a VPS may appear to be too constraining, but I believe this is a benefit rather than a cost.  You can make multiple VPSs, each of which expresses a different aspect of your product or service. Which statement you use may depend upon who you are talking to.  For example, you may have one statement which expresses the value provided by your business to a customer and another which expresses a different, more relevant benefit to investors.
 
-The VPS also has the benefit of providing direction to your team members. By stating in the fewest words possible what it is you are currently trying to do you reduce the possibility of anyone on the team being unsure or of following an incorrect path. 
+The VPS also has the benefit of providing direction to your team members. By stating in the fewest words possible what it is you are currently trying to do you reduce the possibility of anyone on the team being unsure or of following an incorrect path.
 
 I believe it is vital not only to create statements but to rank them in order of significance.  This way, you can focus on creating the most important value first. This gives you a much greater chance of persuading a stranger to part with their hard-earned cash in return for what you produce.  Once you've cracked that you can build on your offering by executing the next most important statement, and so on until you have built your empire!
 

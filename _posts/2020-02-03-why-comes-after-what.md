@@ -9,7 +9,7 @@ header:
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/why-comes-after-what/question-mark.jpg"
 ---
 
-{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/why-comes-after-what/question-mark.jpg" description="Picture warning of guard dogs" caption='<span>Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/s/photos/question-mark?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
+{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/why-comes-after-what/question-mark.jpg" description="Picture warning of guard dogs" caption='<svg class="icon camera-icon" viewBox="0 0 20 20" version="1.1" aria-labelledby="title"><title>camera</title><path d="M1,5H19V16.91H1ZM12,3h4V5H12ZM10,13.27a2.32,2.32,0,0,1,0-4.64h0a2.32,2.32,0,0,1,0,4.64Z"></path></svg><span>Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/s/photos/question-mark?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
 
 ## TL,DR;
 
@@ -25,12 +25,12 @@ It helped make Toyota the company it is today, so there's no reason why it shoul
 
 Generally speaking, there are 4 stages that a typical start-up passes through on the way to establishing themselves:
 
- - **Ideate**: What are you going to do, and who will you do it for?
- - **Validate**: Does your target niche exist, do they recognise the problem you are tackling, and will they pay for it?
- - **Test**: Is your proposed solution of use to your potential customers, can you make it work for them and for you?
- - **Scale**: Can you make more money from each customer than it costs to acquire them, and can you get enough customers to generate sufficient revenue to keep going?
+- **Ideate**: What are you going to do, and who will you do it for?
+- **Validate**: Does your target niche exist, do they recognise the problem you are tackling, and will they pay for it?
+- **Test**: Is your proposed solution of use to your potential customers, can you make it work for them and for you?
+- **Scale**: Can you make more money from each customer than it costs to acquire them, and can you get enough customers to generate sufficient revenue to keep going?
 
-I've [written before][myvalueprop]{:target="_blank"} about how [Value Propositions][valueprop]{:target="_blank"} can help clarify the **validate** stage and form a bridge to **testing**. I've also described how [Value Propisition Statements][myvps]{:target="_blank"} can be used to focus your attention and refine your message.
+I've [written before][myvalueprop]{:target="_blank"} about how [Value Propositions][valueprop]{:target="_blank"} can help clarify the **validate** stage and form a bridge to **testing**. I've also described how [Value Proposition Statements][myvps]{:target="_blank"} can be used to focus your attention and refine your message.
 
 The Value Proposition is a mechanism for exploring and defining the problem to be solved. Its purpose is to establish whether your proposed solution is sufficiently effective at mitigating that problem for users to want to pay for it. In other words, it can be a very effective way of determining problem-solution fit.
 
@@ -56,7 +56,7 @@ I would like to suggest a way of avoiding the pitfall of insufficient detail: re
 
 ## Why, oh why, oh why, oh why, oh WHY?
 
-Much of what we now call *Lean* business has come from the [Toyota Production System][toyotaproductionsystem]{:target="_blank"}, or **TPS**. The TPS came about due to the extreme constraints that Japan was under following the end of the Second World War.  At this time, the Japanese economy was in a very bad way, with money for investment being almost non-existant.  In addition to this, Japan is a relatively small country in terms of land mass, with little purchasable land available to establish large factories.
+Much of what we now call *Lean* business has come from the [Toyota Production System][toyotaproductionsystem]{:target="_blank"}, or **TPS**. The TPS came about due to the extreme constraints that Japan was under following the end of the Second World War.  At this time, the Japanese economy was in a very bad way, with money for investment being almost non-existent.  In addition to this, Japan is a relatively small country in terms of land mass, with little purchasable land available to establish large factories.
 
 It is around this time that Toyota decided to start making cars.  Lack of money and land put them in diametric opposition to the Americans who at that point were world leaders in car production and had a great deal of both land and money available.  Despite this, Toyota not only managed to find a foothold in the American market but have since become one of the world's premier automotive brands.
 
@@ -77,19 +77,19 @@ The 5-Whys became a key element of Toyota's success.
 So how can the 5-Whys help turn abstract assumptions into testable hypotheses? The best way is with an example.  When working with start-ups, it's very common for me to see assumptions like this:
 
  > Customers will want to buy our product
- 
+
 This statement certainly qualifies as a LOFA - you absolutely need customers to buy your product in order to succeed. As a testable hypothesis, however, it's pretty much meaningless.
 
 Let's take a minute to consider why we end up with true but effectively useless statements like this.  There are many potential reasons, but here are a few of the most common:
 
- - I'm not used to creating value propositions and business assumptions and don't see the danger of insufficient detail
- - I simply don't know the answer
- - I don't want to be seen to be wrong
- - I'm afraid to know the answer
- - It's hard work to define the answer
- - It seems obvious to me, so what's the point in saying it?
- - It's boring to go into all the detail
- - I'm a driven person, I want to get on with doing something and this seems like wasting time
+- I'm not used to creating value propositions and business assumptions and don't see the danger of insufficient detail
+- I simply don't know the answer
+- I don't want to be seen to be wrong
+- I'm afraid to know the answer
+- It's hard work to define the answer
+- It seems obvious to me, so what's the point in saying it?
+- It's boring to go into all the detail
+- I'm a driven person, I want to get on with doing something and this seems like wasting time
 
 We need to be more like children, who at a particular age ask *why* all the time.  The reason they do this is not simply to be annoying, but because they [geniunely want to know the answer][askwhy]{:target="_blank"}.  They instinctively recognise their ignorance and embrace their curiosity. Given the stakes we're playing with, shouldn't we want to know the answer too, even if it takes a little more work?  If we don't know the answer, that's a good thing to acknowledge too.
 
@@ -99,15 +99,15 @@ As [The Mom Test][momtest]{:target="_blank"} explains so well, if you ask custom
 
 So let's try to break it down into meaningful, testable hypotheses by asking *why*:
 
- 1. **_Why will they want to buy our product?_** - Because it saves them time (First why)
- 2. **_Why will it save them time?_** - Because they no longer have to do **_X_** for themselves (Second why)
- 3. **_Why do they no longer have to do X?_** - Because our patented **_Widget_** will do **_X_** for them (Third why)
- 4. **_Why do they want X done for them?_** - Because the process of doing **_X_** is tedious and error-prone (Fourth why, and root cause)
+1. **_Why will they want to buy our product?_** - Because it saves them time (First why)
+2. **_Why will it save them time?_** - Because they no longer have to do **_X_** for themselves (Second why)
+3. **_Why do they no longer have to do X?_** - Because our patented **_Widget_** will do **_X_** for them (Third why)
+4. **_Why do they want X done for them?_** - Because the process of doing **_X_** is tedious and error-prone (Fourth why, and root cause)
 
 So, we've now reduced an abstract assumption to something we can test: Do customers agree that doing **X** is tedious and error-prone?  But we needn't stop there.  We can ask "**_Why is doing X tedious and error-prone?_**.  Who, exactly, do we mean by **customers**? We can also start to put a monetary value on doing **X**, thereby enhancing our Business Plan.
 
 If you've done your Value Proposition correctly you'll already know the answer to this question, but often the 5-Whys process uncovers jobs/pains/gains that were overlooked in the original Value Proposition.  In addition, this provides the perfect opportunity for asking **_Why is our patented Widget system not tedious and error-prone?_**  This not only provides secondary validation of the proposed solution but also contributes valuable information for our sales pitch.
- 
+
 This example is necessarily simplistic but is by no means unusual - I come across definitions like this all the time. One of the hardest things I have to do is to convince start-up team members to focus on concrete detail rather than abstract generalisation.  This is primarily because defining all the detail is often hard, boring work.  It is also often because the team has jumped straight to a solution before focussing sufficiently on the problem.  However it may be, asking **Why?** is one of the most useful and powerful tools we have.
 
 Just as not all problems have a single root cause so not all assumptions have a single testable hypothesis. It is more than likely that there are multiple questions that can be asked at each level, and each of these sub-questions can resolve into a testable hypothesis.  The key is to avoid more assumptions and logic traps and trace the chain of causality as far as you can.
