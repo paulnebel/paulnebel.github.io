@@ -9,19 +9,19 @@ header:
   og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/will-world-love-your-new-idea/giving-gift.jpg"
 ---
 
-{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/will-world-love-your-new-idea/giving-gift.jpg" description="Ivestment spelt with Scrabble tiles" caption='<span>Photo by <a href="https://unsplash.com/@kadh?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kira auf der Heide</a> on <a href="https://unsplash.com/s/photos/present?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
+{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/will-world-love-your-new-idea/giving-gift.jpg" description="Investment spelt with Scrabble tiles" caption='<svg class="icon camera-icon" viewBox="0 0 20 20" version="1.1" aria-labelledby="title"><title>camera</title><path d="M1,5H19V16.91H1ZM12,3h4V5H12ZM10,13.27a2.32,2.32,0,0,1,0-4.64h0a2.32,2.32,0,0,1,0,4.64Z"></path></svg><span>Photo by <a href="https://unsplash.com/@kadh?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kira auf der Heide</a> on <a href="https://unsplash.com/s/photos/present?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
 
 ## TL,DR;
 
-When it comes to validating a business idea, *only your customers have the answers*. A highly effective way of establishing whether there is any point persuing a business idea without having to actually build it is to create a **Landing Page**. A Landing Page is essentially an *offer* to solve your customers' problems in return for them doing something (e.g. providing their email address or clicking on a 'buy now' button).
+When it comes to validating a business idea, *only your customers have the answers*. A highly effective way of establishing whether there is any point pursuing a business idea without having to actually build it is to create a **Landing Page**. A Landing Page is essentially an *offer* to solve your customers' problems in return for them doing something (e.g. providing their email address or clicking on a 'buy now' button).
 
-The idea is to gauge whether the offer attracts their attention.  The operative word here is *offer* - you are not *actually* solving their problem yet. If the response is compelling enough you know it's worth persuing further. If not, pivot or do something else.
+The idea is to gauge whether the offer attracts their attention.  The operative word here is *offer* - you are not *actually* solving their problem yet. If the response is compelling enough you know it's worth pursuing further. If not, pivot or do something else.
 
 This post tells you how to do it.
 
 ## Tell me what you want, what you really, really want
 
-[Last month][november-blog-post]{:target="_blank"} I showed you how to validate a business idea using the internet.  I hopa I also showed you how unreliable that method can be if you don't validate your assumptions.
+[Last month][november-blog-post]{:target="_blank"} I showed you how to validate a business idea using the internet.  I hope I also showed you how unreliable that method can be if you don't validate your assumptions.
 
 Most of the workshops I conduct with start-ups form a path whose intended destination is a list of assumptions.  These are the things that have to be true in order for the start-up to succeed.  The reason for creating this list is that it gives us a structured way of validating the business idea.  Each assumption must be tested, if possible. We start with the assumptions which would have the greatest negative impact if they turned out not to be true.
 
@@ -37,10 +37,10 @@ This post describes a practical method for answering the most basic question any
 
 Here's the plan:
 
- - If you want to build a business by creating something people will buy and use, you should build something customers will want.
- - In order to do that, you just need to know what customers want.
- - To find that out you just need to ask some potential customers what they want.
- - Once you know what they want you build it, and they will come to you.
+- If you want to build a business by creating something people will buy and use, you should build something customers will want.
+- In order to do that, you just need to know what customers want.
+- To find that out you just need to ask some potential customers what they want.
+- Once you know what they want you build it, and they will come to you.
 
 Simple, right? The problem is, it doesn't work! As [The Mom Test][mom-test-book]{:target="_blank"} explains so well, The first rule of user research is *never ask anyone what they want*.  The reason is that what people actually want is to be liked, which means they will tell you what they think you want to hear and not what they actually think.  This is, of course, a genaralisation but it is accurate enough to make any answers you get from direct questions pretty useless to you.
 
@@ -50,10 +50,10 @@ One of the best ways of predict what people might do in the future is to get the
 
 A landing page is about the simplest form of product web page you can create.  It's a place to send people in order to capture their email address so that you can start a conversation with them.  In its most basic form, it consists of the following essential components:
 
- - A logo.
- - A headline *call to action* (this is the marketing term for a device designed to prompt an immediate response).  Adding audio or video will make your site more engaging and more likely to provoke a response.
- - A sub-heading, giving context to the headline.
- - An form field for capturing email addresses.
+- A logo.
+- A headline *call to action* (this is the marketing term for a device designed to prompt an immediate response).  Adding audio or video will make your site more engaging and more likely to provoke a response.
+- A sub-heading, giving context to the headline.
+- An form field for capturing email addresses.
 
 | ![Example of a ground-level landing page](https://pn-blog-images.s3.eu-west-2.amazonaws.com/will-world-love-your-new-idea/ground-floor-example.png) |
 |:--:|
@@ -61,7 +61,7 @@ A landing page is about the simplest form of product web page you can create.  I
 
 I'll refer to this as a **ground-level** landing page.  The next level of landing page (which I'll call a **first-floor** page) adds further specific detail, such as:
 
- - A feature list
+- A feature list
 
 | ![Example of a first-floor landing page](https://pn-blog-images.s3.eu-west-2.amazonaws.com/will-world-love-your-new-idea/first-floor-example.png) |
 |:--:|
@@ -69,7 +69,7 @@ I'll refer to this as a **ground-level** landing page.  The next level of landin
 
 Finally, we have a **penthouse** landing page which starts to properly represent a real product by including:
 
- - High-fidelity mockups
+- High-fidelity mockups
 
 | ![Example of a penthouse landing page](https://pn-blog-images.s3.eu-west-2.amazonaws.com/will-world-love-your-new-idea/penthouse-example.png) |
 |:--:|
@@ -83,7 +83,6 @@ You can potentially turn this knowledge into insight and start to define the fea
 
 If you're struggling to get engagement at any stage this is a good indicator that your idea is not solving a problem anyone cares about enough to pay for a solution, and you should probably think of a better idea.
 
-
 ## OK, I get it. Now what do I do with it?
 
 Remember that the point of the landing page is to start a conversation which will validate your idea. Or invalidate it. Either way, you are removing uncertainty.  You need to make this process as easy and seamless as possible to reduce the resistance people feel about handing over their email address (it used to be easy to get people to do this, but we are much more savvy about such things nowadays).
@@ -96,43 +95,43 @@ Of those who give you their email address, you can reasonably expect approximate
 
 No-one knows who you are.  No-one knows your URL.  It's now your job to drive people to your landing page to have a chance at starting that conversation. This is going to take effort and possibly a little money on your part.  Some of the ways to drive traffic to your landing page are:
 
- - Utilising your personal network
- - Face-to-face conversations
- - Cold outreach
- - Social media messaging (e.g. Twitter)
- - Social media groups (e.g. Facebook)
- - Online communities
- - Paid advertising (e.g. Google AdWords)
- - Links from other websites
+- Utilising your personal network
+- Face-to-face conversations
+- Cold outreach
+- Social media messaging (e.g. Twitter)
+- Social media groups (e.g. Facebook)
+- Online communities
+- Paid advertising (e.g. Google AdWords)
+- Links from other websites
 
 Given how much effort this is going to take on your part, it is absolutely essential that you track and monitor the progress of your campaign.  There are plenty of tools out there that you can use for this purpose (just Google `tools for monitoring marketing campaigns` to see some examples).  However, even a simple spreadsheet is better than nothing.
 
 Once you have started a conversation you can:
 
- - Run customer interviews with your evangelists to create a feature list
- - Use Slack to distribute mockups of your proposed solution for comment
- - Validate your customers' desire to pay
+- Run customer interviews with your evangelists to create a feature list
+- Use Slack to distribute mockups of your proposed solution for comment
+- Validate your customers' desire to pay
 
 These are all topics for detailed investigation future posts.  The point at this stage is simply to get the conversation started.
- 
+
 ## Why would anyone give me their email address?
 
 The #1 goal of your landing page is to convert visitors into prospects.  It would be foolish, however, to expect to do this on their first visit. I described above the minimum components required for a **ground-level** landing page.  This is a good starting point, but if you really want to convert visitors to prospects you need to give them a reason to return to your landing page.
 
-You can do this by including relevant content on your landing page like blog posts, whitepapers, and case studies. The aim of this content is to:
+You can do this by including relevant content on your landing page like blog posts, white-papers, and case studies. The aim of this content is to:
 
  1. **Establish trust** - your visitors must believe that if they give you their email address you will store it safely and securely and not use it to send them spam.
  2. **Establish relevance** - they need to know that any contact they have with you will be worthwhile.
  3. **Establish reward** - give these helpful people something in return for their effort like a discount on their first subscription.
 
-Remember that we're trying to convert visitors to prospects, so every different page on your landing site should contain a call-to-action.  Blog posts, whitepapers and case studies should be followed by an invitation to visitors to subscribe to updates. With whitepapers and case studies, create PDF versions that can be downloaded by visitors and when they download invite them to subscribe to updates (but don't make the download dependent upon giving their email address - we want to create trust, after all).
+Remember that we're trying to convert visitors to prospects, so every different page on your landing site should contain a call-to-action.  Blog posts, white-papers and case studies should be followed by an invitation to visitors to subscribe to updates. With white-papers and case studies, create PDF versions that can be downloaded by visitors and when they download invite them to subscribe to updates (but don't make the download dependent upon giving their email address - we want to create trust, after all).
 
 Get yourself an account with an email list manager (e.g. [Mailchimp][mailchimp]{:target="_blank"}) and, if possible, auto-add responders to the list (just like you auto-added them to Slack). After all, what's the point of getting emails if you don't use them?  Do remember, however, that email is now subject to GDPR. [Here][gdpr-email]{:target="_blank"} are some things you need to keep in mind when gathering and using the emails you collect.
- 
+
 There are two types of email contact you should try to limit yourselves to:
 
- - **Relevant information** - e.g. the publishing of a new blog post, interesting events, answers to questions from prospects, inverviews with customers if you have them.
- - **Product updates** - This will more relevant once you've reached the **penthouse** stage.
+- **Relevant information** - e.g. the publishing of a new blog post, interesting events, answers to questions from prospects, interviews with customers if you have them.
+- **Product updates** - This will more relevant once you've reached the **penthouse** stage.
 
 ## Isn't this all a lot of work?
 
@@ -140,8 +139,8 @@ It will take effort on your part to create the landing page, but the effort does
 
 The same is true of your headline and sub-headline.  Give these a lot of thought, as good copy is essential.  If your website is lucky enough to get 1000 visitors/month (and this is a *high* level of traffic for a landing page) and you have a prospect conversion rate of 1% (a likely enough figure at this stage) you are converting 10 visitors into prospects every month.  To get 1 extra prospect per month you need to do one of the following:
 
- - Generate an extra 100 visitors to your site per month
- - Increase your conversion rate by 0.1%
+- Generate an extra 100 visitors to your site per month
+- Increase your conversion rate by 0.1%
 
 Good marketers know that increasing the conversion rate is a better return on investment than simply increasing the number of visitors.  This is where you need to experiment with different content, headlines, feature lists etc. to see what resonates more with your audience.  Just as with logo design, you can hire experts to create content/manage social media/administer email contact.
 
@@ -155,18 +154,18 @@ When it comes to validating a business idea there's little to beat a real intera
 
 The advantages of a Landing Page are:
 
- - It's scalable - You can potentially reach the entire world through the internet.
- - It's realistic - If people respond, you know you have a desirable business idea.
- - It guarantees results - At worst, your call to action will result in a mailing list of potential customers. At best, you can obtain deposits, pre-sales or full-sales without building anything.
+- It's scalable - You can potentially reach the entire world through the internet.
+- It's realistic - If people respond, you know you have a desirable business idea.
+- It guarantees results - At worst, your call to action will result in a mailing list of potential customers. At best, you can obtain deposits, pre-sales or full-sales without building anything.
 
 The disadvantages of a Landing Page are:
 
- - It takes time to build - This can be reduced by using a pre-configured template can reduce this time.
- - It has a poor feedback loop - If people fail to respond you have little or no idea why that is.
- - It costs money to move quickly - You're going to have to invest in some advertising (e.g. Google AdWords) if your site is to be effective. 
+- It takes time to build - This can be reduced by using a pre-configured template can reduce this time.
+- It has a poor feedback loop - If people fail to respond you have little or no idea why that is.
+- It costs money to move quickly - You're going to have to invest in some advertising (e.g. Google AdWords) if your site is to be effective. 
 
 You don't have to do it all yourself, but if you don't do it at all you're much more likely to be part of the 11 out of 12 start-ups that fail than the 1 out of 12 that succeed!
- 
+
  [november-blog-post]: https://geovation.github.io/its-a-wrap
  [assumptions-blog-post]: https://geovation.github.io/why-comes-after-what
  [mom-test-book]: http://momtestbook.com/

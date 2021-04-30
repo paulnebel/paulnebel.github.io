@@ -9,7 +9,7 @@ header:
 tag: ["value proposition"]
 ---
 
-{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/what-value-proposition-for/figure-it-out.jpg" description="'Figure it out' written on a Rubik's cube" caption='<span>Photo by <a href="https://unsplash.com/@karlahrnndz?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Karla Hernandez</a> on <a href="https://unsplash.com/s/photos/problem?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
+{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/what-value-proposition-for/figure-it-out.jpg" description="'Figure it out' written on a Rubik's cube" caption='<svg class="icon camera-icon" viewBox="0 0 20 20" version="1.1" aria-labelledby="title"><title>camera</title><path d="M1,5H19V16.91H1ZM12,3h4V5H12ZM10,13.27a2.32,2.32,0,0,1,0-4.64h0a2.32,2.32,0,0,1,0,4.64Z"></path></svg><span>Photo by <a href="https://unsplash.com/@karlahrnndz?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Karla Hernandez</a> on <a href="https://unsplash.com/s/photos/problem?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
 
 
 ## TL,DR;
@@ -30,7 +30,7 @@ Once you have identified all the customer jobs you look at what causes them pain
 
 You then think about gains that your solution can provide.  These are things that don't necessarily address a pain directly but which a customer may want or desire. They may be required but they may also be unexpected. They make customers feel good.
 
-Why do we start with pains? Isn't that a little negative? The answer is that it is the pains that define the problem you are addressing.  Unless you are making luxury goods, like gold-plated taps or superyachts, people are driven to become customers by the removal of pain rather than the achievement of a gain.  Let's face it, no-one ever bought Microsoft Office because it looks good!
+Why do we start with pains? Isn't that a little negative? The answer is that it is the pains that define the problem you are addressing.  Unless you are making luxury goods, like gold-plated taps or super-yachts, people are driven to become customers by the removal of pain rather than the achievement of a gain.  Let's face it, no-one ever bought Microsoft Office because it looks good!
 
 You should complete the Customer Profile *before* you approach the Value Map.  Why? Well, how can you provide an *effective* solution if you don't properly understand the problem?
 
@@ -70,18 +70,18 @@ Broadly speaking, you should aim to construct your business by establishing the 
 
 When it comes to determining desirability, there are a number of stages we would do well to pass through before we can say with any certainty that we have achieved it:
 
- 1. **Investigation** - What niche are you intending to target? How do you find them? How do you engage with them? Do they have the problem you think they have?
- 2. **Observation** - What are their habits, behaviours, relationships and environments in the context of the problem are you are investigating? In order to understand what they may do in the future how do you find out what they did in the past? What do you think their problem really is?
- 3. **Validation** - Are they telling you the truth? Have you listened properly? Does the problem you've identified really exist and how much is it worth to your niche to have it taken away?
+1. **Investigation** - What niche are you intending to target? How do you find them? How do you engage with them? Do they have the problem you think they have?
+2. **Observation** - What are their habits, behaviours, relationships and environments in the context of the problem are you are investigating? In order to understand what they may do in the future how do you find out what they did in the past? What do you think their problem really is?
+3. **Validation** - Are they telling you the truth? Have you listened properly? Does the problem you've identified really exist and how much is it worth to your niche to have it taken away?
 
 A VP won't help you with these three stages.  It won't tell you who your niche is, nor will it tell you what problem they are experiencing.  What it *will* do is:
 
- 1. Concentrate your thoughts and help you achieve clarity once you have conducted these stages.
- 2. Help you to communicate with your team and with your customers/investors.
- 3. Help you target your solution and prioritise your activities.
- 4. Help you identify what you do and don't know, and give you a path to finding the answers you need before you go any further.
- 5. Help you measure the degree to which you have achieved Problem/Solution fit.
- 6. Bridge the gap between Desirability and Feasibility.
+1. Concentrate your thoughts and help you achieve clarity once you have conducted these stages.
+2. Help you to communicate with your team and with your customers/investors.
+3. Help you target your solution and prioritise your activities.
+4. Help you identify what you do and don't know, and give you a path to finding the answers you need before you go any further.
+5. Help you measure the degree to which you have achieved Problem/Solution fit.
+6. Bridge the gap between Desirability and Feasibility.
 
 You *can* run a VP session without running the investigation/observation/validation phase, but if you do you must be prepared to spend a great deal more time experimenting than if you didn't. If you haven't properly engaged with any potential customers by this point you run the risk of spending a lot of money creating the wrong solution, just like the company in my example above.
 
@@ -107,7 +107,7 @@ That's better (still not good, but better).  But why didn't you tell me that fir
 
 The first is that the entrepreneur just wants to do a *thing*.  They've wanted to do the *thing* for some time and have finally found an opportunity to do it.  They know how to do the *thing*, they're good at it and they want to do it some more. In an ideal world they'd sit in a darkened room and just do the *thing*, present it to the world and find they have a business.
 
-I call this **Comfort Driven Development** because feels good. It's familiar. All the other things that should be done are hard and unknown and scary.  Unfortunately, it is usually these hard, unknown, scary things that they should actualy be doing.
+I call this **Comfort Driven Development** because feels good. It's familiar. All the other things that should be done are hard and unknown and scary.  Unfortunately, it is usually these hard, unknown, scary things that they should actually be doing.
 
 The second reason is that they know how their problem affects them and they assume that it affects everyone else the same way.  In consequence, they throw themselves into providing a solution without fully exploring the problem.  Even if there are other people who share the same problem it is important to remember that *you are not your customer*.  Just because you like your proposed solution that doesn't mean anyone else will.
 
@@ -127,5 +127,3 @@ If you've done it before the worst outcome is that doing it again will be faster
  [sinclair]: https://collection.museumoffailure.com/sinclair-c5/
  [juicero]: https://collection.museumoffailure.com/juicero-expensive-juicer/
  [kodak]: https://hbr.org/2016/07/kodaks-downfall-wasnt-about-technology
-
-

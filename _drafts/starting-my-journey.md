@@ -1,0 +1,1 @@
+General introduction to my new consultancy business.

@@ -8,7 +8,7 @@ header:
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/not-written-didnt-happen/journal.jpg"
 ---
 
-{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/not-written-didnt-happen/journal.jpg" description="A page in a written journal" caption='<span>Photo by <a href="https://unsplash.com/@esteejanssens?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Estée Janssens</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
+{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/not-written-didnt-happen/journal.jpg" description="A page in a written journal" caption='<svg class="icon camera-icon" viewBox="0 0 20 20" version="1.1" aria-labelledby="title"><title>camera</title><path d="M1,5H19V16.91H1ZM12,3h4V5H12ZM10,13.27a2.32,2.32,0,0,1,0-4.64h0a2.32,2.32,0,0,1,0,4.64Z"></path></svg><span>Photo by <a href="https://unsplash.com/@esteejanssens?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Estée Janssens</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
 
 ## TL,DR;
 
@@ -65,19 +65,19 @@ It's worth recording your Value Proposition sessions for the following reasons:
 
 My final example is about finding out who you need to hire.
 
-It is usually the case that start-ups have a small number of founders, often only 1 or 2.  This means that these individuals are responsible for everything that happens in the start-up, from stategic thinking to paying bills. With so few people and so much to do it is critical that you communicate and decide who is going to do what to avoid doing things twice or failing to do them at all.
+It is usually the case that start-ups have a small number of founders, often only 1 or 2.  This means that these individuals are responsible for everything that happens in the start-up, from strategic thinking to paying bills. With so few people and so much to do it is critical that you communicate and decide who is going to do what to avoid doing things twice or failing to do them at all.
 
 I am often asked by start-ups to help them find Chief Technology Officers (CTOs) and my first question is 'What type of CTO do you want?'. This usually results in a rather confused expression and a response to the effect of 'I want the CTO type!'.  My point is that the title CTO is just that - a title.  There is no rule as to what a CTO does or does not do.  It's your company, so it's up to you. Do you want a CTO who simply runs everything to do with development, or do you want a CTO who is heavily involved in strategic thinking and/or sales?
 
 The same question is true of any employee. Are you absolutely clear about what you want that employee to do?  If you aren't clear, how can they be clear?  And if they aren't clear, how can they be effective?
 
-There is a techinque for handling questions like these so that you have the answer ready when you need it.  This technique involves... you guessed it... writing stuff down.  The first thing you need to do is take a blank sheet of paper and write down all the job titles that you may need filled (i.e. all the employees you need to engage).
+There is a technique for handling questions like these so that you have the answer ready when you need it.  This technique involves... you guessed it... writing stuff down.  The first thing you need to do is take a blank sheet of paper and write down all the job titles that you may need filled (i.e. all the employees you need to engage).
 
-The next stage involves writing down all the things you do, be it conducting customer research, acumulating financial data for a business loan or putting together share agreements. Take this list of jobs you are doing and allocate them to the most appropriate job title you created in the first list.
+The next stage involves writing down all the things you do, be it conducting customer research, accumulating financial data for a business loan or putting together share agreements. Take this list of jobs you are doing and allocate them to the most appropriate job title you created in the first list.
 
 Finally, think about the things you are not doing yet but which you will need to do in the future and allocate these among your defined job titles.  You should now have a list of jobs and their associated responsibilities.  You can rationalise this list and re-arrange it to suit.  The point is, you now know who is responsible for what.
 
-In the period before their first hire the founders are going to be responsible for all of these jobs between them.  Look at your list and allocate yourselves the job titles you are most interested in/capabale at. Now you have a clear division of labour.
+In the period before their first hire the founders are going to be responsible for all of these jobs between them.  Look at your list and allocate yourselves the job titles you are most interested in/capable at. Now you have a clear division of labour.
 
 For everything you do, ask yourself which of your assigned roles you are adopting to achieve that task. Add what you learn to that job description.
 

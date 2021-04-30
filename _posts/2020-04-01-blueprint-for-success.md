@@ -9,7 +9,7 @@ header:
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/blueprint-for-success/blueprint.jpg"
 ---
 
-{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/blueprint-for-success/blueprint.jpg" description="Plan of 16916 Harlan Road" caption='<span>Photo by <a href="https://unsplash.com/@sunburned_surveyor?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Scott Blake</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
+{% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/blueprint-for-success/blueprint.jpg" description="Plan of 16916 Harlan Road" caption='<svg class="icon camera-icon" viewBox="0 0 20 20" version="1.1" aria-labelledby="title"><title>camera</title><path d="M1,5H19V16.91H1ZM12,3h4V5H12ZM10,13.27a2.32,2.32,0,0,1,0-4.64h0a2.32,2.32,0,0,1,0,4.64Z"></path></svg><span>Photo by <a href="https://unsplash.com/@sunburned_surveyor?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Scott Blake</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}
 
 ## TL,DR;
 
@@ -43,11 +43,11 @@ I'm tempted to give this concept a memorable name.  Unfortunately for me, [Minim
 
 I have found that, in practice, a Service Blueprint workshop offers several useful outcomes to a startup:
 
- - **Clarity:** First and foremost, it highlights the areas of the process that the founders haven't given sufficient consideration to.  It is not uncommon for there to be significant gaps in the service design because the founders have never considered their business in a linear fashion, from the time a customer first becomes aware of their product or service through signup, first use, continued use and, finally, end of use.  Where gaps usually occur is at points of 'handover' or transition between states of service.  This is exactly what Service Blueprints are intended to uncover.
- - **Resilience:** The next thing that quickly becomes apparent is that the founders have only considered the 'happy path', where everything goes well and there are no issues.  This is completely understandable - one needs an optimistic mindset to start a business after all - but it does not result in a robust business model.  Once you have identified how your business process works when everything goes right you can start asking 'what if?'.  It is these kinds of questions that help build the safety net you need to be able to sleep at night.
- - **Definition:** It defines the flow for any software that you have to build.  This is the foundation for enabling your developers to understand the functionality they have to provide and your usability experts to define a suitable information architecture and user experience.
- - **WIP:** It gives you a means of defining your WIP (at last!). Once you've designed your entire product/service ask yourself if you could implement this product/service using only products or services you buy from other people. Could the bespoke collaborative communication module you so badly want to build be replaced by email? How about using Slack or WhatsApp, even if only temporarily?  Can you at least make an approximation of your business using only commercial off-the-shelf (COTS) components? It probably won't be a scalable solution.  It may not cover all of the elements in your process.  It almost certainly won't be the ideal you're dreaming of, but it could work and it will probably be quick to implement. As long as you can fulfil 70-80% or more of your service then you have a WIP!  If you can do it, then **do it**.  You'll learn a fantastic amount and you'll probably be able to earn some money too.
- - **USP:** Is there part of your process that simply can't be achieved using COTS components?  Are you sure?  If so, you have just identified your Unique Selling Point (USP).  Congratulations!  You also know what to build first: an experiment to test the viability of your USP.
+- **Clarity:** First and foremost, it highlights the areas of the process that the founders haven't given sufficient consideration to.  It is not uncommon for there to be significant gaps in the service design because the founders have never considered their business in a linear fashion, from the time a customer first becomes aware of their product or service through signup, first use, continued use and, finally, end of use.  Where gaps usually occur is at points of 'handover' or transition between states of service.  This is exactly what Service Blueprints are intended to uncover.
+- **Resilience:** The next thing that quickly becomes apparent is that the founders have only considered the 'happy path', where everything goes well and there are no issues.  This is completely understandable - one needs an optimistic mindset to start a business after all - but it does not result in a robust business model.  Once you have identified how your business process works when everything goes right you can start asking 'what if?'.  It is these kinds of questions that help build the safety net you need to be able to sleep at night.
+- **Definition:** It defines the flow for any software that you have to build.  This is the foundation for enabling your developers to understand the functionality they have to provide and your usability experts to define a suitable information architecture and user experience.
+- **WIP:** It gives you a means of defining your WIP (at last!). Once you've designed your entire product/service ask yourself if you could implement this product/service using only products or services you buy from other people. Could the bespoke collaborative communication module you so badly want to build be replaced by email? How about using Slack or WhatsApp, even if only temporarily?  Can you at least make an approximation of your business using only commercial off-the-shelf (COTS) components? It probably won't be a scalable solution.  It may not cover all of the elements in your process.  It almost certainly won't be the ideal you're dreaming of, but it could work and it will probably be quick to implement. As long as you can fulfill 70-80% or more of your service then you have a WIP!  If you can do it, then **do it**.  You'll learn a fantastic amount and you'll probably be able to earn some money too.
+- **USP:** Is there part of your process that simply can't be achieved using COTS components?  Are you sure?  If so, you have just identified your Unique Selling Point (USP).  Congratulations!  You also know what to build first: an experiment to test the viability of your USP.
   
 
 ## The take-away
@@ -56,11 +56,11 @@ Most people, once they have an inkling of a problem, jump straight to the soluti
 
 The creation of a Service Blueprint will probably be the first time you have seen your business in its entirety. This 'birds eye' view is incredibly useful if you approach it the right way:
 
- - Focus on **what** you are doing, not **how**.
- - What happens if something does wrong?
- - Assume your product doesn't exist (which shouldn't be too hard, since it probably doesn't!). Can you provide your service just using COTS components, even for a short time?
- - If so, do it now and build for scale later. 
- - If not, where does the flow break down? You've just identified your USP.
+- Focus on **what** you are doing, not **how**.
+- What happens if something does wrong?
+- Assume your product doesn't exist (which shouldn't be too hard, since it probably doesn't!). Can you provide your service just using COTS components, even for a short time?
+- If so, do it now and build for scale later. 
+- If not, where does the flow break down? You've just identified your USP.
 
 [minviaprod]: <http://theleanstartup.com>
 [prevpost]: <https://paulnebel.io/insights/startup/what-point-prototype/>
