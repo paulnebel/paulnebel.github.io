@@ -16,3 +16,6 @@ By championing Bitcoin and even allowing customers to pay for his cars using the
 When quantum computing becomes productionised we;ll probably have more to worry about than cryptocurrency. However, if there's one thing you can be sure of it's that your Bitcoin won't stay in your crypto-wallet for more than a few milliseconds before you find it has been 'legitimately' transferred to the account of a criminal hacker, at least according to the blockchain ledger.
 
 In February, Cambridge University researchers estimated that bitcoin/blockchain already uses more electricity annually than Argentina, a country with a population of X. A paper has just been published that estimates that by 2024 bitcoin mining in China alone will be responsible for the release of more carbon into the atmosphere than the entire annual emissions of the Czech Republic. Currently, bitcoin represents a tiny fraction of all the world's financial transactions. If it takes off, it'll ruin the planet.
+
+
+https://www.newyorker.com/news/daily-comment/why-bitcoin-is-bad-for-the-environment

@@ -19,7 +19,7 @@ Success = Average monthly profile views > 40 (i.e. 30% increase)
 
 ## [5 minute branding](https://espirian.co.uk/5-minute-branding/)
 
-Paul Nebel is the Virtual CTO building better business.
+Paul Nebel is the Virtual CTO & Business Advisor building better business.
 
 ### Open Book
 If I find something interesting, I'll share it. I don't hold back information.
