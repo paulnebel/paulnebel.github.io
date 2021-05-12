@@ -7,6 +7,11 @@ feature_row:
    url: "/testimonials/thirdfort"
    btn_label: "Read More"
    btn_class: "btn--primary"
+ - image_path: /assets/images/logo_RF.jpg
+   alt: "RunFriendly logo"
+   url: "/testimonials/runfriendly"
+   btn_label: "Read More"
+   btn_class: "btn--primary"
  - image_path: /assets/images/brink_logo_large.png
    alt: "Brink logo"
    url: "/testimonials/brink"
@@ -17,12 +22,7 @@ feature_row:
    url: "/testimonials/droneprep"
    btn_label: "Read More"
    btn_class: "btn--primary"
- - image_path: /assets/images/logo_RF.jpg
-   alt: "RunFriendly logo"
-   url: "/testimonials/runfriendly"
-   btn_label: "Read More"
-   btn_class: "btn--primary"
 ---
 Personal testimonials from some of the start-ups for which I've acted as Virtual CTO
-{% include feature_row %}
+{% include feature_row type="center" %}
 

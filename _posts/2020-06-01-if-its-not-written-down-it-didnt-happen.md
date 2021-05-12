@@ -38,6 +38,10 @@ This is a clear example of the power of writing down goals, publicly committing 
 
 ## If it's worth doing, it's worth doing well
 
+> The faintest ink is more powerful than the sharpest memory
+> 
+> <cite>Chinese proverb (allegedly!)</cite>
+
 My second example is about workshops.
 
 Running [Value Proposition (VP) sessions][valueprops]{:target="_blank"} is hard.  

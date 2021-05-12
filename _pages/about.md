@@ -1,11 +1,12 @@
 ---
+title: Paul Nebel - MEng PhD MBCS
 permalink: /about/
-title: About me
 ---
 
-## Paul Nebel - MEng PhD MBCS ![BCS Professional Member logo]({{ site.url }}/assets/images/mbcs-logo-colour-small.jpg)![European Flag]({{ site.url }}/assets/images/EU-European-Union-Flag-icon-sm.png)
+## Virtual CTO & Business Advisor ![BCS Professional Member logo]({{ site.url }}/assets/images/mbcs-logo-colour-small.jpg)![European Flag]({{ site.url }}/assets/images/EU-European-Union-Flag-icon-sm.png)
 
-I am a specialist in the creation, design and build of innovative, technology-led Businesses, Products & Services:
+
+> I am a specialist in the creation, design and build of innovative, technology-led Businesses, Products & Services:
 
  - I [make innovation possible](#making-innovation-possible) by reducing uncertainty, achieving focus and progressing through learning. 
  - I [make technology work to serve the business](#making-technology-serve-the-business) by aligning technical requirements with business strategy.
@@ -45,7 +46,7 @@ I have worked with over 50 early-stage technology startups, helping them to desi
 
 ## Making technology serve the business
 
-One of the keys to achieving clarity is to understand where you are and where you need to be, which are often two very different things.  My role as a Virtual CTO is to help startups work out how best to get where they need to go in the most efficient and effective way. This often requires a very different approach to the one founders thought they would be taking, at least in the first instance.
+One of the keys to achieving clarity is to understand where you are and where you need to be, which are often two very different things.  My role as a Virtual CTO & Business Advisor is to help startups work out how best to get where they need to go in the most efficient and effective way. This often requires a very different approach to the one founders thought they would be taking, at least in the first instance.
 
 Defining assumptions, creating testable hypotheses from those assumptions and measuring outcomes is a particular skill and one in which I have a great deal of experience. There is a temptation for technological businesses to provide technological answers to every question.  I believe that a good CTO is responsible for identifying and building only what cannot be purchased and only if it is absolutely necessary.
 
