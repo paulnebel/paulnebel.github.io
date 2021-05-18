@@ -20,7 +20,7 @@ This is not a lesson in how to run a Value Proposition session. It is an explana
 
 ## What are you doing and why?
 
-A Value Propisiton (VP) is a technique for establishing product-solution fit. First, you define the problem you are trying to solve. Then you look at how well your proposed solution addresses that problem.  You do this by using a diagram consisting of two halves; the problem half (also known as the Customer Profile) and the solution half (known as the Value Map).
+A Value Proposition (VP) is a technique for establishing problem-solution fit. First, you define the problem you are trying to solve. Then you look at how well your proposed solution addresses that problem.  You do this by using a diagram consisting of two halves; the problem half (also known as the Customer Profile) and the solution half (known as the Value Map).
 
 You start with the Customer Profile.  You can't define a problem if you don't know who your customer is.  Different customers may well have different problems, so you may need several VPs for a complete definition.
 
@@ -34,7 +34,7 @@ Why do we start with pains? Isn't that a little negative? The answer is that it 
 
 You should complete the Customer Profile *before* you approach the Value Map.  Why? Well, how can you provide an *effective* solution if you don't properly understand the problem?
 
-Now that you have defined the problem you are addressing you can start to list the products and services that comprise your solution.  You can describe how features of those products and services relieve pain or that create gain. Finally, you can map products/services, pain relievers and gain creaters onto the customer jobs, pains and gains. Now you know how much of the problem you are addressing and, just as importantly, how much you are not addressing.
+Now that you have defined the problem you are addressing you can start to list the products and services that comprise your solution.  You can describe how features of those products and services relieve pain or that create gain. Finally, you can map products/services, pain relievers and gain creators onto the customer jobs, pains and gains. Now you know how much of the problem you are addressing and, just as importantly, how much you are not addressing.
 
 > The Value Proposition helps you focus on *what* you are doing, *why* you are doing it, *who* you are doing it for and *how* it helps them.  It says **nothing** about how you implement your solution.
 
@@ -50,7 +50,7 @@ They asked me to take a look at what they'd done to see if I could help.  The pr
 
 When they did finally manage to make contact they discovered that the customer was already struggling with the 800 or so other data sets that they had yet to ingest into their systems (you read that right - 800 datasets!).  Needless to say, they were somewhat unhappy at having to deal with - and pay for - the 801st data set, no matter how useful it might have been to them.
 
-It didn't take long to realise that in the initial VP session was flawed because they didn't look in detail at the jobs the customer had to undertake, one them being to ingest many data sets.  Associated with this job was the considerable pain of the time and effort it took to import this data.  My suggestion was that rather than simply creating a data set they could also create a tool for inputting that data into the customer's systems with the least effort possible.  They now have a happy customer!
+It didn't take long to realise that the initial VP session was flawed because they didn't look in detail at the jobs the customer had to undertake, one them being to ingest many data sets.  Associated with this job was the considerable pain of the time and effort it took to import this data.  My suggestion was that rather than simply creating a data set they could also create a tool for inputting that data into the customer's systems with the least effort possible.  They now have a happy customer!
 
 ## Establish that there is a problem to be solved
 
@@ -68,9 +68,11 @@ There are plenty of examples of firms whose products which have become unviable 
 
 Broadly speaking, you should aim to construct your business by establishing the degree to which your solution exhibits these properties in the order they are presented above. Feasibility and viability don't matter if no-one wants to buy your solution. Let us start, then, with desirability.
 
+## Tell me what you want, what you really, really want
+
 When it comes to determining desirability, there are a number of stages we would do well to pass through before we can say with any certainty that we have achieved it:
 
-1. **Investigation** - What niche are you intending to target? How do you find them? How do you engage with them? Do they have the problem you think they have?
+1. **Investigation** - What customer niche are you intending to target? How do you find them? How do you engage with them? Do they have the problem you think they have?
 2. **Observation** - What are their habits, behaviours, relationships and environments in the context of the problem are you are investigating? In order to understand what they may do in the future how do you find out what they did in the past? What do you think their problem really is?
 3. **Validation** - Are they telling you the truth? Have you listened properly? Does the problem you've identified really exist and how much is it worth to your niche to have it taken away?
 
@@ -85,7 +87,7 @@ A VP won't help you with these three stages.  It won't tell you who your niche i
 
 You *can* run a VP session without running the investigation/observation/validation phase, but if you do you must be prepared to spend a great deal more time experimenting than if you didn't. If you haven't properly engaged with any potential customers by this point you run the risk of spending a lot of money creating the wrong solution, just like the company in my example above.
 
-The most effective use of the VP session is to bridge the gap between desirability and feasibility.  You know something of the customer and their problem and something of the solution you are proposing.  How well do the fit together?  The VP can help you work out the answer.
+The most effective use of the VP session is to bridge the gap between desirability and feasibility.  You know something of the customer and their problem and something of the solution you are proposing.  How well do they fit together?  The VP can help you work out the answer.
 
 Don't be fooled, though. You still have a lot of work left to do identifying all the assumptions you have made, creating hypotheses to test them and running experiments to get the answers. But these are the topics for future posts!
 
@@ -93,11 +95,11 @@ Don't be fooled, though. You still have a lot of work left to do identifying all
 
 The majority of startups I support are solution-led in the beginning, rather than problem-led. What is worse, however, is that most of the founders focus on how the solution is built and not on what the solution does. In some respects, this is not surprising: the vast majority of technologists spend most of their professional lives building for the sake of building - it's generally someone else's job to work out what to build. Very rarely do we build for the sake of learning, but this is a shift in thinking we must adopt to become successful entrepreneurs.
 
-In my humble opinion the single most important feature of any solution is what it does, not how it's built. It is my observation that the most successful entrepreneurs focus on *what* they are doing for their potential customers.  *How* they build it comes later.  As a technologist I can give you many different ways of building your solution but if the result doesn't resonate with your customers, if it doesn't properly address the *what*, then you are going to have a much harder time succeeding. 
+In my humble opinion the single most important feature of any solution is what it does, not how it's built. It is my observation that the most successful entrepreneurs focus on *what* they are doing for their potential customers.  *How* they build it comes later.  As a technologist I can give you many different ways of building your solution but if the result doesn't resonate with your customers, if it doesn't properly address the *what*, then you are going to have a much harder time succeeding.
 
 When I ask founders to describe their businesses the most common response I get is something similar to the following:
 
-> It's an AI-enabled, Machine Learning driven app based on Blockchain
+> It's an AI-enabled, Machine Learning driven mobile app based on Blockchain
 
 OK.  That's not the question I asked.  You've told me *how* it does it, not *what* it does. When I point this out, I may get a follow-up response like:
 
