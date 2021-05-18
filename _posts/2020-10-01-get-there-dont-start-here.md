@@ -13,7 +13,15 @@ header:
 
 ## TL,DR;
 
-## asdfasdf
+Approximately 9 out of 10 innovative start-ups fail. There are a great many possible reasons for this, but one of the most common is failing to achieve market<->product fit.
+
+If there's one thing you need to do it's:
+
+> Love the problem, not the solution
+
+One of the best ways of doing this is to identify your initial target niche and engage with your potential customers.
+
+## I am a 1 in 10
 
 It is my experience that many founders of innovation startups follow a path more or less similar to the following:
 
