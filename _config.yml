@@ -77,11 +77,11 @@ social:
     - "https://twitter.com/StartupCTO_Paul"
 
 # Analytics
-analytics:
-  provider               : "google"
-  google:
-    tracking_id          : "UA-62944686-1"
-    anonymize_ip         : # true, false (default)
+# analytics:
+#  provider               : "google"
+#  google:
+#    tracking_id          : "UA-62944686-1"
+#    anonymize_ip         : # true, false (default)
 
 
 # Site Author
