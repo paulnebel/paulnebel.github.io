@@ -1,5 +1,5 @@
 ---
-title: "Service Design - How to use is as the Blueprint for Success"
+title: "Service Design - How to use it as the Blueprint for Success"
 meta: "Create a service design blueprint, understand your process and discover your unique value"
 description: "Create a service design blueprint, understand your process and discover your unique value"
 categories: Insights Startup
@@ -19,9 +19,9 @@ A useful tool for working out how to make a usable product without building anyt
 
 ## A walk in the park?
 
-It has become a business mantra that the first thing a technology startup has to do is to create a [Minimim Viable Product (MVP)][minviaprod]{:target="_blank"}.  As discussed in my [previous post][prevpost]{:target="_blank"} I consider the term MVP to be of little practical use at the design and validation stage since it is generally poorly understood and even more poorly implemented.  I prefer to talk of experiments or prototypes to keep the mind focused on what they are intended to achieve.
+It has become a business mantra that the first thing a technology startup has to do is to create a [Minimum Viable Product (MVP)][minviaprod]{:target="_blank"}.  As discussed in my [previous post][prevpost]{:target="_blank"} I consider the term MVP to be of little practical use at the design and validation stage since it is generally poorly understood and even more poorly implemented.  I prefer to talk of experiments or prototypes to keep the mind focused on what they are intended to achieve.
 
-However we choose to describe our initial attempts at creating a product the fact remains that it is usually necessary for an new start-up to generate income somehow or other in order to survive long enough to complete their MVP/experiment/prototype.
+However we choose to describe our initial attempts at creating a product the fact remains that it is usually necessary for a new start-up to generate income somehow or other in order to survive long enough to complete their MVP/experiment/prototype.
 
 I'm tempted to give this concept a memorable name.  Unfortunately for me, [Minimum Viable Company][mvc]{:target="_blank"} has already been taken and has been defined to mean something different, so for the purposes of this post I'm going to call this 'pre-business' a WIP.  This stands for Walk in the Park (as in 'walk before you can run').  Or maybe it stands for Work in Progress? It doesn't really matter, it's just a label that refers to an idea and it is the idea or concept that matters, not the buzzword (if only this were true for MVP!).
 
@@ -37,7 +37,7 @@ I'm tempted to give this concept a memorable name.  Unfortunately for me, [Minim
  > 
  > Roles can be performed by human beings or other types of entities (organizations, departments, artificial intelligences, machines, etc.)
 
-| ![Google Ads keyword ideas tool](https://pn-blog-images.s3.eu-west-2.amazonaws.com/blueprint-for-success/service-design.jpg) |
+| ![Service Design Blueprint](https://pn-blog-images.s3.eu-west-2.amazonaws.com/blueprint-for-success/service-design.jpg) |
 |:--:|
 | **Figure 1: Example Service Design Blueprint (Author/Copyright holder: brandon schauer. Copyright terms and licence: CC BY-SA 2.0)** |
 

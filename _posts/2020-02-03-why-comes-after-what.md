@@ -1,7 +1,7 @@
 ---
 title: "How to act like a child and unlock the hidden value of your business"
-meta: "If your assumptions are too abstract you can't test them.  Use the Toyota '5-Whys' strategy to make them digestable."
-description: "If your assumptions are too abstract you can't test them.  Use the Toyota '5-Whys' strategy to make them digestable."
+meta: "If your assumptions are too abstract you can't test them.  Use the Toyota '5-Whys' strategy to make them digestible."
+description: "If your assumptions are too abstract you can't test them.  Use the Toyota '5-Whys' strategy to make them digestible."
 categories: Insights Startup
 slug: "why-comes-after-what"
 tags: ["5 whys", assumptions, hypotheses]
