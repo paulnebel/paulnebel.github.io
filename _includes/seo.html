@@ -3,6 +3,8 @@
   {%- assign seo_url = site.url | append: site.baseurl -%}
 {%- endif -%}
 {%- assign seo_url = seo_url | default: site.github.url -%}
+{%- assign seo_logo = seo_url | append: site.logo -%}
+{%- assign seo_principals = seo_url | append: "/about/" -%}
 
 {% assign title_separator = site.title_separator | default: '-' | replace: '|', '&#124;' %}
 
@@ -127,16 +129,14 @@
   <link rel="next" href="{{ paginator.next_page_path | absolute_url }}">
 {% endif %}
 
-{% if site.og_image %}
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "url": {{ seo_url | jsonify }},
-      "logo": {{ site_og_image | jsonify }}
-    }
-  </script>
-{% endif %}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "url": {{ seo_url | jsonify }},
+    "logo": {{ seo_logo | jsonify }}
+  }
+</script>
 
 {% if site.social %}
   <script type="application/ld+json">
@@ -164,5 +164,71 @@
 {% endif %}
 {% if site.naver_site_verification %}
   <meta name="naver-site-verification" content="{{ site.naver_site_verification }}">
+{% endif %}
+
+
+<!-- JSON-LD Check to see if we are in a page. -->
+{% if seo_title %}
+  {% if page.jsonld %}
+    {% include {{page.jsonld}}.html %}
+  {% else %}
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": {{ seo_title | jsonify }},
+        "description": {{ seo_description | jsonify }},
+        "image": [
+          {% if page_large_image %}
+            {{ page_large_image | jsonify }}
+          {% elsif page_teaser_image %}
+            {{ page_teaser_image | jsonify }}
+          {% endif %}
+        ],
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": {{ seo_url | jsonify }}
+        },
+        "datePublished": {{ page.date | jsonify }},
+        "dateModified": {% if page.modified %}{{ page.modified | jsonify }}{% else %}{{ page.date | jsonify }}{% endif %},
+        "isAccessibleForFree": "True",
+        "isPartOf": {
+            "@type": ["CreativeWork", "Product", "Blog"],
+            "name": {{ site.description | jsonify }},
+            "productID": {{ seo_url | jsonify }}
+        },
+        "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "author": {
+            "@type": "Person",
+            "name": {{ site.name | jsonify }},
+            "description": {{ site.description | jsonify }},
+            "sameAs": [
+              {{ site.repository | jsonify }}
+            ],
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://en.gravatar.com/userimage/146374528/e6f999f65c1f93922cb15a3f0150d362.jpg"
+            },
+            "givenName": "Paul",
+            "familyName": "Nebel",
+            "alternateName": "paulnebel",
+            "publishingPrinciples": {{ seo_principals | jsonify }}
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": {{ site.title | jsonify }},
+            "description": {{ site.description | jsonify }},
+            "sameAs": [
+              {{ site.repository | jsonify }}
+            ],
+            "logo": {
+                "@type": "ImageObject",
+                "url": {{ seo_logo | jsonify }}
+            },
+            "publishingPrinciples": {{ seo_principals | jsonify }}
+        }
+    }
+    </script>
+  {% endif %}
 {% endif %}
 <!-- end _includes/seo.html -->
