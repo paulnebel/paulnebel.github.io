@@ -19,7 +19,7 @@ locale                   : "en-GB"
 title                    : "Paul Nebel - Virtual CTO & Business Advisor"
 title_separator          : "-"
 name                     : "Paul Nebel"
-description              : "Virtual CTO & Business Advisor: Specialist in the creation, design and build of innovative, technology-led Businesses, Products & Services."
+description              : "Technical leadership and business advice on demand. Specialist in the creation, design and build of innovative, technology-led Businesses, Products & Services."
 url                      : "https://paulnebel.io"
 baseurl                  : ""
 repository               : "paulnebel/paulnebel.github.io"
@@ -200,6 +200,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:

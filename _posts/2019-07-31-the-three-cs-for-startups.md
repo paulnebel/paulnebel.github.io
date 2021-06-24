@@ -4,6 +4,7 @@ meta: "How clarity, credibility and co-operation will get investors to listen to
 description: "How clarity, credibility and co-operation will get investors to listen to your startup idea and take you seriously."
 categories: Insights Startup
 slug: "the-three-cs-for-startups"
+canonical_url: "https://paulnebel.io/insights/startup/the-three-cs-for-startups"
 header:
   og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/the-three-cs-for-startups/investment.jpg"
 tags: [investment, clarity, credibility, co-operation]
