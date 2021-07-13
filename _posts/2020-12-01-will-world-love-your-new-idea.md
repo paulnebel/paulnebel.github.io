@@ -42,7 +42,7 @@ Here's the plan:
 - To find that out you just need to ask some potential customers what they want.
 - Once you know what they want you build it, and they will come to you.
 
-Simple, right? The problem is, it doesn't work! As [The Mom Test][mom-test-book]{:target="_blank"} explains so well, The first rule of user research is *never ask anyone what they want*.  The reason is that what people actually want is to be liked, which means they will tell you what they think you want to hear and not what they actually think.  This is, of course, a genaralisation but it is accurate enough to make any answers you get from direct questions pretty useless to you.
+Simple, right? The problem is, it doesn't work! As [The Mom Test][mom-test-book]{:target="_blank"} explains so well, The first rule of user research is *never ask anyone what they want*.  The reason is that what people actually want is to be liked, which means they will tell you what they think you want to hear and not what they actually think.  This is, of course, a generalisation but it is accurate enough to make any answers you get from direct questions pretty useless to you.
 
 One of the best ways of predict what people might do in the future is to get them to tell you stories of what they've done in the past. That means that you need a way to speak to them. A way to do this that helps you validate your business idea at the same time is to build a **landing page**.
 
@@ -53,7 +53,7 @@ A landing page is about the simplest form of product web page you can create.  I
 - A logo.
 - A headline *call to action* (this is the marketing term for a device designed to prompt an immediate response).  Adding audio or video will make your site more engaging and more likely to provoke a response.
 - A sub-heading, giving context to the headline.
-- An form field for capturing email addresses.
+- A form field for capturing email addresses.
 
 | ![Example of a ground-level landing page](https://pn-blog-images.s3.eu-west-2.amazonaws.com/will-world-love-your-new-idea/ground-floor-example.png) |
 |:--:|
@@ -112,7 +112,7 @@ Once you have started a conversation you can:
 - Use Slack to distribute mockups of your proposed solution for comment
 - Validate your customers' desire to pay
 
-These are all topics for detailed investigation future posts.  The point at this stage is simply to get the conversation started.
+These are all topics for detailed investigation in future posts.  The point at this stage is simply to get the conversation started.
 
 ## Why would anyone give me their email address?
 
