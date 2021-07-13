@@ -32,7 +32,7 @@ It is my experience that many founders of innovation startups follow a path more
 - They already have a solution in mind that they really want to build
 - A cursory search on the internet fails to reveal an obvious existing solution
 - They make a leap of faith: "If I have this problem then someone else must have it too.  If I make it, they will come"
-- Viola, an innovation startup is born
+- Voilà, an innovation startup is born
 
 Sounds familiar? Don't get me wrong, this is a perfectly valid way to found an innovation startup. Indeed, I've done it myself. What is surprising to many (myself included!) is how quickly it can go wrong and how much time and money can be wasted in the process.
 
