@@ -6,7 +6,7 @@ categories: Insights Startup
 slug: "are-you-ready-for-innovate-uk-smart-grant-funding"
 tags: ["innovate uk", "funding", "readiness"]
 header:
-    og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/are-you-ready-for-innovate-uk-smart-grant-funding/lego-unicorn.jpg"
+    og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/are-you-ready-for-innovate-uk-smart-grant-funding/lego-unicorn.png"
 ---
 
 {% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/are-you-ready-for-innovate-uk-smart-grant-funding/lego-unicorn.png" description="A picture of a lego minifig in a unicorn outfit" caption='<svg class="icon camera-icon" viewBox="0 0 20 20" version="1.1" aria-labelledby="title"><title>camera</title><path d="M1,5H19V16.91H1ZM12,3h4V5H12ZM10,13.27a2.32,2.32,0,0,1,0-4.64h0a2.32,2.32,0,0,1,0,4.64Z"></path></svg><span>Photo by <a href="https://unsplash.com/@deadqueenines?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Inês Pimentel</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>' %}
