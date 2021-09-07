@@ -6,7 +6,7 @@ categories: Insights Startup
 slug: "create-an-effective-development-team-on-a-budget"
 tags: ["teamwork", "mentoring", "coaching"]
 header:
-    og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/are-you-ready-for-innovate-uk-smart-grant-funding/lego-unicorn.png"
+    og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/create-an-effective-development-team-on-a-budget/order-from-chaos.png"
 ---
 
 {% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/create-an-effective-development-team-on-a-budget/order-from-chaos.png" description="A picture epitomising order from chaos" caption='<svg class="icon camera-icon" viewBox="0 0 20 20" version="1.1" aria-labelledby="title"><title>camera</title><path d="M1,5H19V16.91H1ZM12,3h4V5H12ZM10,13.27a2.32,2.32,0,0,1,0-4.64h0a2.32,2.32,0,0,1,0,4.64Z"></path></svg><span>Photo by <a href="https://www.istockphoto.com/portfolio/patpitchaya?mediatype=photography">Patpitchaya</a> on <a href="https://istockphoto.com">iStock Photo</a></span>' %}
