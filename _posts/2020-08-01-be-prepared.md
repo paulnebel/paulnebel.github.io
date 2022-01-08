@@ -6,7 +6,8 @@ categories: Insights Startup
 slug: "be-prepared"
 tags: ["technical setup"]
 header:
-    og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/be-prepared/stretch.jpg"
+  teaser: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/be-prepared/stretch.jpg"
+  og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/be-prepared/stretch.jpg"
 ---
 
 {% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/be-prepared/stretch.jpg" description="An athlete stretching before a competition" caption='<svg class="icon camera-icon" viewBox="0 0 20 20" version="1.1" aria-labelledby="title"><title>camera</title><path d="M1,5H19V16.91H1ZM12,3h4V5H12ZM10,13.27a2.32,2.32,0,0,1,0-4.64h0a2.32,2.32,0,0,1,0,4.64Z"></path></svg><span>Photo by <a href="https://unsplash.com/@aloragriffiths?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alora Griffiths</a> on <a href="https://unsplash.com/s/photos/stretching?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}

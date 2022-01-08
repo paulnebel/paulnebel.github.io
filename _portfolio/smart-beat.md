@@ -2,8 +2,12 @@
 title: "SmartBeat®"
 excerpt: "SmartBeat is a rhythm game that challenges players to decode a visual sequence into an acoustic pattern"
 header:
-  image: /assets/images/smartbeat/page-banner.png
-  teaser: /assets/images/smartbeat/page-banner-teaser.png
+  teaser: /assets/images/smartbeat/smartbeat-iphone.png
+  overlay_image: /assets/images/smartbeat/smartbeat-banner.png
+  actions:
+    - 
+      label: "Play"
+      url: "https://smartbeat.herokuapp.com/"
 gallery:
   - url: /assets/images/smartbeat/preview-1.png
     image_path: assets/images/smartbeat/preview-1-teaser.png

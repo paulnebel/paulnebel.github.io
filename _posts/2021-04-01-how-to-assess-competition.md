@@ -6,6 +6,7 @@ categories: Insights Startup
 slug: "how-to-assess-competition"
 tags: [competition]
 header:
+    teaser: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/how-to-assess-competition/egrets-fighting.jpg"
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/how-to-assess-competition/egrets-fighting.jpg"
 ---
 

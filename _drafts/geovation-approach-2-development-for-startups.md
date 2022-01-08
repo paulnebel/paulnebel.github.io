@@ -25,7 +25,7 @@ In general, the decisions we make are based on the following principles:
 
 * If possible, **avoid using technology at all**:
 
-   Despite being a technologist and Virtual CTO I spend a lot of time encouraging our startups not to use technology at all.  The overriding principal for startups should be to only build that which is unique to their business, which cannot be bought from someone else.  It's amazing how much you can achieve with a wireframe mockup or a survey.
+   Despite being a technologist and Fractional CTO I spend a lot of time encouraging our startups not to use technology at all.  The overriding principal for startups should be to only build that which is unique to their business, which cannot be bought from someone else.  It's amazing how much you can achieve with a wireframe mockup or a survey.
    
 * Prove just enough of what is unique to secure investment:
 

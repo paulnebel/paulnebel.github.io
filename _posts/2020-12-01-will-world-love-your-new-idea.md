@@ -6,6 +6,7 @@ categories: Insights Startup
 slug: "will-world-love-your-new-idea"
 tag: [research, validation, desirability, product]
 header:
+  teaser: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/will-world-love-your-new-idea/giving-gift.jpg"
   og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/will-world-love-your-new-idea/giving-gift.jpg"
 ---
 

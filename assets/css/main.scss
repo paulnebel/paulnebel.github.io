@@ -18,3 +18,23 @@ $text-color: #f2f2f2 !default;
 .camera-icon { fill: transparent; stroke: #8cd2d5; stroke-width: 2px; width: 2rem; height: 1.25rem }
 
 figcaption { font-family: Roboto, Helvetica, sans-serif !important }
+
+.greedy-nav a, .author__urls a, .social-icons a {
+    color: #f2f2f2 !important;
+}
+
+.greedy-nav a:hover {
+    color: #c2c2c2  !important;
+}
+
+.greedy-nav a::before {
+    color: #67a8b7  !important;
+}
+
+a, .search__toggle, .greedy-nav__toggle {
+    color: #67a8b7;
+}
+
+a:visited {
+    color: #91d6da;
+}

@@ -6,6 +6,7 @@ categories: Insights Startup
 slug: "speak-to-customers-for-validation"
 tags: ["customer validation", interviews, B2C]
 header:
+    teaser: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/speak-to-customers-for-validation/direction.jpg"
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/speak-to-customers-for-validation/direction.jpg"
 ---
 

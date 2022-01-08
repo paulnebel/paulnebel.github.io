@@ -6,6 +6,7 @@ categories: Insights Startup
 slug: "blueprint-for-success"
 tags: ["service blueprint", "usp", "clarity"]
 header:
+    teaser: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/blueprint-for-success/blueprint.jpg"
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/blueprint-for-success/blueprint.jpg"
 ---
 

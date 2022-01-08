@@ -6,7 +6,8 @@ categories: Insights Startup
 slug: "walk-a-mile-in-their-shoes"
 tags: ["empathy map", "value proposition"]
 header:
-    og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/walk-a-mile-in-their-shoes/mask.jpg"
+  teaser: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/walk-a-mile-in-their-shoes/mask.jpg"
+  og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/walk-a-mile-in-their-shoes/mask.jpg"
 ---
 
 {% include image.html url="https://pn-blog-images.s3.eu-west-2.amazonaws.com/walk-a-mile-in-their-shoes/mask.jpg" description="A man in tribal costume" caption='<svg class="icon camera-icon" viewBox="0 0 20 20" version="1.1" aria-labelledby="title"><title>camera</title><path d="M1,5H19V16.91H1ZM12,3h4V5H12ZM10,13.27a2.32,2.32,0,0,1,0-4.64h0a2.32,2.32,0,0,1,0,4.64Z"></path></svg><span>Photo by <a href="https://unsplash.com/@hrustall?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Дмитрий Хрусталев-Григорьев</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>' %}

@@ -6,6 +6,7 @@ categories: Insights Startup
 slug: "why-comes-after-what"
 tags: ["5 whys", assumptions, hypotheses]
 header:
+    teaser: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/why-comes-after-what/question-mark.jpg"
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/why-comes-after-what/question-mark.jpg"
 ---
 

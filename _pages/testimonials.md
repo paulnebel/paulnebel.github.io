@@ -2,7 +2,7 @@
 layout: single
 permalink: /testimonials/
 title: Testimonials
-intro: "Personal testimonials from some of the start-ups for which I&rsquo;ve acted as Virtual CTO"
+intro: "Personal testimonials from some of the start-ups for which I&rsquo;ve acted as Fractional CTO"
 feature_row1:
   - image_path: /assets/images/Small+RWN+Group+Logo.png
     alt: "RWN Group logo"
@@ -29,7 +29,7 @@ feature_row4:
 > **[Simon Woods](https://www.linkedin.com/in/simonlwoods/){:target="_blank"}** - Co-Founder'
 ---
 
-Personal testimonials from some of the start-ups for which I&rsquo;ve acted as Virtual CTO
+Personal testimonials from some of the start-ups for which I&rsquo;ve acted as Fractional CTO
 
 {% include feature_row id="feature_row1" type="left" %}
 

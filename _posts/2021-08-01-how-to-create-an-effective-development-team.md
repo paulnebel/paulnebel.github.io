@@ -6,6 +6,7 @@ categories: Insights Startup
 slug: "create-an-effective-development-team-on-a-budget"
 tags: ["teamwork", "mentoring", "coaching"]
 header:
+    teaser: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/create-an-effective-development-team-on-a-budget/order-from-chaos.png"
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/create-an-effective-development-team-on-a-budget/order-from-chaos.png"
 ---
 
@@ -199,7 +200,7 @@ Let your team members take turns in being responsible for code reviews and commi
 
 ## Coach your team
 
-If you want to turn a group of inexperienced developers into an effective team you need to show them how to work. If you can't, or don't want, to do that you need to bring someone into the team to do it for you.  You can either hire another team member to do this or you can consider engaging with a Virtual CTO for the time it takes to establish the rigor and discipline your putative team needs.
+If you want to turn a group of inexperienced developers into an effective team you need to show them how to work. If you can't, or don't want, to do that you need to bring someone into the team to do it for you.  You can either hire another team member to do this or you can consider engaging with a Fractional CTO for the time it takes to establish the rigor and discipline your putative team needs.
 
 ## The take-away
 
