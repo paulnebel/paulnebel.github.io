@@ -6,6 +6,7 @@ categories: Insights Startup
 slug: "the-three-cs-for-startups"
 canonical_url: "https://paulnebel.io/insights/startup/the-three-cs-for-startups"
 header:
+  teaser: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/the-three-cs-for-startups/investment.jpg"
   og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/the-three-cs-for-startups/investment.jpg"
 tags: [investment, clarity, credibility, co-operation]
 ---
@@ -42,7 +43,7 @@ His answer was simple and you've probably heard it before, but it bears repeatin
 
 There is a good reason why the term [elevator pitch][elevator]{:target="_blank"} was coined. Most potential investors are bombarded with requests from people trying to extract money from them. Should you be lucky enough to get to speak to one directly you'll probably be given 5 minutes at most to make your pitch.  If you can't explain the essence of your idea in the first 10 seconds you won't get any further.
 
-This is something that I think about a great deal when working with our startups on the [Geovation Programme][geovationprogramme]{:target="_blank"}. One of my responsibilities as a Senior Innovation Engineer, Virtual CTO and Business Advisor at Geovation is to interview the candidates for the Geovation Programme together with my colleagues as part of the selection process. In order to do this effectively we required a set of criteria for scoring the applicants against, and this set me thinking about Russell's presentation.
+This is something that I think about a great deal when working with our startups on the [Geovation Programme][geovationprogramme]{:target="_blank"}. One of my responsibilities as a Senior Innovation Engineer, Fractional CTO and Business Advisor at Geovation is to interview the candidates for the Geovation Programme together with my colleagues as part of the selection process. In order to do this effectively we required a set of criteria for scoring the applicants against, and this set me thinking about Russell's presentation.
 
 The criteria we agreed upon, in order of importance, are:
 

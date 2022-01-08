@@ -6,6 +6,7 @@ categories: Insights Startup
 slug: "what-point-prototype"
 tags: ["mvp", "hypotheses", "assumptions", "prototypes"]
 header:
+    teaser: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/what-point-prototype/prototype.jpg"
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/what-point-prototype/prototype.jpg"
 ---
 

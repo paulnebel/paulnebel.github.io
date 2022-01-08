@@ -6,6 +6,7 @@ categories: Insights Startup
 tags: ["customer validation", interviews, B2B]
 slug: "validating-business-customers"
 header:
+    teaser: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/validating-business-customers/interview.jpg"
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/validating-business-customers/interview.jpg"
 ---
 

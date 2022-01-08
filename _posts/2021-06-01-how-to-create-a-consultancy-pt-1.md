@@ -6,6 +6,7 @@ categories: Insights DogFish
 slug: "how-to-create-a-consultancy-pt-1"
 tags: [consultancy, freelance, journey]
 header:
+    teaser: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/how-to-create-a-consultancy-pt-1/creativity.jpg"
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/how-to-create-a-consultancy-pt-1/creativity.jpg"
 ---
 
@@ -19,7 +20,7 @@ For all but a tiny handful of businesses this is completely false.
 
 Starting a business is a process, albeit one shrouded in risk and doubt. Many of the founders of todays most successful companies only got there on their second, third or fourth attempt. They succeeded by persevering and learning well from the things they did badly along the way.
 
-As a [Virtual CTO](https://dogfishconsultants.com) my job is to reduce this risk and doubt to manageable proportions and turn failure from a victor into a mentor. The methods I use and teach are applicable to all types of business, so why not apply them to myself?
+As a [Fractional CTO](https://dogfishconsultants.com) my job is to reduce this risk and doubt to manageable proportions and turn failure from a victor into a mentor. The methods I use and teach are applicable to all types of business, so why not apply them to myself?
 
 This post is the first in a series which describes how I'm trying to pluck the jewel of freelance success from the ashes of abject start-up failure.
 
@@ -43,7 +44,7 @@ This is what happened to my putative start-up. I had learned a hard lesson, spen
 
 ## Ding, ding, round two
 
-So I joined [Geoviation](https://geovation.uk){:target="_blank"}. I was employed as a Senior Engineer and Virtual CTO, potentially working with a great many startups using lots of different technologies to help them build their initial products (a point to which I will return later). This was a really excellent opportunity for me to learn what I needed to know to create my own start-up.
+So I joined [Geoviation](https://geovation.uk){:target="_blank"}. I was employed as a Senior Engineer and Fractional CTO, potentially working with a great many startups using lots of different technologies to help them build their initial products (a point to which I will return later). This was a really excellent opportunity for me to learn what I needed to know to create my own start-up.
 
 I was fortunate to be surrounded by some excellent colleagues, two of whom felt (like me) that we were perhaps not not offering the greatest value to our start-ups in the way we were working at the time. So we decided to create a new way of working.
 

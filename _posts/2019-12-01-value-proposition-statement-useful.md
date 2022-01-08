@@ -6,6 +6,7 @@ categories: Insights Startup
 slug: "value-propsition-statement-useful"
 tag: ["value proposition"]
 header:
+    teaser: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/value-proposition-statement-useful/statement.jpg"
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/value-proposition-statement-useful/statement.jpg"
 ---
 

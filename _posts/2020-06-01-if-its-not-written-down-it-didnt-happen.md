@@ -5,6 +5,7 @@ description: "Scientific studies have shown that simply writing down your goals 
 categories: Insights Startup
 slug: "not-written-didnt-happen"
 header:
+    teaser: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/not-written-didnt-happen/journal.jpg"
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/not-written-didnt-happen/journal.jpg"
 ---
 

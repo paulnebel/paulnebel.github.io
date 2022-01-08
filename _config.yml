@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "en-GB"
-title                    : "Paul Nebel - Virtual CTO & Business Advisor"
+title                    : "Paul Nebel - Fractional CTO & Business Advisor"
 title_separator          : "-"
 name                     : "Paul Nebel"
-description              : "Technical leadership and business advice on demand. Specialist in the creation, design and build of innovative, technology-led Businesses, Products & Services."
+description              : "Fractional CTO: Technical leadership and business advice on demand. Specialist in the creation, design and build of innovative, technology-led Businesses, Products & Services."
 url                      : "https://paulnebel.io"
 baseurl                  : ""
 repository               : "paulnebel/paulnebel.github.io"
@@ -88,7 +88,7 @@ social:
 author:
   name             : "Paul Nebel"
   avatar           : "/assets/images/paul_nebel.png"
-  bio              : "Virtual CTO & Business Advisor: Specialist in the creation, design and build of innovative, technology-led Businesses, Products & Services."
+  bio              : "Fractional CTO: Technical leadership and business advice on demand. Specialist in the creation, design and build of innovative, technology-led Businesses, Products & Services."
   location         : "London"
   email            :
   links:
@@ -273,7 +273,7 @@ defaults:
       type: talks
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       share: true
   # _portfolio
   - scope:
@@ -281,5 +281,5 @@ defaults:
       type: portfolio
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       share: true
