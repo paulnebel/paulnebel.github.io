@@ -6,6 +6,7 @@ categories: Insights Startup
 slug: "are-you-ready-for-innovate-uk-smart-grant-funding"
 tags: ["innovate uk", "funding", "readiness"]
 header:
+    teaser: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/are-you-ready-for-innovate-uk-smart-grant-funding/lego-unicorn.png"
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/are-you-ready-for-innovate-uk-smart-grant-funding/lego-unicorn.png"
 ---
 

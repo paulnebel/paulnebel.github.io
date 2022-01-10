@@ -5,6 +5,7 @@ description: "Before we can build a solution we need to understand the problem. 
 categories: Insights Startup
 slug: "what-value-proposition-for"
 header:
+    teaser: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/what-value-proposition-for/figure-it-out.jpg"
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/what-value-proposition-for/figure-it-out.jpg"
 tag: ["value proposition"]
 ---

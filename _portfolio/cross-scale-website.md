@@ -2,8 +2,12 @@
 title: "X-Scale"
 excerpt: "How well do you know your scales? Cross-Scale is the 'crossword' for musical scales"
 header:
-  image: /assets/images/x-scale/x-scale-home.png
   teaser: /assets/images/x-scale/x-scale-home-teaser.png
+  overlay_image: /assets/images/x-scale/x-scale-ipad.png
+  actions:
+    - 
+      label: "Play"
+      url: "https://x-scale.dogfishmusic.co.uk"
 gallery:
   - url: /assets/images/x-scale/set-up.png
     image_path: assets/images/x-scale/set-up-teaser.png

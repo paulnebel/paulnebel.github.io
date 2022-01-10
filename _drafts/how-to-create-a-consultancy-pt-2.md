@@ -1,5 +1,5 @@
 ---
-title: "How to create a successful consultancy from the wreckage of a failed start-up: Part 1"
+title: "How to create a successful consultancy from the wreckage of a failed start-up: Part 2"
 meta: ""
 description: ""
 categories: Insights Startup Consultancy

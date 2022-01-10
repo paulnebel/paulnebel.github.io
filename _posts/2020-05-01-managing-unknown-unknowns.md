@@ -6,6 +6,7 @@ categories: Insights Startup
 slug: "managing-unknown-unknowns"
 tags: [assumptions, hypotheses, experiments, "cognitive bias"]
 header:
+    teaser: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/managing-unknown-unknowns/blindfold.jpg"
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/managing-unknown-unknowns/blindfold.jpg"
 ---
 

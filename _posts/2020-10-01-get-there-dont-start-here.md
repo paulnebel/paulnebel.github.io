@@ -6,6 +6,7 @@ categories: Insights Startup
 slug: "get-there-dont-start-here"
 tag: ["market niche", desirability, product]
 header:
+    teaser: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/get-there-dont-start-here/bridge.jpg"
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/get-there-dont-start-here/bridge.jpg"
 ---
 

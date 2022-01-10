@@ -6,6 +6,7 @@ categories: Insights Startup
 slug: "create-an-effective-development-team-on-a-budget"
 tags: ["teamwork", "mentoring", "coaching"]
 header:
+    teaser: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/create-an-effective-development-team-on-a-budget/order-from-chaos.png"
     og_image: "https://pn-blog-images.s3.eu-west-2.amazonaws.com/create-an-effective-development-team-on-a-budget/order-from-chaos.png"
 ---
 
@@ -85,7 +86,7 @@ The final significant issue with new tech is that the documentation, if it exist
 
 You don't build a drill from scratch every time you want to put a shelf up. Why, then, do so many start ups feel the need to build every element of their product from scratch when so much of the functionality they need can be bought off the shelf?
 
-I've written before about the power of [service design blueprints](https://paulnebel.io/insights/startup/blueprint-for-success/) in finding out what you need to build and, more importantly, what you *do not* need to build.
+I've written before about the power of [service design blueprints](https://paulnebel.io/insights/startup/blueprint-for-success/){:target="_blank"} in finding out what you need to build and, more importantly, what you *do not* need to build.
 
 ### 4. When you work with other people you need ground rules
 
@@ -117,7 +118,7 @@ In a great many ways, a start up development team is better for its members than
 
 As a start up founder you have a chance to break away from the norm and establish something much better. The vast majority of technical businesses fall into the trap of building for the sake of building. This is a great way to spend a lot of money for very little return. You have the opportunity to create a team that builds for the sake of learning, or for the sake of thinking, which is much more powerful. However, it is up to you to make that happen.
 
-You and your team both need to be clear that you are not building the final product. You are, instead, building a working prototype. Your developers need to develop the mindset of *make it work, then make it right* (as espoused by one of the founders of modern coding, [Kent Beck](https://en.wikipedia.org/wiki/Kent_Beck)).
+You and your team both need to be clear that you are not building the final product. You are, instead, building a working prototype. Your developers need to develop the mindset of *make it work, then make it right* (as espoused by one of the founders of modern coding, [Kent Beck](https://en.wikipedia.org/wiki/Kent_Beck){:target="_blank"}).
 
 Remember that *perfection is the enemy of execution*. Your team should aim to create code that is not sloppy but is also not perfect. You are at the stage where you are still establishing problem/solution fit. You need to *love the problem more than the solution* which may mean throwing things away and moving in a different direction that the evidence leads you down.
 
@@ -125,29 +126,29 @@ Your team needs to understand that the code they are working on now may be delet
 
 ## Create your infrastructure
 
-I've [written previously](https://paulnebel.io/insights/startup/be-prepared/) about the basic things you need to do as a founder to create a solid environment for your technical development.
+I've [written previously](https://paulnebel.io/insights/startup/be-prepared/){:target="_blank"} about the basic things you need to do as a founder to create a solid environment for your technical development.
 
 Even if you are not yourself technical you need to understand at least enough to decide for yourself on the technologies to be used for the front- and back-end of your product. This doesn't mean that you need to be able to write a line of code, but you do need to understand the trade-offs you are making when choosing how to build your prototype.
 
-As mentioned above, you should steer well clear of shiny new technologies unless you have absolutely no choice in the matter (i.e. you cannot achieve your goal any other way). For this first version of your product it is far better to use a well established technology like Javascript of Python in the first instance rather than [Haxe](https://haxe.org/), [ClojureScript](https://clojurescript.org/), [Kotlin](https://kotlinlang.org/docs/tutorials/javascript/kotlin-to-javascript/kotlin-to-javascript.html) or any other of the new players on the block.
+As mentioned above, you should steer well clear of shiny new technologies unless you have absolutely no choice in the matter (i.e. you cannot achieve your goal any other way). For this first version of your product it is far better to use a well established technology like Javascript of Python in the first instance rather than [Haxe](https://haxe.org/){:target="_blank"}, [ClojureScript](https://clojurescript.org/){:target="_blank"}, [Kotlin](https://kotlinlang.org/docs/tutorials/javascript/kotlin-to-javascript/kotlin-to-javascript.html){:target="_blank"} or any other of the new players on the block.
 
 Don't get me wrong - I'm not saying that these technologies are not superb in their own right, just that a junior development team is likely to get its knickers in a twist quite quickly with one of these new languages with no-one to help them out of it unlike Javascript of Python which have millions of helpful users, tutorials and code examples.
 
-Both Javascript and Python have mature, stable frameworks that support both front- and back-end development ([Node.js](https://nodejs.org/) in the case of Javascript, [Django](https://www.djangoproject.com/) in the case of Python). This means that you can choose engineers with the same skills for both front- and back-end development who can support each other.
+Both Javascript and Python have mature, stable frameworks that support both front- and back-end development ([Node.js](https://nodejs.org/){:target="_blank"} in the case of Javascript, [Django](https://www.djangoproject.com/){:target="_blank"} in the case of Python). This means that you can choose engineers with the same skills for both front- and back-end development who can support each other.
 
 It is highly unlikely that you will need lightning fast performance at this stage (or, indeed, at any stage - this is usually the exclusive domain of fintech where nanoseconds can equate to profits). It is much better to go for something simple, with a view to building it better/faster once you have established both what it should do and how it should do it.
 
-For example, [React](https://reactjs.org/docs/getting-started.html) is a great framework but it can become very complex very quickly (and I can pretty much guarantee that your developers will be using their experience building your product to get themselves a better React job as quickly as possible). Think about plain javascript with as few libraries as possible to start. Choose technology with plenty of support and at least half-decent documentation.
+For example, [React](https://reactjs.org/docs/getting-started.html){:target="_blank"} is a great framework but it can become very complex very quickly (and I can pretty much guarantee that your developers will be using their experience building your product to get themselves a better React job as quickly as possible). Think about plain javascript with as few libraries as possible to start. Choose technology with plenty of support and at least half-decent documentation.
 
 This may be a harder sell to your new team members but it will be much easier to replace those that leave if you take this approach.
 
 ## Set your baseline standards
 
-Choose whichever [coding standards](https://www.geeksforgeeks.org/coding-standards-and-guidelines/) you prefer. There are plenty of them for any given language produced by the likes of Google and Facebook who know what they're talking about. Just make sure to choose a standard and stick with it.
+Choose whichever [coding standards](https://www.geeksforgeeks.org/coding-standards-and-guidelines/){:target="_blank"} you prefer. There are plenty of them for any given language produced by the likes of Google and Facebook who know what they're talking about. Just make sure to choose a standard and stick with it.
 
-Most modern development environments like [VisualStudio Code](https://code.visualstudio.com/), [Sublime Text Editor](https://www.sublimetext.com/) or [Atom](https://atom.io/) will have modules developed for them that highlight exceptions to pre-defined code standards, making it easier for your team to stick to the rules.
+Most modern development environments like [VisualStudio Code](https://code.visualstudio.com/){:target="_blank"}, [Sublime Text Editor](https://www.sublimetext.com/){:target="_blank"} or [Atom](https://atom.io/){:target="_blank"} will have modules developed for them that highlight exceptions to pre-defined code standards, making it easier for your team to stick to the rules.
 
-For the front-end use a framework like [Bulma](https://bulma.io/) together with [Material Design](https://material.io/design) to create the interface without wasting time worrying whether a button should be 2 pixels to the left or not. Use tools that allow you to concentrate on what you are building, and building quickly, not on how to build it.
+For the front-end use a framework like [Bulma](https://bulma.io/){:target="_blank"} together with [Material Design](https://material.io/design){:target="_blank"} to create the interface without wasting time worrying whether a button should be 2 pixels to the left or not. Use tools that allow you to concentrate on what you are building, and building quickly, not on how to build it.
 
 ## Choose the processes that work best for you
 
@@ -155,7 +156,7 @@ One of the reasons you chose to start your own business was to be in charge. So 
 
 Choose processes because they *work for you*, not because everyone else is using them. Don't be afraid to stop doing things that don't work and try something else.
 
-It is easy to forget that [Agile Software Development](https://www.agilealliance.org/agile101/) is a toolkit, not a shopping list. Start ups are not like established businesses. Don't use Scrum because everyone else is using it, use it because it works for you (or don't if it doesn't).
+It is easy to forget that [Agile Software Development](https://www.agilealliance.org/agile101/){:target="_blank"} is a toolkit, not a shopping list. Start ups are not like established businesses. Don't use Scrum because everyone else is using it, use it because it works for you (or don't if it doesn't).
 
 ### Plan to achieve business objectives, not product functionality
 
@@ -165,7 +166,7 @@ Make sure that you explain to your team what your business objectives are so tha
 
 ### Think in terms of achievements, not development tasks
 
-In my experience your horizon should extend no further than the current week. At the very least you should have a team meeting on Monday to discuss what you want to achieve in that week. You can record this any way you like (e.g. [Trello](https://trello.com/), [Jira](https://www.atlassian.com/software/jira), [Notion](https://clickup.com/blog/notion-project-management/)). Remember that it is your responsibility to set the goals, so be *clear* about what you want your development team to achieve.
+In my experience your horizon should extend no further than the current week. At the very least you should have a team meeting on Monday to discuss what you want to achieve in that week. You can record this any way you like (e.g. [Trello](https://trello.com/){:target="_blank"}, [Jira](https://www.atlassian.com/software/jira){:target="_blank"}, [Notion](https://clickup.com/blog/notion-project-management/){:target="_blank"}). Remember that it is your responsibility to set the goals, so be *clear* about what you want your development team to achieve.
 
 ### Organise your time and make your tasks visible
 
@@ -193,13 +194,13 @@ Set them up and watch them go. Even if you are technical, as the founder you wil
 
 ### Share responsibility, share knowledge
 
-Despite what I said about Agile development being a toolkit, it is vital that your team use a methodology like [gitflow](https://nvie.com/posts/a-successful-git-branching-model/) for managing the codebase. Whenever a developer wants to add changes they have made to the codebase they need to issue a [pull request](http://oss-watch.ac.uk/resources/pullrequest), which should be reviewed before being committed.
+Despite what I said about Agile development being a toolkit, it is vital that your team use a methodology like [gitflow](https://nvie.com/posts/a-successful-git-branching-model/){:target="_blank"} for managing the codebase. Whenever a developer wants to add changes they have made to the codebase they need to issue a [pull request](http://oss-watch.ac.uk/resources/pullrequest){:target="_blank"}, which should be reviewed before being committed.
 
 Let your team members take turns in being responsible for code reviews and committing pull requests. The person who wrote the code explains what it is doing to the person who will commit the code *before* it is committed to the main or master branch of the repository. This way you have a chance of spreading knowledge across the whole team and not being hamstrung if your back-end developer decides to leave.
 
 ## Coach your team
 
-If you want to turn a group of inexperienced developers into an effective team you need to show them how to work. If you can't, or don't want, to do that you need to bring someone into the team to do it for you.  You can either hire another team member to do this or you can consider engaging with a Virtual CTO for the time it takes to establish the rigor and discipline your putative team needs.
+If you want to turn a group of inexperienced developers into an effective team you need to show them how to work. If you can't, or don't want, to do that you need to bring someone into the team to do it for you.  You can either hire another team member to do this or you can consider engaging with a Fractional CTO for the time it takes to establish the rigor and discipline your putative team needs.
 
 ## The take-away
 
