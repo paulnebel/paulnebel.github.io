@@ -5,8 +5,8 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/IMG_0321.jpg
-  og_image: /assets/images/IMG_0321.jpg
+  overlay_image: https://pn-blog-images.s3.eu-west-2.amazonaws.com/splash-page/wardley-map.jpg
+  og_image: https://pn-blog-images.s3.eu-west-2.amazonaws.com/splash-page/wardley-map.jpg
   actions:
     - label: "Let's talk"
       url: "/contact/"
