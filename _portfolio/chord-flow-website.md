@@ -1,5 +1,6 @@
 ---
 title: "ChordFlow"
+date: 2021-02-12
 excerpt: "A music game for becoming fluent at playing chords"
 header:
   teaser: /assets/images/chord-flow/chord-flow-iphone.png

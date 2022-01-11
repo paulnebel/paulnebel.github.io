@@ -38,3 +38,26 @@ a, .search__toggle, .greedy-nav__toggle {
 a:visited {
     color: #91d6da;
 }
+
+.feature__wrapper {
+    border-bottom: 0px;
+    margin-bottom: 1em;
+}
+
+.notice {
+    color: #fbf2e6;
+    background-color: #496079;
+}
+
+.page__content .archive__item-title {
+    margin-top: 0.5em;
+}
+
+.page__hero--overlay {
+    padding: 3em 0 1.5em 0;
+}
+
+table {
+    display: table;
+    font-size: 1em;
+}

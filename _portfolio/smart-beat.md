@@ -1,5 +1,6 @@
 ---
 title: "SmartBeat®"
+date: 2018-08-21
 excerpt: "SmartBeat is a rhythm game that challenges players to decode a visual sequence into an acoustic pattern"
 header:
   teaser: /assets/images/smartbeat/smartbeat-iphone.png

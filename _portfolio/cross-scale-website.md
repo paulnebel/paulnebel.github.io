@@ -1,5 +1,6 @@
 ---
 title: "X-Scale"
+date: 2020-06-15
 excerpt: "How well do you know your scales? Cross-Scale is the 'crossword' for musical scales"
 header:
   teaser: /assets/images/x-scale/x-scale-home-teaser.png
