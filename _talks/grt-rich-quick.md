@@ -6,6 +6,6 @@ header:
   teaser: /assets/images/talks/get-rich-quick.png
 ---
 
-## A guide to all things technical for non-technical startup founders
+## Find out how to approach innovation in a clear, systematic way that removes as much uncertainty as possible from your life and leaves you free to achieve your goals
 
 {% include video id="tLtg8KvZ38A" provider="youtube" %}

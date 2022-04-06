@@ -6,6 +6,6 @@ header:
   teaser: /assets/images/talks/how-build-team-from-inexperienced-developers.png
 ---
 
-## How to Create an Effective Developer Team on a Start-up Budget
+## Some practical tips for startup founders
 
 {% include video id="605619196" provider="vimeo" %}
