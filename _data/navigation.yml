@@ -8,8 +8,8 @@ main:
     url: /blog/
   - title: "Contact"
     url: /contact/
-  - title: "Testimonials"
-    url: /testimonials/
+  - title: "Clients"
+    url: /clients/
   - title: "Portfolio"
     url: /portfolio/
   - title: "Talks"
