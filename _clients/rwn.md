@@ -1,6 +1,6 @@
 ---
 title: "RWN Group"
-excerpt: "A guide to all things technical for non-technical startup founders"
+excerpt: "Accelerate your business to As A Service"
 date: "2021-07-01"
 header:
   teaser: /assets/images/clients/rwn-logo.png
@@ -8,7 +8,7 @@ header:
 
 ![RWN Group logo](/assets/images/clients/rwn-logo.png?raw=true)
 
-[RWN Group](https://www.aas-gtm.com/) are specialists in empowering businesses to successfully transform from being product-centric to As-a-Service. Born out of a successful transformation to As-a-Service at [Hewlett-Packard Enterprise](https://www.hpe.com/uk/en/home.html) RWN Group uses their proprietary tool, WINr, to guide sales teams and customers through the sales journey with a sales playbook, sales assets, business value calculator and proposal tool to compliment their sales enablement program.
+RWN Group (now [Sales Growth Team](https://sales-growth.team/){:target="_blank"}) are specialists in empowering businesses to successfully transform from being product-centric to As-a-Service. Born out of a successful transformation to As-a-Service at [Hewlett-Packard Enterprise](https://www.hpe.com/uk/en/home.html){:target="_blank"} RWN Group uses their proprietary tool, WINr, to guide sales teams and customers through the sales journey with a sales playbook, sales assets, business value calculator and proposal tool to compliment their sales enablement program.
 
 ## Engagement (July - October 2021)
 
@@ -23,4 +23,5 @@ Paul developed a prototype of this potential product and created a roadmap based
 Following a period of consideration RWN decided that product development was not a desirable option, allowing them to focus on other aspects of their business.
 
 > "Paul used a strong methodology and process that really allowed us to question our value proposition, assumptions we had made and our positioning in the face of competition. This allowed us to come to some valuable business decisions and conclusions faster and with more confidence and clarity than we would have otherwise been able to do."
-> **[Chris White](https://www.linkedin.com/in/chris-white-b39072b/)** - Managing Partner, RWN Group
+>  
+> **[Chris White](https://www.linkedin.com/in/chris-white-b39072b/){:target="_blank"}** - Managing Partner, RWN Group

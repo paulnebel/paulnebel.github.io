@@ -5,12 +5,12 @@ main:
   - title: "Prices"
     url: /prices/
   - title: "Blog"
-    url: /blog/
+    url: /posts/
   - title: "Contact"
     url: /contact/
   - title: "Clients"
     url: /clients/
-  - title: "Portfolio"
-    url: /portfolio/
   - title: "Talks"
     url: /talks/
+  - title: "Portfolio"
+    url: /portfolio/

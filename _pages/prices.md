@@ -5,7 +5,7 @@ permalink: /prices/
 toc: false
 intro: 
   - title: "'C-suite' technical leadership and business design on a start-up budget"
-    excerpt: "You can engage me <em>hourly</em>, <em>daily</em> (based on a <b>7.4hr / day</b>, or <b>37hr / week</b>) or <em>monthly</em> (available 4 working days on-call per month). Bespoke arrangements are available on discussion. If you are unhappy with my service, <b>you don't pay</b>. <i>Please note that all prices are quoted exclusive of VAT.</i>"
+    excerpt: "You can engage me <em>hourly</em>, <em>daily</em> (based on a <b>7.4hr / day</b>, or <b>37hr / week</b>) or <em>monthly</em> (available 4 working days on-call per month). Bespoke arrangements are available on discussion. If you are unhappy with my service, <b>you don't pay</b>. <br /><i>Please note that all prices are quoted exclusive of VAT.</i>"
 feature_row_1:
   - title: 'Monthly'
     excerpt: '£3200 / mth'

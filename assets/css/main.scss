@@ -5,7 +5,7 @@
 @charset "utf-8";
 
 // Local theme changes
-$background-color: #1b3857 !default;
+$background-color: #1b2E59 !default;
 $text-color: #f2f2f2 !default;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
@@ -24,15 +24,19 @@ figcaption { font-family: Roboto, Helvetica, sans-serif !important }
 }
 
 .greedy-nav a:hover {
-    color: #c2c2c2  !important;
+    color: #D4af37 !important;
 }
 
 .greedy-nav a::before {
-    color: #67a8b7  !important;
+    color: #61ABB3 !important;
 }
 
 a, .search__toggle, .greedy-nav__toggle {
-    color: #67a8b7;
+    color: #61ABB3;
+}
+
+.navicon, .navicon:before, .navicon:after {
+    background: #61ABB3;
 }
 
 a:visited {
@@ -54,10 +58,19 @@ a:visited {
 }
 
 .page__hero--overlay {
-    padding: 3em 0 1.5em 0;
+    padding: 1em 0 0 0;
+    margin-bottom: 1em;
 }
 
 table {
     display: table;
     font-size: 1em;
+}
+
+.feature__item--center .archive__item-body {
+    width: 80%;
+}
+
+.page__hero--overlay .page__lead {
+    max-width: 1024px;
 }
