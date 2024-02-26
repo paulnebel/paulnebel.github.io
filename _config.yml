@@ -24,8 +24,8 @@ url                      : "https://paulnebel.io"
 baseurl                  : ""
 repository               : "paulnebel/paulnebel.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/pn_logo_10_dark.svg"
-masthead_title           : "Building Better Business"
+logo                     : "/assets/images/pn_logo_11_dark.svg"
+masthead_title           : "Explore - Execute - Expand"
 breadcrumbs              : true
 words_per_minute         : 200
 comments:
@@ -60,6 +60,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
+    output: true
+    permalink: /:collection/:path/
+  clients:
     output: true
     permalink: /:collection/:path/
 
@@ -155,7 +158,7 @@ exclude:
 keep_files:
   - .git
   - .svn
-encoding: "utf-8"
+encoding: "UTF-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
@@ -281,5 +284,13 @@ defaults:
       type: portfolio
     values:
       layout: single
+      author_profile: true
+      share: true
+  # _clients
+  - scope:
+      path: ""
+      type: clients
+    values:
+      layout: single_no_title
       author_profile: true
       share: true
